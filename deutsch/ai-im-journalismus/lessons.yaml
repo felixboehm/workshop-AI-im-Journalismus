@@ -1,6 +1,11 @@
 lessons:
-  - 01-grundlagen-ki
-  - 02-ki-tools-recherche
-  - 03-texterstellung-mit-ki
-  - 04-faktencheck-verifikation
-  - 05-ethik-verantwortung
+  - 01-ausgangslage
+  - 02-ki-tools-redaktion
+  - 03-workflow-design
+  - 04-prompt-engineering
+  - 05-halluzinationen-bias
+  - 06-deepfakes-verifikation
+  - 07-datenschutz-quellenschutz
+  - 08-ethik-recht-regulierung
+  - 09-qualitaetskontrolle-audits
+  - 10-leitprinzipien-kompetenz

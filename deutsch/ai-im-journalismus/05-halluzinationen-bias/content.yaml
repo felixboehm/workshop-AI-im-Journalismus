@@ -1,0 +1,100 @@
+version: 1
+number: 5
+title: "Halluzinationen und Bias"
+description: "Die groessten Gefahren beim KI-Einsatz im Journalismus"
+sections:
+  - title: "KI-Halluzinationen"
+    explanation: |
+      **Halluzinationen** entstehen, wenn KI plausibel klingende, aber faktisch falsche Informationen
+      generiert. Das Problem ist gravierend:
+
+      - KI-Chatbots weisen **Halluzinationsraten von bis zu 79%** auf
+      - Eine Studie des Tow Center ergab, dass **ueber 60% der Antworten von KI-Suchmaschinen ungenau** waren
+      - Halluzinationen umfassen: erfundene Zitate, falsche Statistiken, nicht existierende Quellen
+
+      Besonders gefaehrlich sind Halluzinationen unter Zeitdruck bei Echtzeit-Berichterstattung,
+      da die plausibel klingenden Fehler schwer zu erkennen sind.
+    examples:
+      - q: "Was sind KI-Halluzinationen?"
+        a: "Wenn KI plausibel klingende, aber faktisch falsche Informationen generiert -- z.B. erfundene Zitate, falsche Statistiken oder nicht existierende Quellen"
+        rel:
+          - ["Halluzination", "Plausibel klingende, aber falsche KI-Ausgaben"]
+
+      - q: "Wie hoch ist die Halluzinationsrate von KI-Chatbots?"
+        a: "Bis zu 79% laut aktuellen Studien -- und ueber 60% der Antworten von KI-Suchmaschinen sind ungenau (Tow Center)"
+        rel:
+          - ["Halluzinationsrate", "Bis zu 79% bei KI-Chatbots"]
+
+      - q: "Warum sind Halluzinationen im Journalismus besonders gefaehrlich?"
+        a: "Weil sie plausibel klingen und unter Zeitdruck schwer zu erkennen sind -- falsche Fakten koennen so in die Berichterstattung gelangen"
+        rel:
+          - ["Echtzeit-Berichterstattung", "Besonders hohes Halluzinationsrisiko unter Zeitdruck"]
+
+      - q: "Was passierte bei CNET mit KI-generierten Artikeln?"
+        a: "CNET veroeffentlichte 77 KI-generierte Finanzartikel -- mehr als die Haelfte musste nachtraeglich korrigiert werden, mit Fehlern von faktischen Ungenauigkeiten bis zu grundlegend falschen Erklaerungen"
+        rel:
+          - ["CNET-Skandal", "Ueber 50% der KI-Artikel mussten korrigiert werden"]
+
+  - title: "Bias und Verzerrungen"
+    explanation: |
+      **Bias** (systematische Verzerrung) entsteht durch die Trainingsdaten der KI-Modelle:
+
+      - Trainingsdaten koennen voreingenommen, ungenau oder absichtlich manipuliert sein
+      - Staatliche und nichtstaatliche Akteure koennen Narrative in Trainingsdaten einschleusen
+      - Systematische Unterrepraesentation bestimmter Perspektiven und Bevoelkerungsgruppen
+      - Verstaerkung bestehender gesellschaftlicher Vorurteile
+
+      Fuer den Journalismus bedeutet das: KI kann einseitige Darstellungen produzieren,
+      ohne dass dies auf den ersten Blick erkennbar ist.
+    examples:
+      - q: "Was bedeutet Bias im KI-Kontext?"
+        a: "Systematische Verzerrungen, die aus den Trainingsdaten uebernommen werden -- z.B. Unterrepraesentation bestimmter Perspektiven oder Verstaerkung gesellschaftlicher Vorurteile"
+        rel:
+          - ["Bias", "Systematische Verzerrung in KI-Systemen"]
+
+      - q: "Wie koennen KI-Verzerrungen den Journalismus beeinflussen?"
+        a: "KI kann einseitige Darstellungen produzieren, bestimmte Perspektiven bevorzugen oder Bevoelkerungsgruppen unterrepraesentieren -- ohne dass dies sofort erkennbar ist"
+        rel:
+          - ["Journalistischer Bias", "KI kann einseitige Berichterstattung verstaerken"]
+
+      - q: "Koennen Trainingsdaten absichtlich manipuliert werden?"
+        a: "Ja -- staatliche und nichtstaatliche Akteure koennen Narrative in Trainingsdaten einschleusen, um KI-Ausgaben in ihrem Sinne zu beeinflussen"
+        rel:
+          - ["Datenmanipulation", "Gezielte Beeinflussung von KI-Trainingsdaten"]
+
+      - q: "Wie kann man Bias in KI-Ausgaben erkennen?"
+        a: "Durch Diversitaetspruefung der Ergebnisse, Vergleich mit alternativen Quellen, Sensitivitaetstraining fuer Redakteur:innen und systematische Bias-Analysen"
+        rel:
+          - ["Bias-Analyse", "Systematische Pruefung auf Verzerrungen"]
+          - ["Diversitaetspruefung", "Pruefen, ob alle relevanten Perspektiven vertreten sind"]
+
+  - title: "Fallbeispiele: Wenn KI schiefgeht"
+    explanation: |
+      Reale Faelle zeigen die Risiken:
+
+      - **Sports Illustrated (2023)**: Artikel unter fiktiven Autorennamen mit KI-generierten Biografien -- erfundene Teammitglieder wie "Drew Ortiz" und "Sora Tanaka"
+      - **Gannett/USA Today**: KI-generierte Sportberichte mit absurden Phrasen wie "close encounter of the athletic kind"
+      - **Google AI Overviews (2024)**: Empfahl Steine zu essen und Klebstoff auf Pizza zu tun (uebernahm satirische Forum-Beitraege als Fakten)
+      - **Perplexity AI (2024)**: Systematisches Plagiat von Paywall-geschuetzten Exklusivinhalten von Forbes und Wired
+
+      Alle Faelle zeigen: Ohne menschliche Kontrolle entstehen Fehler, die das Vertrauen der Leser zerstoeren.
+    examples:
+      - q: "Was passierte beim Sports Illustrated KI-Skandal?"
+        a: "Sports Illustrated veroeffentlichte Artikel unter fiktiven Autorennamen mit komplett KI-generierten Biografien und Fachkompetenzen -- die KI-Kaufratgeber wurden ueber Affiliate-Links monetarisiert"
+        rel:
+          - ["Sports Illustrated", "Fake-Autoren mit KI-generierten Biografien"]
+
+      - q: "Was war das Problem bei Google AI Overviews?"
+        a: "Die KI uebernahm satirische Forum-Beitraege als Fakten -- z.B. empfahl sie, Steine zu essen. Die Canadian Medical Association bezeichnete KI-generierte Gesundheitsratschlaege als gefaehrlich"
+        rel:
+          - ["Google AI Overviews", "KI uebernahm Satire als Fakten"]
+
+      - q: "Was hat Perplexity AI mit Paywall-geschuetzten Inhalten gemacht?"
+        a: "Systematisch Inhalte von Forbes und Wired plagiiert, ueber nicht deklarierte Web-Crawler mit gefaelschten User-Agent-Strings gescraped und mit minimaler Quellenangabe reproduziert"
+        rel:
+          - ["Perplexity-Plagiat", "Systematisches Scraping geschuetzter Inhalte"]
+
+      - q: "Was ist die wichtigste Lehre aus diesen Faellen?"
+        a: "Ohne menschliche Kontrolle und klare Richtlinien entstehen Fehler, die das Vertrauen der Leser zerstoeren -- Human-in-the-Loop ist nicht optional"
+        rel:
+          - ["Vertrauensverlust", "Konsequenz unkontrollierter KI-Nutzung"]

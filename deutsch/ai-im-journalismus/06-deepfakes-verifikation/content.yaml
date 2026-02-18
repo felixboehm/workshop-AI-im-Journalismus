@@ -1,0 +1,107 @@
+version: 1
+number: 6
+title: "Deepfakes und Verifikation"
+description: "Erkennung manipulierter Medien und Werkzeuge zur Verifikation"
+sections:
+  - title: "Deepfakes verstehen"
+    explanation: |
+      **Deepfakes** sind KI-generierte oder manipulierte Medien (Bilder, Videos, Audio),
+      die taueschend echt wirken. Die Zahlen sind alarmierend:
+
+      - Rund **500.000 Deepfake-Videos** wurden 2023 in sozialen Medien geteilt
+      - Prognosen zeigen **bis zu 8 Millionen Deepfakes bis 2025**
+      - Die russisch-ausgerichtete Kampagne "Operation Overload" imitierte 2025 ueber 80 Organisationen mittels manipulierter Logos und Stimmen
+      - Deepfake-Technologie wird zunehmend fuer Desinformationskampagnen eingesetzt
+
+      Fuer Journalist:innen bedeutet das: Jedes Bild, Video oder Audio muss potenziell
+      verifiziert werden, bevor es veroeffentlicht wird.
+    examples:
+      - q: "Was ist ein Deepfake?"
+        a: "Ein mit KI erzeugtes oder manipuliertes Medium (Bild, Video, Audio), das taueschend echt wirkt und zur Desinformation genutzt werden kann"
+        rel:
+          - ["Deepfake", "KI-generiertes oder manipuliertes Medium"]
+
+      - q: "Wie viele Deepfake-Videos wurden 2023 in sozialen Medien geteilt?"
+        a: "Rund 500.000 -- mit Prognosen von bis zu 8 Millionen bis 2025"
+        rel:
+          - ["Deepfake-Verbreitung", "Rasant wachsende Zahl manipulierter Medien"]
+
+      - q: "Was war die Operation Overload?"
+        a: "Eine russisch-ausgerichtete Desinformationskampagne 2025, die ueber 80 Organisationen mittels manipulierter Logos und KI-generierter Stimmen imitierte"
+        rel:
+          - ["Operation Overload", "Staatliche Desinformation mit KI-Manipulation"]
+
+      - q: "Warum sind Deepfakes eine besondere Gefahr fuer den Journalismus?"
+        a: "Sie koennen zur Verbreitung von Desinformation genutzt werden und untergraben das Vertrauen in authentische Medien -- jedes Medium muss potenziell verifiziert werden"
+        rel:
+          - ["Desinformation", "Gezielte Verbreitung falscher Informationen mit KI"]
+
+  - title: "Erkennungsmethoden und Tools"
+    explanation: |
+      Journalist:innen haben verschiedene Werkzeuge zur Deepfake-Erkennung:
+
+      - **InVID/WeVerify**: Video-Verifikation und Metadatenanalyse, speziell fuer Journalist:innen
+      - **Hive Moderation**: KI-generierte Bild- und Videoerkennung
+      - **Deepware Scanner**: Schnelles Erstscreening von Videos
+      - **Content Credentials (C2PA)**: Provenienz-Standard fuer digitale Medien
+      - **DeepFake-o-Meter**: Akademisches Erkennungstool fuer vertiefende Analyse
+
+      **Erkennungsmethoden:**
+      - Visuelle Forensik: Gesichtsinkonsistenzen, unnatuerliche Augenbewegungen, Lippensynchronisations-Fehler
+      - Audio-Analyse: Stimmton-Variationen, unnatuerliche Muster
+      - Cross-modale Konsistenzpruefung: Abgleich zwischen Audio und Video
+    examples:
+      - q: "Welches Tool eignet sich besonders fuer Journalist:innen zur Video-Verifikation?"
+        a: "InVID/WeVerify -- es bietet Video-Verifikation und Metadatenanalyse und wurde speziell fuer Journalist:innen und Faktenpruefer:innen entwickelt"
+        rel:
+          - ["InVID/WeVerify", "Video-Verifikationstool fuer Journalist:innen"]
+
+      - q: "Was ist C2PA / Content Credentials?"
+        a: "Ein Provenienz-Standard, der die Herkunft digitaler Medien nachvollziehbar macht -- er dokumentiert, ob und wie ein Medium bearbeitet oder KI-generiert wurde"
+        rel:
+          - ["C2PA", "Content Credentials", "Provenienz-Standard fuer digitale Medien"]
+
+      - q: "Woran kann man KI-generierte Bilder visuell erkennen?"
+        a: "An Artefakten wie unnatuerlichen Haenden, verzerrtem Text, inkonsistenten Schatten, Lippensynchronisations-Fehlern oder zu perfekter Haut"
+        rel:
+          - ["Visuelle Forensik", "Erkennung von KI-Artefakten in Bildern"]
+
+      - q: "Was ist eine Einschraenkung von Deepfake-Erkennungstools?"
+        a: "Journalist:innen verlassen sich manchmal zu stark auf die Tools -- eine Studie zeigte, dass Erkennungstools besonders dann ueberbewertet werden, wenn ihre Ergebnisse die eigene Vermutung bestaetigen"
+        rel:
+          - ["Confirmation Bias", "Uebermaessiges Vertrauen in bestaetigende Tools"]
+
+  - title: "Verifikations-Workflow"
+    explanation: |
+      Ein empfohlener 6-Schritte-Workflow fuer die Verifikation:
+
+      1. **Erstscreening**: Automatisierte Analyse mit Detektionstools (z.B. Deepware Scanner)
+      2. **Metadaten-Pruefung**: EXIF-Daten, Dateieigenschaften, C2PA-Credentials pruefen
+      3. **Visuelle Inspektion**: Manuelle Pruefung auf Artefakte und Inkonsistenzen
+      4. **Quellenverifikation**: Rueckverfolgung zum Ursprung, Reverse Image Search, Gegenrecherche
+      5. **Expert:innen-Konsultation**: Bei Zweifeln forensische Expert:innen einbeziehen
+      6. **Redaktionelle Entscheidung**: Menschliche Reviewer:innen bestaetigen Befunde
+
+      Klassische Methoden wie **Reverse Image Search** (Google, TinEye, Yandex) und
+      **Geoverifikation** bleiben unverzichtbar, besonders bei User Generated Content.
+    examples:
+      - q: "Was ist der erste Schritt im Verifikations-Workflow?"
+        a: "Ein automatisiertes Erstscreening mit Detektionstools wie dem Deepware Scanner -- das spart Zeit und identifiziert offensichtliche Manipulationen"
+        rel:
+          - ["Erstscreening", "Erster automatisierter Check mit Detektionstools"]
+
+      - q: "Was ist Reverse Image Search?"
+        a: "Eine Suche, bei der man ein Bild hochlaedt und nach dem Originalkontext oder aehnlichen Bildern sucht -- z.B. ueber Google, TinEye oder Yandex"
+        rel:
+          - ["Reverse Image Search", "Rueckwaerts-Bildersuche zur Quellenverifikation"]
+
+      - q: "Was ist Geoverifikation?"
+        a: "Die Bestimmung des Aufnahmeorts eines Bildes oder Videos anhand visueller Hinweise wie Strassenschilder, Gebaeude, Vegetation und Geodaten"
+        rel:
+          - ["Geoverifikation", "Bestimmung des Aufnahmeorts"]
+          - ["OSINT", "Open Source Intelligence"]
+
+      - q: "Warum ist die Verifikation von User Generated Content besonders wichtig?"
+        a: "Weil Bilder und Videos aus sozialen Medien oft ohne Kontext geteilt, zeitlich falsch eingeordnet oder absichtlich manipuliert werden"
+        rel:
+          - ["UGC-Verifikation", "Pruefung nutzer-generierter Inhalte"]

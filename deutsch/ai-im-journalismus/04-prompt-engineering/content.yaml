@@ -1,0 +1,114 @@
+version: 1
+number: 4
+title: "Prompt Engineering fuer Journalist:innen"
+description: "Die Kunst, KI-Systemen praezise Anweisungen zu geben"
+sections:
+  - title: "Grundlagen des Prompt Engineering"
+    explanation: |
+      Die Qualitaet der KI-Ausgabe haengt stark vom **Prompt** ab -- der Anweisung an das KI-System.
+      Prompt Engineering ist 2025 nicht mehr nur das Stellen von Fragen, sondern das Entwerfen von
+      Fragetypen, die KI-Modelle zu genauen, relevanten und umsetzbaren Outputs fuehren.
+
+      **Die fuenf wichtigsten Techniken:**
+      - **Zero-Shot Prompting**: Direkte Aufgabe ohne Beispiele
+      - **Few-Shot Prompting**: Aufgabe mit Beispielen fuer den gewuenschten Stil
+      - **Chain-of-Thought**: Schrittweises Durchdenken erzwingen
+      - **Role Prompting**: Der KI eine Rolle zuweisen
+      - **Prompt Chaining**: Mehrere Prompts verketten (Recherche -> Zusammenfassung -> Entwurf)
+    examples:
+      - q: "Was ist ein Prompt?"
+        a: "Die textuelle Anweisung an ein KI-System, die beschreibt, was es tun soll -- je praeziser der Prompt, desto besser das Ergebnis"
+        rel:
+          - ["Prompt", "Anweisung an ein KI-System"]
+          - ["Prompt Engineering", "Die Kunst, gute Prompts zu schreiben"]
+
+      - q: "Was ist der Unterschied zwischen Zero-Shot und Few-Shot Prompting?"
+        a: "Zero-Shot gibt die Aufgabe direkt ohne Beispiele. Few-Shot liefert Beispiele fuer den gewuenschten Stil oder das gewuenschte Format mit"
+        rel:
+          - ["Zero-Shot", "Direkte Aufgabe ohne Beispiele"]
+          - ["Few-Shot", "Aufgabe mit Beispielen fuer den gewuenschten Output"]
+
+      - q: "Was ist Chain-of-Thought Prompting?"
+        a: "Eine Technik, bei der man die KI auffordert, schrittweise zu denken -- z.B. 'Analysiere diese Statistik Schritt fuer Schritt und pruefe auf Unstimmigkeiten'"
+        rel:
+          - ["Chain-of-Thought", "Schrittweises Durchdenken erzwingen"]
+
+      - q: "Was bedeutet Prompt Chaining?"
+        a: "Die Verkettung mehrerer Prompts zu einem Workflow -- z.B. erst Recherche, dann Zusammenfassung, dann Faktencheck, dann Textentwurf"
+        rel:
+          - ["Prompt Chaining", "Verkettung mehrerer Prompts zu einem Workflow"]
+
+  - title: "Best Practices fuer den Redaktionsalltag"
+    explanation: |
+      **Spezifisch sein:**
+      Schlecht: "Schreib einen Artikel ueber Klimawandel"
+      Besser: "Erstelle einen 300-Woerter-Nachrichtenbeitrag ueber die Ergebnisse der COP29
+      fuer ein deutsches Regionalpublikum. Fokus auf konkrete Beschluesse mit Relevanz fuer
+      kommunale Klimapolitik. Stil: sachlich-informativ, keine Meinungsaeusserung."
+
+      **Kontext bereitstellen:**
+      Hintergrundinformationen, Zielgruppe und vorhandene Fakten mitliefern.
+
+      **Format vorgeben:**
+      Laenge, Stil, Struktur und Einschraenkungen definieren.
+
+      **Iterativ arbeiten:**
+      Prompts testen, Ergebnisse bewerten, Input verfeinern, Templates erstellen.
+    examples:
+      - q: "Was ist ein haeufiger Fehler beim Prompting?"
+        a: "Zu vage Anweisungen ohne Kontext, Zielgruppe oder Formatvorgaben -- z.B. 'Schreib einen Artikel ueber Klimawandel' statt einer praezisen Aufgabenbeschreibung"
+        rel:
+          - ["Vage Prompts", "Haeufigster Fehler -- zu wenig Kontext und Vorgaben"]
+
+      - q: "Warum sollte man im Prompt eine Rolle definieren?"
+        a: "Weil die KI dann Tonalitaet, Fachsprache und Perspektive entsprechend anpasst -- z.B. 'Du bist ein erfahrener Wirtschaftsjournalist'"
+        rel:
+          - ["Role Prompting", "Der KI eine Rolle zuweisen fuer bessere Ergebnisse"]
+
+      - q: "Was sollte ein guter journalistischer Prompt enthalten?"
+        a: "Rolle, Kontext, Aufgabe, Zielgruppe, Format, Laenge und Einschraenkungen -- z.B. 'Verwende nur die folgenden Fakten'"
+        rel:
+          - ["Prompt-Struktur", "Rolle + Kontext + Aufgabe + Format + Einschraenkungen"]
+
+      - q: "Warum ist iteratives Arbeiten beim Prompting wichtig?"
+        a: "Weil selten der erste Prompt das perfekte Ergebnis liefert -- durch Testen, Bewerten und Verfeinern verbessert man schrittweise die Qualitaet"
+        rel:
+          - ["Iteratives Prompting", "Schrittweise Verfeinerung der Prompts"]
+
+  - title: "Journalismus-spezifische Prompt-Templates"
+    explanation: |
+      Wiederverwendbare Templates sparen Zeit und sichern Qualitaet:
+
+      **Faktencheck-Prompt:**
+      "Pruefe die folgenden Behauptungen auf ihre Plausibilitaet. Liste fuer jede auf:
+      (1) die Behauptung, (2) bekannte Fakten dafuer/dagegen, (3) moegliche Quellen
+      zur Verifizierung, (4) Konfidenz-Einschaetzung."
+
+      **Recherche-Prompt:**
+      "Erstelle einen Rechercheplan zum Thema [X]. Identifiziere: (1) Kernfragen,
+      (2) relevante Expert:innen und Institutionen, (3) moegliche Datenquellen,
+      (4) alternative Perspektiven, die beruecksichtigt werden sollten."
+
+      **Zusammenfassungs-Prompt:**
+      "Basierend auf dem folgenden Bericht, erstelle eine Zusammenfassung mit den
+      5 wichtigsten Punkten. Kennzeichne Stellen, die einer Verifizierung beduerfen."
+    examples:
+      - q: "Warum sind wiederverwendbare Prompt-Templates sinnvoll?"
+        a: "Sie sparen Zeit bei wiederkehrenden Aufgaben, sichern eine gleichbleibende Qualitaet und koennen im Team geteilt werden"
+        rel:
+          - ["Prompt-Templates", "Wiederverwendbare Vorlagen fuer KI-Anweisungen"]
+
+      - q: "Wie formuliert man einen guten Faktencheck-Prompt?"
+        a: "Behauptungen auflisten lassen, fuer jede bekannte Fakten dafuer/dagegen nennen, Quellen zur Verifizierung vorschlagen und eine Konfidenz-Einschaetzung geben"
+        rel:
+          - ["Faktencheck-Prompt", "Template fuer KI-gestuetzte Faktenprüfung"]
+
+      - q: "Welche Einschraenkung sollte man bei Textentwuerfen immer setzen?"
+        a: "'Keine direkten Zitate erfinden, nur vorhandene verwenden' und 'Kennzeichne Stellen, die einer unabhaengigen Verifizierung beduerfen'"
+        rel:
+          - ["Einschraenkungen", "Grenzen setzen verhindert Halluzinationen"]
+
+      - q: "Wie kann man KI-Prompts im Team standardisieren?"
+        a: "Durch eine gemeinsame Prompt-Bibliothek mit getesteten Templates fuer verschiedene Aufgaben wie Recherche, Zusammenfassung, Uebersetzung und Faktencheck"
+        rel:
+          - ["Prompt-Bibliothek", "Gemeinsame Sammlung getesteter Prompt-Templates"]

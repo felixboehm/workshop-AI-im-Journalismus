@@ -1,0 +1,110 @@
+version: 1
+number: 10
+title: "Leitprinzipien und Kompetenzaufbau"
+description: "Gemeinsame Werte und Weiterbildung fuer den souveraenen KI-Einsatz"
+sections:
+  - title: "Sieben Leitprinzipien"
+    explanation: |
+      Diese Prinzipien dienen als gemeinsamer Kompass fuer KI-gestuetzte Pressearbeit:
+
+      1. **KI ergaenzt Urteilskraft, ersetzt sie nicht** -- Maschinen liefern Text, Menschen tragen Verantwortung
+      2. **Transparenz schafft Vertrauen** -- Leser sollten nachvollziehen koennen, ob und wie KI eingesetzt wurde
+      3. **Verifikation ist unverzichtbar** -- KI-Aussagen sind Hypothesen, keine Fakten
+      4. **Quellenschutz geht vor Effizienz** -- Sensible Informationen gehoeren nicht in externe Systeme
+      5. **Geschwindigkeit ist kein Selbstzweck** -- Schnell falsch ist schlechter als langsam richtig
+      6. **Kompetenzaufbau statt Abhaengigkeit** -- Redaktionen sollten KI verstehen, nicht nur bedienen
+      7. **Ethik ist ein Prozess** -- Klare Regeln und ueberpruefbare Standards sind entscheidend
+    examples:
+      - q: "Was bedeutet das Prinzip 'KI ergaenzt Urteilskraft, ersetzt sie nicht'?"
+        a: "Maschinen liefern Text und Vorarbeit, aber die redaktionelle Verantwortung und das journalistische Urteil bleiben beim Menschen"
+        rel:
+          - ["Menschliche Urteilskraft", "KI ergaenzt, ersetzt nicht"]
+
+      - q: "Was bedeutet 'Geschwindigkeit ist kein Selbstzweck'?"
+        a: "Schnell falsch ist schlechter als langsam richtig -- KI darf nicht dazu fuehren, dass Qualitaet und Sorgfalt zugunsten von Schnelligkeit geopfert werden"
+        rel:
+          - ["Qualitaet vor Geschwindigkeit", "Schnell falsch ist schlechter als langsam richtig"]
+
+      - q: "Was meint 'Kompetenzaufbau statt Abhaengigkeit'?"
+        a: "Redaktionen sollten KI verstehen, nicht nur bedienen -- Ziel ist souveraener Umgang statt blinder Abhaengigkeit von KI-Anbietern"
+        rel:
+          - ["KI-Souveraenitaet", "Verstehen statt nur Bedienen"]
+
+      - q: "Warum ist Ethik ein Prozess und kein Zustand?"
+        a: "Weil sich KI-Technologie schnell entwickelt und ethische Standards kontinuierlich ueberprueft, angepasst und weiterentwickelt werden muessen"
+        rel:
+          - ["Ethik als Prozess", "Kontinuierliche Weiterentwicklung ethischer Standards"]
+
+  - title: "Kompetenzaufbau und Weiterbildung"
+    explanation: |
+      Nachhaltige KI-Nutzung entsteht durch Wissen und Praxis. Wichtige Angebote:
+
+      **International:**
+      - **JournalismAI Skills Lab** (POLIS/LSE): 12 Wochen, virtuell, kostenlos -- plant 4.500 Journalist:innen aus 100 Laendern zu schulen
+      - **CUNY AI Journalism Labs**: Fokus auf Fuehrungskraefte und praktische KI-Einfuehrung
+      - **Knight Center**: Online-Kurse zu Prompt Engineering und Google AI Tools fuer Journalist:innen
+
+      **Deutschland:**
+      - **dpa "Wegweiser KI"**: Praxisorientiertes Trainingsprogramm fuer deutsche Redaktionen (2024-2025)
+      - **BJV**: Schulungen zum Einsatz von KI in Redaktionen
+
+      Journalist:innen mit KI-Expertise verdienen durchschnittlich **12% mehr** als Kolleg:innen
+      ohne diese Faehigkeiten, die Nachfrage stieg um **ueber 30%**.
+    examples:
+      - q: "Was ist das JournalismAI Skills Lab?"
+        a: "Ein 12-woechiges, virtuelles und kostenloses Programm der POLIS/LSE fuer die praktische Implementierung von KI im Redaktionsalltag -- geplant sind 4.500 Journalist:innen aus 100 Laendern"
+        rel:
+          - ["JournalismAI Skills Lab", "Kostenloses KI-Training fuer Journalist:innen"]
+
+      - q: "Welches KI-Weiterbildungsangebot gibt es speziell fuer deutsche Redaktionen?"
+        a: "Das dpa-Programm 'Wegweiser KI' -- ein praxisorientiertes Trainingsprogramm, das 2024-2025 deutsche Redaktionen bei der KI-Integration unterstuetzte"
+        rel:
+          - ["dpa Wegweiser KI", "Deutsches Trainingsprogramm fuer Redaktionen"]
+
+      - q: "Wie wirkt sich KI-Kompetenz auf das Gehalt von Journalist:innen aus?"
+        a: "Journalist:innen mit KI-Expertise verdienen durchschnittlich 12% mehr -- die Nachfrage nach KI-Kenntnissen stieg um ueber 30%"
+        rel:
+          - ["KI-Gehaltspraemie", "12% mehr Verdienst mit KI-Expertise"]
+
+      - q: "Welche KI-bezogenen Kurse bietet das Knight Center an?"
+        a: "Prompt Engineering 101 for Journalists und Google AI Tools for Journalists -- beide als Online-Kurse, letzterer 4 Wochen und kostenlos"
+        rel:
+          - ["Knight Center", "Online-KI-Kurse fuer Journalist:innen"]
+
+  - title: "Fuenf Kernkompetenzen fuer die Zukunft"
+    explanation: |
+      Journalist:innen benoetigen zunehmend diese fuenf Kompetenzen:
+
+      1. **Datenkompetenz**: Interpretation und Analyse grosser Datensaetze, KI-gestuetzte Analytik
+      2. **Technische Grundlagen**: Verstaendnis von KI-Plattformen, NLP und Automatisierungstools
+      3. **Kritisches Denken**: Bewertung und Einordnung von KI-Outputs
+      4. **Prompt Engineering**: Faehigkeit, praezise Anweisungen an KI-Systeme zu formulieren
+      5. **Ethische Kompetenz**: Verstaendnis von Urheberrecht, Attribution, Bias und Transparenz
+
+      Gleichzeitig bleiben Faehigkeiten unverzichtbar, die KI **nicht ersetzen** kann:
+      Menschliche Empathie, ethische Urteilsfaehigkeit, kreatives Storytelling,
+      Beziehungsaufbau mit Quellen und Kontextualisierung komplexer Zusammenhaenge.
+
+      Ziel ist nicht mehr Output um jeden Preis, sondern: gesicherte Qualitaet,
+      geschuetzte Quellen, klare Prozesse, souveraener KI-Einsatz und langfristiges
+      Vertrauen der Leser.
+    examples:
+      - q: "Welche fuenf Kernkompetenzen brauchen Journalist:innen fuer die KI-Zukunft?"
+        a: "Datenkompetenz, technische Grundlagen, kritisches Denken, Prompt Engineering und ethische Kompetenz"
+        rel:
+          - ["Zukunftskompetenzen", "Die fuenf Kernkompetenzen fuer KI-Journalismus"]
+
+      - q: "Welche Faehigkeiten kann KI nicht ersetzen?"
+        a: "Menschliche Empathie, ethische Urteilsfaehigkeit, kreatives Storytelling, Beziehungsaufbau mit Quellen und Kontextualisierung komplexer Zusammenhaenge"
+        rel:
+          - ["Menschliche Staerken", "Faehigkeiten, die KI nicht ersetzen kann"]
+
+      - q: "Warum ist Datenkompetenz fuer Journalist:innen wichtiger geworden?"
+        a: "Weil KI neue Moeglichkeiten der Datenanalyse bietet -- Journalist:innen muessen grosse Datensaetze interpretieren und KI-gestuetzte Analytik nutzen koennen"
+        rel:
+          - ["Datenkompetenz", "Data Literacy", "Interpretation grosser Datensaetze"]
+
+      - q: "Was ist das uebergeordnete Ziel des souveraenen KI-Einsatzes?"
+        a: "Gesicherte Qualitaet, geschuetzte Quellen, klare Prozesse, souveraener KI-Einsatz und langfristiges Vertrauen der Leser -- nicht mehr Output um jeden Preis"
+        rel:
+          - ["Souveraener KI-Einsatz", "Qualitaet und Vertrauen statt Maximum-Output"]
