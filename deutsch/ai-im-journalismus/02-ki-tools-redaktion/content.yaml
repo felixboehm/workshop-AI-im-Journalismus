@@ -1,0 +1,126 @@
+version: 1
+number: 2
+title: "KI-Tools im Redaktionsalltag"
+description: "Welche KI-Werkzeuge Redaktionen konkret einsetzen"
+sections:
+  - title: "Grosse Sprachmodelle (LLMs)"
+    explanation: |
+      Large Language Models sind die Basis vieler KI-Anwendungen im Journalismus:
+
+      - **ChatGPT (OpenAI)**: Textzusammenfassungen, Recherche-Unterstuetzung, Ideenfindung, Datenanalyse
+      - **Claude (Anthropic)**: Lange Kontextfenster fuer Dokumentenanalyse, differenzierte Textarbeit
+      - **Perplexity AI**: Echtzeit-Webrecherche mit Quellenangaben, Deep-Research-Modus
+      - **Google Gemini**: Integration mit Google-Oekosystem, multimodale Faehigkeiten
+
+      OpenAI hat 2025 die "OpenAI Academy for News Organizations" gegruendet -- ein Programm mit
+      finanziellen Zuschlaegen, technischem Support und Zugang zu den neuesten Modellen.
+    examples:
+      - q: "Was ist ein Large Language Model (LLM)?"
+        a: "Ein KI-Modell, das auf riesigen Textmengen trainiert wurde und Sprache verstehen und erzeugen kann -- Beispiele sind ChatGPT, Claude und Gemini"
+        rel:
+          - ["LLM", "Large Language Model", "Grosses Sprachmodell"]
+
+      - q: "Welches KI-Tool eignet sich besonders fuer die Analyse langer Dokumente?"
+        a: "Claude von Anthropic -- es bietet besonders lange Kontextfenster und eignet sich gut fuer umfangreiche Dokumentenanalyse"
+        rel:
+          - ["Claude", "Anthropic", "Lange Kontextfenster fuer Dokumentenanalyse"]
+
+      - q: "Was unterscheidet Perplexity AI von ChatGPT?"
+        a: "Perplexity liefert Antworten mit Quellenangaben und bietet einen Deep-Research-Modus fuer verifizierbares Recherchieren -- ChatGPT verlinkt standardmaessig keine Quellen"
+        rel:
+          - ["Perplexity AI", "KI-Suchmaschine mit Quellenangaben"]
+
+      - q: "Was ist die OpenAI Academy for News Organizations?"
+        a: "Ein 2025 gegruendetes Programm von OpenAI mit finanziellen Zuschlaegen, technischem Support und Zugang zu neuesten Modellen fuer Redaktionen"
+        rel:
+          - ["OpenAI Academy", "Unterstuetzungsprogramm fuer Nachrichtenredaktionen"]
+
+  - title: "Transkription und Uebersetzung"
+    explanation: |
+      **79% der Redaktionen** nutzen automatisierte Transkription fuer Interviews. Die wichtigsten Tools:
+
+      - **Trint**: 50+ Sprachen, DSGVO-konform, trainiert nicht mit Nutzerdaten -- Standard bei AFP und Guardian
+      - **Otter.ai**: Automatische Meeting-Teilnahme und Zusammenfassungen (Datenschutzbedenken -- Guardian hat Nutzung untersagt)
+      - **OpenAI Whisper**: Open-Source-Modell mit 680.000 Stunden Trainingsdaten, Basis fuer viele andere Tools
+      - **DeepL / DeepL Write**: Uebersetzung und Textoptimierung, besonders stark fuer Deutsch
+
+      **Wichtig:** Trint bietet eine "No-Training"-Policy und die Wahl zwischen EU- und
+      US-Datenspeicherung -- ein entscheidender Vorteil fuer den Quellenschutz.
+    examples:
+      - q: "Wie viel Prozent der Redaktionen nutzen automatisierte Transkription?"
+        a: "79% der Redaktionen nutzen automatisierte Transkription fuer Interviews"
+        rel:
+          - ["Automatisierte Transkription", "Haeufigster KI-Einsatz in Redaktionen"]
+
+      - q: "Warum hat der Guardian die Nutzung von Otter.ai untersagt?"
+        a: "Wegen Datenschutzbedenken -- Otter.ai speichert Daten und es ist unklar, ob sie fuer Modelltraining verwendet werden"
+        rel:
+          - ["Datenschutzbedenken", "Risiko bei Cloud-basierten Transkriptionstools"]
+
+      - q: "Was macht Trint fuer europaeische Redaktionen besonders geeignet?"
+        a: "Die No-Training-Policy und die Wahl zwischen EU- und US-Datenspeicherung -- damit ist es DSGVO-konform und schuetzt den Quellenschutz"
+        rel:
+          - ["Trint", "DSGVO-konforme Transkription mit No-Training-Policy"]
+          - ["DSGVO", "Datenschutz-Grundverordnung der EU"]
+
+      - q: "Was ist OpenAI Whisper?"
+        a: "Ein Open-Source-Spracherkennungsmodell mit 680.000 Stunden Trainingsdaten -- es bildet die Basis fuer viele andere Transkriptionstools"
+        rel:
+          - ["Whisper", "Open-Source-Spracherkennung von OpenAI"]
+
+  - title: "Spezial-Tools fuer den Journalismus"
+    explanation: |
+      Neben allgemeinen KI-Tools gibt es Werkzeuge, die speziell fuer den Journalismus entwickelt wurden:
+
+      - **Google Pinpoint**: Kostenlos, analysiert bis zu 200.000 Dokumente, erkennt Personen/Orte/Organisationen, transkribiert Audio/Video -- der Boston Globe gewann damit einen Pulitzer-Preis
+      - **dpa-News Hub**: KI-Rechercheassistent, der nur auf verifizierte dpa-Quellen zugreift
+      - **Djinn (Norwegen)**: Durchsucht tausende Kommunaldokumente fuer die Lokalberichterstattung
+      - **LocalLens**: Transkribiert und fasst lokale Regierungssitzungen zusammen
+      - **Dataminr**: Echtzeit-Erkennung von Events und Breaking News vor Viralitaet
+      - **Rolli Information Tracer**: Verfolgt die Verbreitung von Informationen ueber verschiedene Plattformen
+    examples:
+      - q: "Was ist Google Pinpoint und was kann es?"
+        a: "Ein kostenloses Dokumentenanalyse-Tool fuer Journalist:innen -- es erkennt automatisch Personen, Organisationen und Orte in bis zu 200.000 Dokumenten und transkribiert Audio/Video"
+        rel:
+          - ["Google Pinpoint", "Kostenloses Dokumentenanalyse-Tool"]
+
+      - q: "Welche investigative Recherche wurde mit Google Pinpoint unterstuetzt?"
+        a: "Die Pulitzer-Preis-gekroente Recherche des Boston Globe (2021). Maria Ressa verarbeitete 13.000 CIA-Dokumente in 30 Minuten"
+        rel:
+          - ["Pulitzer-Preis", "Ausgezeichnete Recherche mit KI-Unterstuetzung"]
+
+      - q: "Was macht Dataminr fuer Nachrichtenredaktionen wertvoll?"
+        a: "Es erkennt Events und Trends in Echtzeit und entdeckt Breaking News, bevor sie viral gehen"
+        rel:
+          - ["Dataminr", "Echtzeit-Erkennung von Events und Trends"]
+
+      - q: "Was ist der Rolli Information Tracer?"
+        a: "Ein Tool, das die Verbreitung von Informationen ueber verschiedene Plattformen verfolgt, Urspruenge von Behauptungen identifiziert und zeigt, wie sich Inhalte beim Teilen veraendern"
+        rel:
+          - ["Information Tracer", "Verfolgt Informationsverbreitung ueber Plattformen"]
+
+  - title: "Fact-Checking-Tools"
+    explanation: |
+      Dedizierte KI-Tools unterstuetzen Journalist:innen beim Faktencheck:
+
+      - **Full Fact AI**: Transkribiert Audio/Video mit Echtzeit-Erkennung von Falschinformationen, eingesetzt von 45+ Organisationen in 30 Laendern
+      - **ClaimBuster**: Analysiert politische Reden und Debatten, extrahiert automatisch ueberpruefelswerte Behauptungen (Duke Reporter's Lab)
+      - **Logically Facts**: Professionelles Fact-Checking mit KI-gestuetzter Priorisierung
+
+      **Wichtig:** Diese Tools unterstuetzen den Faktencheck -- die finale Bewertung bleibt
+      immer beim Menschen.
+    examples:
+      - q: "Was ist Full Fact AI und wie verbreitet ist es?"
+        a: "Ein Tool, das Audio/Video transkribiert und in Echtzeit Falschinformationen erkennt -- es wird von ueber 45 Organisationen in 30 Laendern eingesetzt"
+        rel:
+          - ["Full Fact AI", "KI-gestuetztes Echtzeit-Fact-Checking"]
+
+      - q: "Was ist ClaimBuster?"
+        a: "Ein am Duke Reporter's Lab entwickeltes Tool, das automatisch ueberpruefelswerte Behauptungen in politischen Reden und Debatten identifiziert"
+        rel:
+          - ["ClaimBuster", "Automatische Erkennung ueberpruefbarer Behauptungen"]
+
+      - q: "Koennen KI-Tools den Faktencheck komplett uebernehmen?"
+        a: "Nein -- KI-Tools koennen Hinweise geben und Behauptungen identifizieren, aber die finale Bewertung muss immer ein Journalist treffen (Human-in-the-Loop)"
+        rel:
+          - ["Human-in-the-Loop", "Mensch trifft finale Entscheidung beim Faktencheck"]

@@ -1,0 +1,114 @@
+version: 1
+number: 3
+title: "KI-Workflow-Design"
+description: "Klare und sichere Arbeitsablaeufe fuer den KI-Einsatz in Redaktionen"
+sections:
+  - title: "Schrittweise KI-Integration"
+    explanation: |
+      Die Integration von KI in Redaktionen folgt typischerweise vier Phasen:
+
+      **Phase 1: Bestandsaufnahme und Planung**
+      - Einrichtung eines KI-Boards mit Expert:innen aus IT, Recht, HR und Redaktion
+      - Bedarfsanalyse: Was brauchen die Menschen in der Redaktion?
+      - Bewertung vorhandener Infrastruktur und Ressourcen
+
+      **Phase 2: Pilotprojekte und Tests**
+      - Start mit kleinen, risikoarmen Pilotprojekten (z.B. Metadaten-Tagging, Audio-Transkription)
+      - Einrichtung von Sandbox-Umgebungen zum sicheren Testen
+      - Gemeinsames Prompt Engineering mit Autor:innen anhand realer Artikel
+
+      **Phase 3: Operative Einfuehrung**
+      - Schrittweise Ausweitung auf weitere Anwendungsbereiche
+      - Drei Viertel der KI-Ausgaben fliessen in redaktionelle Arbeit und Content-Erstellung
+
+      **Phase 4: Governance und Transparenz**
+      - Festlegung von Offenlegungspflichten und Autorenschaftsregeln
+      - Regelmaessige Evaluation und Anpassung der Richtlinien
+    examples:
+      - q: "Was sollte der erste Schritt bei der KI-Integration in einer Redaktion sein?"
+        a: "Die Einrichtung eines KI-Boards mit Expert:innen aus IT, Recht, HR und verschiedenen Redaktionsabteilungen fuer eine Bestandsaufnahme"
+        rel:
+          - ["KI-Board", "Interdisziplinaeres Team fuer die KI-Integration"]
+          - ["Bestandsaufnahme", "Erster Schritt der KI-Integration"]
+
+      - q: "Warum sollte man mit Pilotprojekten beginnen?"
+        a: "Pilotprojekte sind risikoarm, schaffen Vertrauen im Team und liefern praktische Erfahrungen, bevor man KI breit einfuehrt"
+        rel:
+          - ["Pilotprojekt", "Risikoarmer Einstieg in die KI-Nutzung"]
+          - ["Sandbox-Umgebung", "Geschuetzter Bereich zum Testen von KI-Tools"]
+
+      - q: "Was versteht man unter einer Sandbox-Umgebung fuer KI-Tests?"
+        a: "Ein geschuetzter Bereich, in dem KI-Tools getestet werden koennen, ohne dass echte Redaktionsprozesse oder Daten betroffen sind"
+        rel:
+          - ["Sandbox", "Geschuetzter Testbereich fuer KI-Experimente"]
+
+      - q: "Warum haben nur 13% der Redaktionen formale KI-Richtlinien?"
+        a: "Weil die Technologie sich schnell entwickelt und viele Redaktionen noch in der Experimentierphase sind -- formale Governance wird aber dringend gebraucht"
+        rel:
+          - ["KI-Governance", "Formale Regeln und Strukturen fuer den KI-Einsatz"]
+
+  - title: "Einsatzpunkte fuer KI in der Redaktion"
+    explanation: |
+      KI kann an verschiedenen Stellen im redaktionellen Workflow sinnvoll eingesetzt werden:
+
+      - **Recherche**: KI-gestuetzte Themensuche, Quellenrecherche, Dokumentenanalyse
+      - **Transkription**: Automatische Verschriftlichung von Interviews und Pressekonferenzen
+      - **Strukturierung**: Zusammenfassungen, Metadaten-Tagging, Verschlagwortung
+      - **Textentwuerfe**: Erste Entwuerfe fuer datenbasierte Berichte (Sport, Boerse, Wetter)
+      - **Uebersetzung**: Schneller Zugang zu fremdsprachigem Quellmaterial
+      - **Community**: KI erkennt relevante Leserkommentare und leitet sie an die Redaktion
+
+      Die dpa nutzt z.B. das "Story-Radar", das soziale Netzwerke nach relevanten Themen durchsucht.
+    examples:
+      - q: "Fuer welche Routineaufgaben eignet sich KI im Redaktionsalltag?"
+        a: "Transkription, Uebersetzung, Zusammenfassungen, Metadaten-Tagging, Verschlagwortung und datenbasierte Textentwuerfe"
+        rel:
+          - ["Routineaufgaben", "Repetitive Aufgaben, die KI beschleunigen kann"]
+          - ["Metadaten-Tagging", "Automatische Verschlagwortung von Artikeln"]
+
+      - q: "Was ist das dpa Story-Radar?"
+        a: "Ein KI-Tool, das soziale Netzwerke nach relevanten Themen durchsucht und Reporter:innen auf interessante Geschichten aufmerksam macht"
+        rel:
+          - ["Story-Radar", "KI-gestuetzte Themensuche der dpa"]
+
+      - q: "Wie kann KI beim Community-Management helfen?"
+        a: "KI erkennt relevante Leserkommentare und leitet sie automatisch ueber Teams oder Slack an die zustaendige Redaktion weiter"
+        rel:
+          - ["Community-Management", "KI-gestuetzte Analyse von Leserkommentaren"]
+
+      - q: "Fuer welche Art von Texten eignet sich automatisierte Berichterstattung?"
+        a: "Fuer datenbasierte, repetitive Formate wie Sport-, Boersen- und Wetterberichte, die auf strukturierten Daten basieren"
+        rel:
+          - ["Automatisierte Berichterstattung", "Texterstellung aus strukturierten Daten"]
+
+  - title: "Uebergaben zwischen Mensch und KI"
+    explanation: |
+      Klare Uebergabepunkte sind entscheidend fuer die Qualitaet. Das Konzept definiert:
+
+      - **Definierte Pruefschritte vor Veroeffentlichung**: Jeder KI-Output wird redaktionell geprueft
+      - **Vier-Augen-Prinzip**: KI-generierte Inhalte werden wie Agenturmeldungen behandelt -- sie brauchen eine zweite menschliche Pruefung
+      - **Dokumentierte KI-Nutzung**: Im Redaktionsprozess wird festgehalten, wo KI eingesetzt wurde
+      - **KI als Werkzeug**: KI liefert Vorarbeit, der Journalist trifft die Entscheidungen
+
+      MinnPost behandelt KI-generiertes Material wie eine Quelle, die menschliche Bearbeitung
+      und Faktencheck erfordert.
+    examples:
+      - q: "Was bedeutet das Vier-Augen-Prinzip bei KI-generierten Inhalten?"
+        a: "KI-generierte Inhalte werden wie Agenturmeldungen behandelt -- mindestens eine zweite Person prueft den Inhalt vor Veroeffentlichung"
+        rel:
+          - ["Vier-Augen-Prinzip", "Zweite menschliche Pruefung bei KI-Output"]
+
+      - q: "Wie behandelt MinnPost KI-generiertes Material?"
+        a: "Wie eine Quelle, die menschliche Bearbeitung und Faktencheck erfordert -- KI-Output ist Rohmaterial, kein fertiger Artikel"
+        rel:
+          - ["KI als Quelle", "KI-Output als Rohmaterial behandeln"]
+
+      - q: "Warum ist die Dokumentation des KI-Einsatzes wichtig?"
+        a: "Sie schafft Transparenz im Redaktionsprozess, ermoeglicht Nachvollziehbarkeit und ist die Grundlage fuer spaetere Audits und Qualitaetskontrollen"
+        rel:
+          - ["KI-Dokumentation", "Festhalten, wo und wie KI eingesetzt wurde"]
+
+      - q: "Was ist der Kerngedanke von KI-Workflow-Design?"
+        a: "KI als Werkzeug -- nicht als Ersatz fuer journalistisches Urteil. Klare Regeln definieren, wo KI helfen darf und wo der Mensch entscheidet"
+        rel:
+          - ["KI als Werkzeug", "Grundprinzip des KI-Workflow-Designs"]

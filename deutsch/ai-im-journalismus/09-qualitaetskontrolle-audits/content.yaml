@@ -1,0 +1,108 @@
+version: 1
+number: 9
+title: "Qualitaetskontrolle und Audits"
+description: "Systematische Qualitaetssicherung fuer KI-gestuetzten Journalismus"
+sections:
+  - title: "Das Human-in-the-Loop-Prinzip"
+    explanation: |
+      Der Grundsatz lautet: **Journalismus ist eine menschengetriebene Taetigkeit.**
+      KI kann unterstuetzen, aber nicht das Urteilsvermoegen, die Kreativitaet und die
+      Verantwortlichkeit ersetzen, die Qualitaetsjournalismus ausmachen.
+
+      **Umsetzung in der Praxis:**
+      - Jeder KI-generierte Inhalt wird vor Veroeffentlichung von menschlichen Redakteur:innen geprueft
+      - Vier-Augen-Prinzip bei KI-generierten Inhalten
+      - KI-Output wird wie Agenturmaterial behandelt: Rohmaterial, das bearbeitet werden muss
+      - Menschliche Redakteur:innen haben immer das letzte Wort
+
+      Rund **90% der untersuchten Richtlinien** (aus einer Analyse von 45 Nachrichtenorganisationen)
+      schreiben vor, dass KI-Einsatz in einer Story offengelegt werden muss.
+    examples:
+      - q: "Was bedeutet Human-in-the-Loop im Journalismus?"
+        a: "Dass jeder KI-generierte Inhalt vor Veroeffentlichung von menschlichen Redakteur:innen geprueft und freigegeben wird -- der Mensch hat immer das letzte Wort"
+        rel:
+          - ["Human-in-the-Loop", "Menschliche Pruefung jedes KI-Outputs"]
+
+      - q: "Wie viel Prozent der Redaktionsrichtlinien fordern Offenlegung des KI-Einsatzes?"
+        a: "Rund 90% -- basierend auf einer Analyse der Richtlinien von 45 Nachrichtenorganisationen"
+        rel:
+          - ["KI-Offenlegung", "90% der Richtlinien fordern Transparenz"]
+
+      - q: "Wie behandelt man KI-Output im redaktionellen Alltag?"
+        a: "Wie Agenturmaterial -- als Rohmaterial, das menschliche Bearbeitung, Faktencheck und redaktionelle Pruefung erfordert"
+        rel:
+          - ["KI-Output als Rohmaterial", "Behandlung wie Agenturmeldungen"]
+
+      - q: "Welches Prinzip verfolgt die AP beim KI-Einsatz?"
+        a: "KI darf nicht zur Erstellung publizierbarer Inhalte und Bilder fuer den Nachrichtendienst verwendet werden -- nur fuer interne Unterstuetzung"
+        rel:
+          - ["AP-Grundsatz", "Kein KI-generierter Content im Nachrichtendienst"]
+
+  - title: "Qualitaetssicherungs-Checkliste"
+    explanation: |
+      Jeder KI-gestuetzte Inhalt sollte diese Pruefschritte durchlaufen:
+
+      1. **Faktencheck**: Alle KI-generierten Aussagen gegen Originalquellen pruefen
+      2. **Quellenverifikation**: Sind die genannten Quellen real und korrekt zitiert?
+      3. **Bias-Pruefung**: Einseitige Darstellungen oder systematische Verzerrungen identifizieren
+      4. **Tonalitaet**: Entspricht der Stil den redaktionellen Standards?
+      5. **Kennzeichnung**: KI-Einsatz gemaess internen Richtlinien offenlegen
+      6. **Versionierung**: Dokumentation der verwendeten Prompts und KI-Tools
+
+      Qualitaetssicherung wird mit KI nicht weniger wichtig, sondern **wichtiger**.
+    examples:
+      - q: "Was ist der wichtigste Schritt bei der Qualitaetssicherung von KI-Inhalten?"
+        a: "Der Faktencheck -- alle KI-generierten Aussagen muessen gegen Originalquellen geprueft werden, da KI Halluzinationen produzieren kann"
+        rel:
+          - ["Faktencheck", "Pruefung aller KI-Aussagen gegen Originalquellen"]
+
+      - q: "Warum ist Quellenverifikation bei KI-Texten besonders wichtig?"
+        a: "Weil KI haeufig nicht existierende Quellen erfindet oder Quellen falsch zitiert -- jede genannte Quelle muss auf Existenz und korrekte Wiedergabe geprueft werden"
+        rel:
+          - ["Quellenverifikation", "Pruefung ob genannte Quellen real und korrekt sind"]
+
+      - q: "Was bedeutet Versionierung im Kontext von KI-gestuetztem Journalismus?"
+        a: "Die Dokumentation, welche Prompts und KI-Tools verwendet wurden -- das ermoeglicht Nachvollziehbarkeit und spaetere Audits"
+        rel:
+          - ["Versionierung", "Dokumentation der verwendeten Prompts und Tools"]
+
+      - q: "Warum wird Qualitaetssicherung mit KI wichtiger, nicht weniger?"
+        a: "Weil KI neue Fehlerquellen einfuehrt (Halluzinationen, Bias, Plagiate), die mit klassischen Pruefmethoden nicht abgedeckt werden"
+        rel:
+          - ["Erweiterte QA", "Neue Fehlerquellen erfordern neue Pruefschritte"]
+
+  - title: "KI-Audits in Redaktionen"
+    explanation: |
+      Nur ca. **50% der Redaktionen** arbeiten an KI-Nutzungsrichtlinien -- systematische
+      Audits sind die Ausnahme. Eine Audit-Checkliste fuer Redaktionen:
+
+      1. **Tool-Inventar**: Welche KI-Tools werden eingesetzt?
+      2. **Datenfluss**: Welche Daten werden an KI-Dienste uebermittelt?
+      3. **Output-Qualitaet**: Wie oft muessen KI-Ergebnisse korrigiert werden?
+      4. **Compliance**: Werden interne Richtlinien eingehalten?
+      5. **Transparenz**: Wird KI-Einsatz gegenueber dem Publikum offengelegt?
+      6. **Datenschutz**: Werden personenbezogene Daten und Quellen geschuetzt?
+      7. **Kosteneffizienz**: Stehen Aufwand und Nutzen in sinnvollem Verhaeltnis?
+
+      Ziel ist **nachvollziehbare Qualitaet** -- unabhaengig davon, ob Inhalte von
+      Menschen oder mit KI erstellt wurden.
+    examples:
+      - q: "Wie viel Prozent der Redaktionen arbeiten an KI-Nutzungsrichtlinien?"
+        a: "Etwa 50% -- davon haben nur vier oeffentliche, drei interne Richtlinien und sechs weitere sind im Entwurfsstadium (Umfrage unter 28 Redaktionen)"
+        rel:
+          - ["KI-Richtlinien-Status", "Nur 50% arbeiten an formalen Richtlinien"]
+
+      - q: "Was gehoert zu einem KI-Audit in einer Redaktion?"
+        a: "Tool-Inventar, Datenfluss-Analyse, Output-Qualitaet, Compliance-Pruefung, Transparenz-Check, Datenschutz-Bewertung und Kosteneffizienz"
+        rel:
+          - ["KI-Audit", "Systematische Pruefung des KI-Einsatzes in Redaktionen"]
+
+      - q: "Wer sollte an der Entwicklung von KI-Richtlinien beteiligt sein?"
+        a: "Redaktionelle Teams, juristische Abteilung und Audience-Teams -- KI-Einsatz ist eine redaktionelle, nicht rein technische Angelegenheit"
+        rel:
+          - ["Richtlinien-Entwicklung", "Interdisziplinaere Zusammenarbeit"]
+
+      - q: "Was ist das Ziel von KI-Audits?"
+        a: "Nachvollziehbare Qualitaet -- unabhaengig davon, ob Inhalte von Menschen oder mit KI erstellt wurden"
+        rel:
+          - ["Nachvollziehbare Qualitaet", "Ziel der Qualitaetskontrolle"]

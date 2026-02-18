@@ -1,0 +1,105 @@
+version: 1
+number: 1
+title: "Ausgangslage: KI im Journalismus"
+description: "Wie KI den Journalismus veraendert und warum Redaktionen jetzt handeln muessen"
+sections:
+  - title: "KI veraendert den Journalismus"
+    explanation: |
+      Kuenstliche Intelligenz veraendert den Journalismus bereits heute. Sie kann recherchieren
+      helfen, transkribieren, strukturieren, formulieren und analysieren. Richtig eingesetzt spart
+      sie Zeit und eroeffnet neue Moeglichkeiten. Unkontrolliert eingesetzt gefaehrdet sie jedoch
+      Qualitaet, Glaubwuerdigkeit und Quellenschutz.
+
+      **Zentrale Fragen fuer Redaktionen:**
+      - Wo bringt KI echten Mehrwert?
+      - Wo entstehen Risiken?
+      - Wie bleiben journalistische Standards gewahrt?
+      - Wie verhindert man schleichende Qualitaetsverluste?
+    examples:
+      - q: "Was ist das Ziel eines strukturierten KI-Einsatzes im Journalismus?"
+        a: "Journalismus nicht automatisieren, sondern ihn mit klaren Regeln, Sicherheitsmechanismen und Qualitaetskontrollen zukunftsfaehig machen"
+        rel:
+          - ["KI-Workflow-Design", "Strukturierter Einsatz von KI in Redaktionen"]
+
+      - q: "Was sind die beiden Seiten von KI im Journalismus?"
+        a: "Richtig eingesetzt spart sie Zeit und eroeffnet neue Moeglichkeiten -- unkontrolliert eingesetzt gefaehrdet sie Qualitaet, Glaubwuerdigkeit und Quellenschutz"
+        rel:
+          - ["Chancen und Risiken", "KI als zweischneidiges Schwert im Journalismus"]
+
+      - q: "Warum muessen Redaktionen jetzt beim Thema KI handeln?"
+        a: "Weil 2025/2026 der Uebergang von der Experimentierphase zur systematischen Integration stattfindet -- wer jetzt keine Strukturen schafft, riskiert Qualitaetsverluste"
+        rel:
+          - ["Operationalisierung", "Von Experimenten zu systematischer KI-Integration"]
+
+      - q: "Welches Grundproblem haben viele Redaktionen beim KI-Einsatz?"
+        a: "Nur 13% haben formale KI-Richtlinien -- der Einsatz bleibt oft den einzelnen Journalist:innen ueberlassen, was zu Inkonsistenzen fuehrt"
+        rel:
+          - ["KI-Richtlinien", "Formale Regeln fuer den KI-Einsatz in Redaktionen"]
+
+  - title: "Zahlen und Fakten zur KI-Nutzung"
+    explanation: |
+      Die KI-Adoption im Journalismus ist bereits weit fortgeschritten:
+
+      - **81,7%** der Journalist:innen nutzen KI-Tools in ihrer Arbeit
+      - **49,4%** nutzen KI taeglich
+      - **97%** der Nachrichtenorganisationen betrachten Backend-Automatisierung als wichtig
+      - **53%** der deutschen Journalist:innen nutzen aktiv KI-Tools
+      - **70%** der deutschen Journalist:innen nutzen KI vor allem fuer Uebersetzungen und Transkriptionen
+      - **72%** der Medienunternehmen planen bis 2025 mehr KI-Technologien einzusetzen
+
+      Das Reuters Institute prognostiziert fuer 2026 den zunehmenden Einsatz von **agentischer KI**
+      fuer End-to-End-Automatisierung komplexer Workflows.
+    examples:
+      - q: "Wie viel Prozent der Journalist:innen nutzen KI-Tools?"
+        a: "81,7% nutzen KI-Tools, davon 49,4% taeglich"
+        rel:
+          - ["KI-Adoption", "Verbreitung von KI-Tools im Journalismus"]
+
+      - q: "Wofuer nutzen deutsche Journalist:innen KI am haeufigsten?"
+        a: "Fuer Uebersetzungen und Transkriptionen (70%)"
+        rel:
+          - ["Transkription", "Haeufigster KI-Anwendungsfall im deutschen Journalismus"]
+
+      - q: "Was ist agentische KI?"
+        a: "KI-Systeme, die selbststaendig komplexe Workflows ausfuehren koennen -- ein Trend, den das Reuters Institute fuer 2026 prognostiziert"
+        rel:
+          - ["Agentische KI", "Agentic AI", "End-to-End-Automatisierung durch KI"]
+
+      - q: "Wie viel Prozent der Nachrichtenorganisationen halten Backend-Automatisierung fuer wichtig?"
+        a: "97% laut Reuters Institute"
+        rel:
+          - ["Backend-Automatisierung", "Automatisierung hinter den Kulissen der Redaktion"]
+
+  - title: "Vorreiter und Beispiele"
+    explanation: |
+      Fuehrende Nachrichtenorganisationen zeigen, wie KI sinnvoll eingesetzt werden kann:
+
+      - **Associated Press (AP)**: Seit 2014 Pionier der automatisierten Berichterstattung mit Wordsmith
+      - **BBC**: KI fuer automatische Live-Text-Updates im Sport
+      - **New York Times**: Nutzt KI nie zum Schreiben von Artikeln, aber zur Analyse grosser Datenmengen
+      - **dpa**: Eigenes KI-Team seit 2025, News Hub mit KI-Rechercheassistent
+      - **RADAR (UK)**: Produziert ca. 8.000 lokalisierte Geschichten aus oeffentlichen Daten
+
+      In Deutschland experimentieren Spiegel, FAZ und Zeit in einem Google-Pilotprogramm
+      mit KI-gestuetzter Reichweitenoptimierung.
+    examples:
+      - q: "Welche Nachrichtenagentur war Vorreiter bei automatisierten Texten?"
+        a: "Die Associated Press (AP) -- sie nutzt seit 2014 automatisierte Quartalsbericht-Texte mit Wordsmith"
+        rel:
+          - ["Associated Press", "AP", "Pionier der automatisierten Berichterstattung"]
+          - ["Wordsmith", "Software fuer automatisierte Texterstellung"]
+
+      - q: "Wie nutzt die New York Times KI?"
+        a: "Nie zum Schreiben von Artikeln, aber zur Analyse grosser Datenmengen -- z.B. stundenlanger Interviews und hunderter Zoom-Calls fuer Investigativ-Recherchen"
+        rel:
+          - ["New York Times", "NYT", "KI als Analyse-Werkzeug, nicht als Autor"]
+
+      - q: "Was ist der dpa-News Hub?"
+        a: "Ein KI-Rechercheassistent, der ausschliesslich auf verifizierte dpa-Informationen zugreift und Zusammenfassungen mit Quellenangaben liefert"
+        rel:
+          - ["dpa-News Hub", "KI-Rechercheassistent der Deutschen Presse-Agentur"]
+
+      - q: "Was ist RADAR und wie funktioniert es?"
+        a: "Eine automatisierte Nachrichtenagentur von PA Media (UK), die ca. 8.000 lokalisierte Geschichten aus oeffentlichen Daten produziert -- Menschen schreiben die Saetze, Software lokalisiert"
+        rel:
+          - ["RADAR", "Reporters and Data and Robots", "Automatisierte Lokalnachrichten"]

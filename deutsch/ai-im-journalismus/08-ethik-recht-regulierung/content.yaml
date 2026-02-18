@@ -1,0 +1,111 @@
+version: 1
+number: 8
+title: "Ethik, Recht und Regulierung"
+description: "Rechtlicher Rahmen und ethische Leitlinien fuer KI im Journalismus"
+sections:
+  - title: "Der EU AI Act"
+    explanation: |
+      Die KI-Verordnung der EU (Regulation 2024/1689) trat am 1. August 2024 in Kraft --
+      das weltweit erste umfassende KI-Gesetz.
+
+      **Relevante Bestimmungen:**
+      - Medien sind **nicht** als Hochrisiko-Bereich eingestuft
+      - **Artikel 50**: KI-generierte Inhalte muessen in maschinenlesbarem Format gekennzeichnet werden
+      - Deepfakes und KI-generierte Texte zu oeffentlichem Interesse muessen klar gekennzeichnet werden
+      - Unternehmen muessen offenlegen, welche Inhalte fuer das Training verwendet wurden
+
+      **Zeitplan:** Die Transparenzpflichten werden am **2. August 2026** anwendbar.
+
+      Kritik: Reporter ohne Grenzen (RSF) warnt, dass das Geschaeftsmodell unabhaengiger
+      Medien durch Urheberrechtsverletzungen weiter gefaehrdet wird.
+    examples:
+      - q: "Was ist der EU AI Act?"
+        a: "Die KI-Verordnung der EU (in Kraft seit August 2024) -- das weltweit erste umfassende KI-Gesetz mit Transparenz- und Kennzeichnungspflichten"
+        rel:
+          - ["EU AI Act", "Europaeische KI-Verordnung, Regulation 2024/1689"]
+
+      - q: "Muessen KI-generierte journalistische Texte nach dem EU AI Act gekennzeichnet werden?"
+        a: "Ja -- ab August 2026 muessen KI-generierte Texte zu Themen von oeffentlichem Interesse offengelegt werden (Artikel 50)"
+        rel:
+          - ["Artikel 50", "Kennzeichnungspflicht fuer KI-generierte Inhalte"]
+
+      - q: "Ist Journalismus als Hochrisiko-Bereich eingestuft?"
+        a: "Nein -- Medien sind derzeit nicht als Hochrisiko-Bereich klassifiziert, die strengsten Regulierungen gelten daher nicht direkt"
+        rel:
+          - ["Risikoklassifikation", "Medien sind kein Hochrisiko-Bereich im AI Act"]
+
+      - q: "Was kritisiert Reporter ohne Grenzen (RSF) am EU AI Act?"
+        a: "RSF warnt, dass das ohnehin fragile Geschaeftsmodell unabhaengiger Medien durch Urheberrechtsverletzungen und den Einsatz generativer KI weiter gefaehrdet wird"
+        rel:
+          - ["RSF-Kritik", "Gefaehrdung unabhaengiger Medien durch KI"]
+
+  - title: "Deutscher Pressekodex und Regulierung"
+    explanation: |
+      In Deutschland gibt es mehrere regulatorische Ebenen:
+
+      **Deutscher Presserat (seit Maerz 2025):**
+      - Praeambel-Ergaenzung: Redaktionen tragen presseethische Verantwortung auch fuer KI-generierte Inhalte
+      - **Keine** Kennzeichnungspflicht fuer KI-Texte
+      - **Kennzeichnungspflicht fuer KI-Bilder** als Symbolbilder
+      - Der gesamte Pressekodex gilt unveraendert auch fuer KI-Inhalte
+
+      **Landesmedienanstalten:**
+      - Positionspapier "KI und Medien -- Vielfalt staerken, Verantwortung regeln, Vertrauen wahren"
+      - Zustaendig fuer Aufsicht ueber KI in Rundfunk und Telemedien
+      - **90% der Befragten** fordern verbindliche Kennzeichnungspflichten
+
+      **Digitale Medien-Staatsvertrag (Entwurf Juni 2025):**
+      - Setzt Vorgaben aus vier EU-Regelwerken um
+    examples:
+      - q: "Muessen KI-generierte Texte nach dem Pressekodex gekennzeichnet werden?"
+        a: "Nein -- der Deutsche Presserat haelt eine zusaetzliche Kennzeichnungspflicht fuer KI-Texte derzeit nicht fuer erforderlich, aber KI-generierte Bilder muessen als Symbolbilder gekennzeichnet werden"
+        rel:
+          - ["Pressekodex-KI", "Keine Textpflicht, aber Bildkennzeichnung"]
+
+      - q: "Was besagt die Praeambel-Ergaenzung des Pressekodex?"
+        a: "Redaktionen tragen die presseethische Verantwortung fuer alle Beitraege -- unabhaengig von der Art der Erstellung, einschliesslich KI-generierter Inhalte"
+        rel:
+          - ["Presseethische Verantwortung", "Gilt auch fuer KI-generierte Inhalte"]
+
+      - q: "Wer ist in Deutschland fuer die KI-Aufsicht in Medien zustaendig?"
+        a: "Die Landesmedienanstalten -- sie sind zustaendig fuer die Aufsicht ueber KI-Anwendungen in Rundfunk und Telemedien, nicht die Bundesnetzagentur"
+        rel:
+          - ["Landesmedienanstalten", "Aufsicht ueber KI in Medien"]
+
+      - q: "Wie viel Prozent der Deutschen fordern eine Kennzeichnungspflicht fuer KI-Inhalte?"
+        a: "90% der Befragten fordern verbindliche Kennzeichnungspflichten laut einer Studie der Landesmedienanstalten"
+        rel:
+          - ["Oeffentliche Erwartung", "90% fordern KI-Kennzeichnungspflicht"]
+
+  - title: "Urheberrecht und Klagen"
+    explanation: |
+      Die Urheberrechtslage bei KI ist stark im Fluss:
+
+      - Die Zahl der Klagen hat sich 2025 von 30 auf **ueber 70** mehr als verdoppelt
+      - **NYT vs. OpenAI**: Die NYT klagt wegen Training mit NYT-Artikeln (Fair-Use-Streit, laeuft weiter)
+      - **NYT vs. Perplexity**: Klage wegen gestohlenem Journalismus nach gescheiterten Lizenzverhandlungen
+      - **Advance vs. Cohere**: Erste Entscheidung, die Output-Kopie-Klagen bei Nachrichtenzusammenfassungen zulaesst
+      - **Perplexity Revenue-Sharing**: Als Reaktion auf Plagiatsvorwuerfe teilt Perplexity nun Einnahmen mit Verlagen (u.a. Spiegel)
+
+      Rein KI-generierte Werke geniessen in den meisten Laendern **keinen Urheberrechtsschutz**.
+    examples:
+      - q: "Was ist der zentrale Streitpunkt bei NYT vs. OpenAI?"
+        a: "Ob das Training von KI-Modellen mit NYT-Artikeln Fair Use ist (OpenAIs Argument) oder systematischer Diebstahl (NYTs Position) -- der Fall laeuft weiter"
+        rel:
+          - ["NYT vs. OpenAI", "Zentrale Urheberrechtsklage im KI-Bereich"]
+          - ["Fair Use", "US-amerikanische Ausnahme vom Urheberrecht"]
+
+      - q: "Haben KI-generierte Texte Urheberrechtsschutz?"
+        a: "Nein -- nach aktuellem Stand geniessen rein KI-generierte Werke in den meisten Laendern keinen Urheberrechtsschutz"
+        rel:
+          - ["KI-Urheberrecht", "Rein KI-generierte Werke sind nicht geschuetzt"]
+
+      - q: "Was ist das Perplexity Revenue-Sharing-Modell?"
+        a: "Als Reaktion auf Plagiatsvorwuerfe teilt Perplexity nun Einnahmen mit Verlagen -- u.a. nehmen Der Spiegel, Fortune, Time und The Texas Tribune teil"
+        rel:
+          - ["Revenue-Sharing", "Einnahmenteilung zwischen KI-Anbieter und Verlagen"]
+
+      - q: "Wie hat sich die Zahl der Urheberrechtsklagen gegen KI-Unternehmen entwickelt?"
+        a: "Sie hat sich 2025 mehr als verdoppelt: von rund 30 Ende 2024 auf ueber 70"
+        rel:
+          - ["Klagewelle", "Mehr als Verdopplung der KI-Urheberrechtsklagen 2025"]
