@@ -18,25 +18,25 @@ sections:
       Rund **90% der untersuchten Richtlinien** (aus einer Analyse von 45 Nachrichtenorganisationen)
       schreiben vor, dass KI-Einsatz in einer Story offengelegt werden muss.
     examples:
-      - q: "Was bedeutet Human-in-the-Loop im Journalismus?"
-        a: "Dass jeder KI-generierte Inhalt vor Veroeffentlichung von menschlichen Redakteur:innen geprueft und freigegeben wird -- der Mensch hat immer das letzte Wort"
+      - q: "Die AP verbietet KI fuer publishable Content, die BBC erlaubt KI mit Aufsicht, Reuters sagt 'a story is a story'. Welcher Ansatz ist der richtige?"
+        a: "Alle drei sind konsistent mit Human-in-the-Loop, aber auf verschiedenen Stufen. Die AP setzt die strengste Grenze: KI nur intern. Die BBC erlaubt KI-Output mit redaktioneller Begruendung und Aufsicht. Reuters fokussiert auf das Ergebnis: Egal wie ein Artikel entsteht, er muss Reuters-Standards entsprechen. Fuer eine Redaktion haengt die Wahl vom Risikoprofil ab -- eine Nachrichtenagentur traegt mehr Verantwortung als ein Nischenmagazin"
         rel:
-          - ["Human-in-the-Loop", "Menschliche Pruefung jedes KI-Outputs"]
+          - ["Human-in-the-Loop-Varianten", "Verschiedene Umsetzungen desselben Prinzips"]
 
-      - q: "Wie viel Prozent der Redaktionsrichtlinien fordern Offenlegung des KI-Einsatzes?"
-        a: "Rund 90% -- basierend auf einer Analyse der Richtlinien von 45 Nachrichtenorganisationen"
+      - q: "90% der Richtlinien fordern Offenlegung des KI-Einsatzes. Aber wie offenlegt man sinnvoll, ohne den Leser mit technischen Details zu verwirren?"
+        a: "Die CBC verfolgt das Prinzip 'keine Ueberraschungen': Der Leser soll nachvollziehen koennen, wie ein Beitrag entstanden ist, ohne jedes Tool benannt zu bekommen. Beispiel: 'Fuer diesen Artikel wurde KI zur Analyse von 500 Kommunaldokumenten eingesetzt. Alle Fakten wurden redaktionell geprueft.' Das ist informativ, aber nicht technisch. Der Guardian und die BBC nutzen aehnlich knappe Hinweise"
         rel:
-          - ["KI-Offenlegung", "90% der Richtlinien fordern Transparenz"]
+          - ["Transparenz in der Praxis", "Leserverstaendliche Offenlegung des KI-Einsatzes"]
 
-      - q: "Wie behandelt man KI-Output im redaktionellen Alltag?"
-        a: "Wie Agenturmaterial -- als Rohmaterial, das menschliche Bearbeitung, Faktencheck und redaktionelle Pruefung erfordert"
+      - q: "Ein Nachrichtenportal veroeffentlicht taeglich 200 Artikel. Wie realistisch ist Human-in-the-Loop bei diesem Volumen?"
+        a: "Es kommt auf die Differenzierung an: Nicht jeder Artikel braucht gleich intensive Pruefung. Datenbasierte Kurzmeldungen (Wetter, Boerse) brauchen stichprobenartige Kontrolle. Nachrichtenartikel mit KI-Unterstuetzung brauchen volle redaktionelle Pruefung. Meinungsstuecke und investigative Berichte sollten nie KI-generiert sein. Das RADAR-Modell zeigt: 8.000 Artikel funktionieren, weil Templates menschlich erstellt und nur Daten maschinell eingefuegt werden"
         rel:
-          - ["KI-Output als Rohmaterial", "Behandlung wie Agenturmeldungen"]
+          - ["Skaliertes Human-in-the-Loop", "Differenzierte Prueftiefe nach Artikeltyp"]
 
-      - q: "Welches Prinzip verfolgt die AP beim KI-Einsatz?"
-        a: "KI darf nicht zur Erstellung publizierbarer Inhalte und Bilder fuer den Nachrichtendienst verwendet werden -- nur fuer interne Unterstuetzung"
+      - q: "Was passiert, wenn ein Redakteur KI-Output freigegeben hat und spaeter ein Fehler entdeckt wird? Wer traegt die Verantwortung?"
+        a: "Der Redakteur -- und die Redaktion. Die Praeambel-Ergaenzung des deutschen Pressekodex stellt klar: Redaktionen tragen die presseethische Verantwortung fuer alle Beitraege, unabhaengig von der Art der Erstellung. Das ist der Kern von Human-in-the-Loop: Nicht die KI ist verantwortlich, sondern der Mensch, der den Output freigegeben hat. Genau deshalb ist die Pruefung keine Formalitaet, sondern eine echte Verantwortungsuebernahme"
         rel:
-          - ["AP-Grundsatz", "Kein KI-generierter Content im Nachrichtendienst"]
+          - ["Redaktionelle Verantwortung", "Der Mensch traegt die Verantwortung, nicht die KI"]
 
   - title: "Qualitaetssicherungs-Checkliste"
     explanation: |
@@ -51,25 +51,25 @@ sections:
 
       Qualitaetssicherung wird mit KI nicht weniger wichtig, sondern **wichtiger**.
     examples:
-      - q: "Was ist der wichtigste Schritt bei der Qualitaetssicherung von KI-Inhalten?"
-        a: "Der Faktencheck -- alle KI-generierten Aussagen muessen gegen Originalquellen geprueft werden, da KI Halluzinationen produzieren kann"
+      - q: "Ein KI-generierter Artikel nennt eine Studie der 'Universitaet Heidelberg zu Luftverschmutzung 2024'. Wie prueft man, ob diese Studie existiert?"
+        a: "Erstens: Direkt auf der Website der Universitaet Heidelberg suchen. Zweitens: In Fachdatenbanken (PubMed, Google Scholar) nach Titel und Autoren suchen. Drittens: Die Pressestelle der Universitaet kontaktieren. KI erfindet regelmaessig Studien mit plausiblen Titeln, Autorennamen und sogar DOI-Nummern. Eine Quelle, die sich nicht in 5 Minuten verifizieren laesst, sollte nicht verwendet werden"
         rel:
-          - ["Faktencheck", "Pruefung aller KI-Aussagen gegen Originalquellen"]
+          - ["Quellenverifikation", "Konkrete Schritte zur Pruefung KI-generierter Quellen"]
 
-      - q: "Warum ist Quellenverifikation bei KI-Texten besonders wichtig?"
-        a: "Weil KI haeufig nicht existierende Quellen erfindet oder Quellen falsch zitiert -- jede genannte Quelle muss auf Existenz und korrekte Wiedergabe geprueft werden"
+      - q: "Wie erkennt man Bias in einem KI-generierten Artikel ueber Migration, der auf den ersten Blick neutral wirkt?"
+        a: "Drei Checks: Erstens, welche Perspektiven kommen vor? Wenn nur Behoerden und Statistiken zitiert werden, fehlen Betroffenenstimmen. Zweitens, welche Wortwahl wird verwendet? 'Migrationsstrom' ist anders konnotiert als 'Zuwanderung'. Drittens, denselben Prompt an ein anderes KI-Modell geben und Unterschiede analysieren. KI-Bias ist oft unsichtbar, weil er die gesellschaftlichen Verzerrungen der Trainingsdaten spiegelt"
         rel:
-          - ["Quellenverifikation", "Pruefung ob genannte Quellen real und korrekt sind"]
+          - ["Bias in der Praxis", "Konkrete Pruefmethoden fuer unsichtbare Verzerrungen"]
 
-      - q: "Was bedeutet Versionierung im Kontext von KI-gestuetztem Journalismus?"
-        a: "Die Dokumentation, welche Prompts und KI-Tools verwendet wurden -- das ermoeglicht Nachvollziehbarkeit und spaetere Audits"
+      - q: "Warum ist Versionierung (Dokumentation der Prompts) wichtig, wenn der Artikel ohnehin redaktionell geprueft wird?"
+        a: "Drei Gruende: Erstens, wenn spaeter ein Fehler entdeckt wird, kann die Ursache identifiziert werden -- lag es am Prompt, am Modell oder an der Pruefung? Zweitens, erfolgreiche Prompts koennen wiederverwendet und im Team geteilt werden. Drittens, bei externen Beschwerden kann die Redaktion nachweisen, wie der Inhalt entstanden ist. Die NYT dokumentiert KI-Nutzung systematisch -- das schuetzt im Ernstfall"
         rel:
-          - ["Versionierung", "Dokumentation der verwendeten Prompts und Tools"]
+          - ["Prompt-Dokumentation", "Nachvollziehbarkeit als Schutz und Lerngrundlage"]
 
-      - q: "Warum wird Qualitaetssicherung mit KI wichtiger, nicht weniger?"
-        a: "Weil KI neue Fehlerquellen einfuehrt (Halluzinationen, Bias, Plagiate), die mit klassischen Pruefmethoden nicht abgedeckt werden"
+      - q: "Ein Artikel ist KI-gestuetzt entstanden, aber der Redakteur hat ihn so stark bearbeitet, dass kaum noch Originaltext uebrig ist. Muss der KI-Einsatz trotzdem gekennzeichnet werden?"
+        a: "Laut der Mehrheit der Richtlinien: ja. 90% der analysierten Richtlinien fordern Offenlegung des KI-Einsatzes in einer Story, unabhaengig vom Umfang der Bearbeitung. Der EU AI Act fordert ab 2026 ebenfalls Transparenz. Die Frage ist nicht, wie viel KI-Text uebrig ist, sondern ob KI im Entstehungsprozess eingesetzt wurde. Transparenz schuetzt das Vertrauen der Leser"
         rel:
-          - ["Erweiterte QA", "Neue Fehlerquellen erfordern neue Pruefschritte"]
+          - ["Kennzeichnungspflicht", "Transparenz unabhaengig vom Bearbeitungsumfang"]
 
   - title: "KI-Audits in Redaktionen"
     explanation: |
@@ -87,22 +87,22 @@ sections:
       Ziel ist **nachvollziehbare Qualitaet** -- unabhaengig davon, ob Inhalte von
       Menschen oder mit KI erstellt wurden.
     examples:
-      - q: "Wie viel Prozent der Redaktionen arbeiten an KI-Nutzungsrichtlinien?"
-        a: "Etwa 50% -- davon haben nur vier oeffentliche, drei interne Richtlinien und sechs weitere sind im Entwurfsstadium (Umfrage unter 28 Redaktionen)"
+      - q: "Ein KI-Audit ergibt, dass 40% der KI-generierten Zusammenfassungen nachkorrigiert werden muessen. Ist das ein akzeptabler Wert?"
+        a: "Das haengt vom Vergleichswert ab: Wie hoch ist die Korrekturrate bei menschlich erstellten Zusammenfassungen? Wenn dort nur 10% korrigiert werden, ist 40% klar zu hoch. Wenn der Wert bei 35% liegt, bringt KI kaum Qualitaetsgewinn. Entscheidend ist: Die Fehlerrate muss gemessen, dokumentiert und regelmaessig ueberprueft werden. Erst dann kann man bewerten, ob KI fuer diese Aufgabe sinnvoll ist"
         rel:
-          - ["KI-Richtlinien-Status", "Nur 50% arbeiten an formalen Richtlinien"]
+          - ["Fehlerrate messen", "Quantitative Qualitaetsbewertung von KI-Output"]
 
-      - q: "Was gehoert zu einem KI-Audit in einer Redaktion?"
-        a: "Tool-Inventar, Datenfluss-Analyse, Output-Qualitaet, Compliance-Pruefung, Transparenz-Check, Datenschutz-Bewertung und Kosteneffizienz"
+      - q: "Bei einem Datenfluss-Audit stellt sich heraus, dass drei Reporter vertrauliche Interviewnotizen in ChatGPT hochgeladen haben. Was nun?"
+        a: "Sofortmassnahme: Pruefen, ob identifizierbare Quellen betroffen sind, und wenn ja, die Quellen informieren. Mittelfristig: Klare Richtlinien aufstellen (oder bestehende durchsetzen), sichere Alternativen bereitstellen und Schulungen durchfuehren. Nicht bestrafen, sondern das Problem systemisch loesen -- fehlende Richtlinien und mangelnde Schulung sind ein Organisationsversagen, kein individuelles"
         rel:
-          - ["KI-Audit", "Systematische Pruefung des KI-Einsatzes in Redaktionen"]
+          - ["Datenschutz-Audit", "Reaktion auf Richtlinienverletzungen im KI-Einsatz"]
 
-      - q: "Wer sollte an der Entwicklung von KI-Richtlinien beteiligt sein?"
-        a: "Redaktionelle Teams, juristische Abteilung und Audience-Teams -- KI-Einsatz ist eine redaktionelle, nicht rein technische Angelegenheit"
+      - q: "Warum sollten an der Entwicklung von KI-Richtlinien nicht nur IT und Redaktion, sondern auch Audience-Teams beteiligt sein?"
+        a: "Weil Audience-Teams die Perspektive der Leser einbringen: Was erwarten die Nutzer an Transparenz? Wie reagieren sie auf KI-Kennzeichnungen? Lehnen sie KI-generierte Inhalte ab? Die Studie der Landesmedienanstalten zeigt, dass 90% der Befragten Kennzeichnung fordern -- dieses Signal muss in die Richtlinien einfliessen. Richtlinien, die nur intern gedacht werden, riskieren am Leser vorbei zu regulieren"
         rel:
-          - ["Richtlinien-Entwicklung", "Interdisziplinaere Zusammenarbeit"]
+          - ["Audience-Perspektive", "Lesererwartungen in KI-Richtlinien einbeziehen"]
 
-      - q: "Was ist das Ziel von KI-Audits?"
-        a: "Nachvollziehbare Qualitaet -- unabhaengig davon, ob Inhalte von Menschen oder mit KI erstellt wurden"
+      - q: "Eine kleine Redaktion hat keine Ressourcen fuer ein formales KI-Audit. Was ist das absolute Minimum?"
+        a: "Drei Fragen monatlich beantworten: 1) Welche KI-Tools nutzen wir und fuer was? (Tool-Inventar als Liste). 2) Wurden sensible Daten in Cloud-KI-Tools eingegeben? (Schneller Datenschutz-Check). 3) Wie oft mussten KI-Ergebnisse korrigiert werden? (Fehlerrate schaetzen). Das dauert 30 Minuten und gibt einen Grundueberblick. Die AP, SPJ und Partnership on AI bieten kostenlose Orientierungshilfen fuer Richtlinien"
         rel:
-          - ["Nachvollziehbare Qualitaet", "Ziel der Qualitaetskontrolle"]
+          - ["Minimal-Audit", "Drei Kernfragen fuer Redaktionen mit begrenzten Ressourcen"]

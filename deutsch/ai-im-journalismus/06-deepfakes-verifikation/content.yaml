@@ -16,25 +16,25 @@ sections:
       Fuer Journalist:innen bedeutet das: Jedes Bild, Video oder Audio muss potenziell
       verifiziert werden, bevor es veroeffentlicht wird.
     examples:
-      - q: "Was ist ein Deepfake?"
-        a: "Ein mit KI erzeugtes oder manipuliertes Medium (Bild, Video, Audio), das taueschend echt wirkt und zur Desinformation genutzt werden kann"
+      - q: "Ein Video zeigt angeblich einen Politiker bei einer kompromittierenden Aussage. Wie geht ein Journalist damit um, bevor er es veroeffentlicht?"
+        a: "Erstens: Nicht unter Zeitdruck veroeffentlichen. Zweitens: Wurde das Video auch von anderen Quellen aufgenommen? Gibt es eine unabhaengige Aufnahme? Drittens: Metadaten pruefen (Aufnahmedatum, Geraet, GPS). Viertens: Deepfake-Scanner wie InVID/WeVerify oder Deepware Scanner nutzen. Fuenftens: Auf visuelle Artefakte pruefen (Lippensynchronisation, Augenbewegungen). Bei Zweifeln forensische Expert:innen einbeziehen"
         rel:
-          - ["Deepfake", "KI-generiertes oder manipuliertes Medium"]
+          - ["Verifikationspflicht", "Schrittweises Vorgehen bei verdaechtigen Medien"]
 
-      - q: "Wie viele Deepfake-Videos wurden 2023 in sozialen Medien geteilt?"
-        a: "Rund 500.000 -- mit Prognosen von bis zu 8 Millionen bis 2025"
+      - q: "Operation Overload imitierte 2025 ueber 80 Organisationen. Wie konnten professionelle Nachrichtenredaktionen darauf hereinfallen?"
+        a: "Die Kampagne nutzte KI-generierte Stimmen und manipulierte Logos, die auf den ersten Blick authentisch wirkten. Der Trick: Die Desinformation wurde in grosser Menge verbreitet, um Redaktionen zu ueberlasten ('Overload'). Wenn dutzende scheinbar verschiedene Quellen dieselbe Behauptung verbreiten, steigt die Versuchung, sie fuer glaubwuerdig zu halten -- klassisches Social Engineering gegen journalistische Workflows"
         rel:
-          - ["Deepfake-Verbreitung", "Rasant wachsende Zahl manipulierter Medien"]
+          - ["Desinformationskampagnen", "Ueberflutungstaktik gegen Redaktionsworkflows"]
 
-      - q: "Was war die Operation Overload?"
-        a: "Eine russisch-ausgerichtete Desinformationskampagne 2025, die ueber 80 Organisationen mittels manipulierter Logos und KI-generierter Stimmen imitierte"
+      - q: "Deepfake-Technologie wird zunehmend fuer geschlechtsspezifische Gewalt eingesetzt. Was bedeutet das fuer den Journalismus?"
+        a: "Zwei Dimensionen: Erstens, Journalistinnen werden selbst Ziel von Deepfake-Attacken, was ihre Arbeit und demokratische Teilhabe gefaehrdet. Zweitens, Redaktionen muessen bei der Berichterstattung ueber Deepfake-Missbrauch besonders sensibel vorgehen und duerfen das Material nicht weiterverbreiten. Die rasante Zunahme von 500.000 auf prognostizierte 8 Millionen Deepfakes zeigt die Dringlichkeit"
         rel:
-          - ["Operation Overload", "Staatliche Desinformation mit KI-Manipulation"]
+          - ["Deepfakes und Gewalt", "Missbrauch der Technologie gegen Journalistinnen und Frauen"]
 
-      - q: "Warum sind Deepfakes eine besondere Gefahr fuer den Journalismus?"
-        a: "Sie koennen zur Verbreitung von Desinformation genutzt werden und untergraben das Vertrauen in authentische Medien -- jedes Medium muss potenziell verifiziert werden"
+      - q: "Ein Leser schickt ein Smartphone-Video eines Unfalls. Es ist kein Deepfake, aber moeglicherweise aus einem anderen Kontext. Wie prueft man das?"
+        a: "Kontextmanipulation ist haeufiger als Deepfakes. Reverse Image Search (Google, TinEye, Yandex) zeigt, ob das Bild schon frueher im Netz auftauchte. Geoverifikation prueft den Aufnahmeort anhand visueller Hinweise (Strassenschilder, Gebaeude, Vegetation). EXIF-Daten zeigen Aufnahmedatum und -geraet. Oft sind es authentische Videos, die zeitlich oder oertlich falsch eingeordnet werden"
         rel:
-          - ["Desinformation", "Gezielte Verbreitung falscher Informationen mit KI"]
+          - ["Kontextmanipulation", "Authentische Medien in falschem Zusammenhang"]
 
   - title: "Erkennungsmethoden und Tools"
     explanation: |
@@ -51,25 +51,25 @@ sections:
       - Audio-Analyse: Stimmton-Variationen, unnatuerliche Muster
       - Cross-modale Konsistenzpruefung: Abgleich zwischen Audio und Video
     examples:
-      - q: "Welches Tool eignet sich besonders fuer Journalist:innen zur Video-Verifikation?"
-        a: "InVID/WeVerify -- es bietet Video-Verifikation und Metadatenanalyse und wurde speziell fuer Journalist:innen und Faktenpruefer:innen entwickelt"
+      - q: "InVID/WeVerify wurde speziell fuer Journalist:innen entwickelt. Was kann es, was eine normale Google-Bildersuche nicht kann?"
+        a: "InVID zerlegt Videos in Einzelframes und prueft jeden separat auf Manipulationen, analysiert Metadaten und bietet Reverse-Suche fuer Videoausschnitte. Eine Google-Bildersuche findet nur identische oder aehnliche Bilder. InVID erkennt auch, ob ein Video geschnitten, zeitlich veraendert oder aus dem Kontext gerissen wurde -- das ist bei User Generated Content aus Krisengebieten entscheidend"
         rel:
-          - ["InVID/WeVerify", "Video-Verifikationstool fuer Journalist:innen"]
+          - ["InVID/WeVerify", "Spezialisierte Video-Verifikation fuer Journalismus"]
 
-      - q: "Was ist C2PA / Content Credentials?"
-        a: "Ein Provenienz-Standard, der die Herkunft digitaler Medien nachvollziehbar macht -- er dokumentiert, ob und wie ein Medium bearbeitet oder KI-generiert wurde"
+      - q: "Content Credentials (C2PA) sollen die Herkunft digitaler Medien nachvollziehbar machen. Warum ist das besser als Wasserzeichen?"
+        a: "Wasserzeichen koennen entfernt oder manipuliert werden. C2PA ist ein kryptografischer Provenienz-Standard: Er dokumentiert lueckenlos, wer ein Medium erstellt hat, ob und wie es bearbeitet wurde und ob KI beteiligt war. Wenn ein Foto C2PA-Credentials hat, kann man die gesamte Bearbeitungskette nachvollziehen. Das Problem: Noch nutzen zu wenige Plattformen und Kameras den Standard"
         rel:
-          - ["C2PA", "Content Credentials", "Provenienz-Standard fuer digitale Medien"]
+          - ["C2PA", "Kryptografische Herkunftsnachweise statt entfernbarer Wasserzeichen"]
 
-      - q: "Woran kann man KI-generierte Bilder visuell erkennen?"
-        a: "An Artefakten wie unnatuerlichen Haenden, verzerrtem Text, inkonsistenten Schatten, Lippensynchronisations-Fehlern oder zu perfekter Haut"
+      - q: "Eine Studie zeigte, dass Journalist:innen sich manchmal zu stark auf Deepfake-Erkennungstools verlassen. Wann wird das gefaehrlich?"
+        a: "Wenn das Tool die eigene Vermutung bestaetigt -- klassischer Confirmation Bias. Beispiel: Ein Journalist vermutet, ein Video sei echt, und das Tool zeigt 'wahrscheinlich authentisch'. Er veroeffentlicht, ohne weiter zu pruefen. Aber kein Erkennungstool ist 100% zuverlaessig. Die Tools sind Hilfsmittel im Verifikations-Workflow, nicht das Endergebnis. Im Zweifel gilt: Nicht veroeffentlichen"
         rel:
-          - ["Visuelle Forensik", "Erkennung von KI-Artefakten in Bildern"]
+          - ["Confirmation Bias", "Uebermaessiges Vertrauen in bestaetigende Toolergebnisse"]
 
-      - q: "Was ist eine Einschraenkung von Deepfake-Erkennungstools?"
-        a: "Journalist:innen verlassen sich manchmal zu stark auf die Tools -- eine Studie zeigte, dass Erkennungstools besonders dann ueberbewertet werden, wenn ihre Ergebnisse die eigene Vermutung bestaetigen"
+      - q: "Welche visuellen Merkmale verraten ein KI-generiertes Bild, die ein Laie uebersehen wuerde?"
+        a: "Haende mit falscher Fingerzahl oder unnatuerlichen Gelenken, verzerrter Text auf Schildern oder Kleidung, inkonsistente Schatten, zu perfekte Hautstruktur, verschwommene Ohren oder Zaehne, Asymmetrien im Hintergrund. Bei Videos: Lippensynchronisations-Fehler und unnatuerliche Augenbewegungen. Aber: Die Technologie verbessert sich rasant, visuelle Forensik allein wird langfristig nicht reichen"
         rel:
-          - ["Confirmation Bias", "Uebermaessiges Vertrauen in bestaetigende Tools"]
+          - ["Visuelle Forensik", "Erkennbare Artefakte in KI-generierten Bildern"]
 
   - title: "Verifikations-Workflow"
     explanation: |
@@ -85,23 +85,22 @@ sections:
       Klassische Methoden wie **Reverse Image Search** (Google, TinEye, Yandex) und
       **Geoverifikation** bleiben unverzichtbar, besonders bei User Generated Content.
     examples:
-      - q: "Was ist der erste Schritt im Verifikations-Workflow?"
-        a: "Ein automatisiertes Erstscreening mit Detektionstools wie dem Deepware Scanner -- das spart Zeit und identifiziert offensichtliche Manipulationen"
+      - q: "Waehrend einer Naturkatastrophe fluten Dutzende Videos die sozialen Medien. Wie priorisiert man die Verifikation unter Zeitdruck?"
+        a: "Erstscreening mit automatisierten Tools (Deepware Scanner, InVID) fuer alle Videos gleichzeitig -- das spart Zeit. Dann: Videos von verifizierten Accounts oder Nachrichtenagenturen priorisieren. Reverse Image Search fuer die auffaelligsten Aufnahmen. Geoverifikation fuer standortgebundene Behauptungen. Im Zweifel lieber ein Video weniger veroeffentlichen als ein falsches. Geschwindigkeit darf Verifikation nie ersetzen"
         rel:
-          - ["Erstscreening", "Erster automatisierter Check mit Detektionstools"]
+          - ["Krisenjournalismus", "Verifikation unter Zeitdruck bei Breaking News"]
 
-      - q: "Was ist Reverse Image Search?"
-        a: "Eine Suche, bei der man ein Bild hochlaedt und nach dem Originalkontext oder aehnlichen Bildern sucht -- z.B. ueber Google, TinEye oder Yandex"
+      - q: "Warum beginnt der Workflow mit automatisierten Tools und nicht mit manueller Inspektion?"
+        a: "Weil automatisierte Tools offensichtliche Manipulationen in Sekunden erkennen koennen, waehrend manuelle Inspektion pro Video Minuten dauert. Deepware Scanner liefert eine Ersteinschaetzung, die den weiteren Aufwand steuert: Bei 'wahrscheinlich manipuliert' folgt sofort intensive Analyse, bei 'wahrscheinlich authentisch' genuegen Metadaten- und Quellenpruefung. Das skaliert bei Dutzenden eingehenden Videos"
         rel:
-          - ["Reverse Image Search", "Rueckwaerts-Bildersuche zur Quellenverifikation"]
+          - ["Skalierbare Verifikation", "Automatisierte Vorselektion spart menschliche Ressourcen"]
 
-      - q: "Was ist Geoverifikation?"
-        a: "Die Bestimmung des Aufnahmeorts eines Bildes oder Videos anhand visueller Hinweise wie Strassenschilder, Gebaeude, Vegetation und Geodaten"
+      - q: "Was kann Geoverifikation leisten, was kein automatisiertes Tool schafft?"
+        a: "Geoverifikation prueft den realen Kontext: Stimmt der behauptete Aufnahmeort? Passen Strassenschilder, Vegetation, Gebaeude und Lichtverhaeltnisse zusammen? Ein authentisches Video aus einer anderen Stadt oder einem anderen Jahr zu verwenden ist eine haeufige Manipulationsform, die kein Deepfake-Scanner erkennt. Google Maps, Street View und lokale Medienarchive sind hier unverzichtbare Werkzeuge"
         rel:
-          - ["Geoverifikation", "Bestimmung des Aufnahmeorts"]
-          - ["OSINT", "Open Source Intelligence"]
+          - ["Geoverifikation", "Ortspruefung als Ergaenzung zu technischer Analyse"]
 
-      - q: "Warum ist die Verifikation von User Generated Content besonders wichtig?"
-        a: "Weil Bilder und Videos aus sozialen Medien oft ohne Kontext geteilt, zeitlich falsch eingeordnet oder absichtlich manipuliert werden"
+      - q: "Warum endet der Workflow mit einer redaktionellen Entscheidung und nicht mit dem Ergebnis der Tools?"
+        a: "Weil kein Tool eine 100%-Garantie geben kann. Die redaktionelle Entscheidung wuerdigt den Gesamtkontext: Wie vertrauenswuerdig ist die Quelle? Passt das Material zur bekannten Faktenlage? Welche Konsequenzen haette eine Falschmeldung? Bei einem Video, das Gewalt zeigt, koennte die Entscheidung auch lauten: Authentisch, aber aus ethischen Gruenden nicht veroeffentlichen. Tools liefern Daten, Menschen treffen Entscheidungen"
         rel:
-          - ["UGC-Verifikation", "Pruefung nutzer-generierter Inhalte"]
+          - ["Redaktionelle Entscheidung", "Menschliches Urteil als finaler Schritt"]

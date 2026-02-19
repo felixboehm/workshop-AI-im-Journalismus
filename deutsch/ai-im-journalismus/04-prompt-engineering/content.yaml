@@ -16,27 +16,25 @@ sections:
       - **Role Prompting**: Der KI eine Rolle zuweisen
       - **Prompt Chaining**: Mehrere Prompts verketten (Recherche -> Zusammenfassung -> Entwurf)
     examples:
-      - q: "Was ist ein Prompt?"
-        a: "Die textuelle Anweisung an ein KI-System, die beschreibt, was es tun soll -- je praeziser der Prompt, desto besser das Ergebnis"
+      - q: "Eine Redakteurin bittet die KI: 'Schreib was ueber die Hochwasserlage'. Das Ergebnis ist unbrauchbar. Warum?"
+        a: "Der Prompt ist ein klassischer Zero-Shot ohne Kontext. Besser waere: 'Du bist ein erfahrener Nachrichtenredakteur (Role Prompting). Erstelle einen 300-Woerter-Bericht ueber die aktuelle Hochwasserlage in Bayern fuer ein regionales Online-Portal. Fokus: betroffene Gebiete, Pegelstaende, Evakuierungen. Stil: sachlich-informativ. Verwende nur die folgenden Fakten: [Daten einfuegen]'"
         rel:
-          - ["Prompt", "Anweisung an ein KI-System"]
-          - ["Prompt Engineering", "Die Kunst, gute Prompts zu schreiben"]
+          - ["Prompt-Qualitaet", "Praezision bestimmt die Qualitaet des Outputs"]
 
-      - q: "Was ist der Unterschied zwischen Zero-Shot und Few-Shot Prompting?"
-        a: "Zero-Shot gibt die Aufgabe direkt ohne Beispiele. Few-Shot liefert Beispiele fuer den gewuenschten Stil oder das gewuenschte Format mit"
+      - q: "Ein Datenjournalist hat eine Tabelle mit 500 Zeilen Kriminalitaetsstatistiken. Welche Prompt-Technik hilft, Muster zu finden?"
+        a: "Chain-of-Thought Prompting: 'Analysiere diese Daten Schritt fuer Schritt. Schritt 1: Identifiziere die fuenf Kommunen mit dem staerksten Anstieg. Schritt 2: Vergleiche mit dem Landesdurchschnitt. Schritt 3: Pruefe, ob es Ausreisser gibt, die auf Erfassungsaenderungen hindeuten koennten. Schritt 4: Formuliere drei Hypothesen, die journalistisch untersucht werden sollten'"
         rel:
-          - ["Zero-Shot", "Direkte Aufgabe ohne Beispiele"]
-          - ["Few-Shot", "Aufgabe mit Beispielen fuer den gewuenschten Output"]
+          - ["Chain-of-Thought", "Schrittweise Analyse fuer komplexe Daten"]
 
-      - q: "Was ist Chain-of-Thought Prompting?"
-        a: "Eine Technik, bei der man die KI auffordert, schrittweise zu denken -- z.B. 'Analysiere diese Statistik Schritt fuer Schritt und pruefe auf Unstimmigkeiten'"
+      - q: "Eine Redaktion moechte, dass alle Teaser im gleichen Stil geschrieben werden. Wie hilft Few-Shot Prompting dabei?"
+        a: "Man gibt der KI drei Beispiel-Teaser, die den gewuenschten Stil repraesentieren, und bittet dann um einen neuen im gleichen Format: 'Hier sind drei Teaser unserer Redaktion: [Beispiele]. Schreibe einen Teaser im gleichen Stil fuer folgenden Artikel: [Text]'. Die Beispiele definieren Laenge, Tonalitaet und Struktur praeziser als jede Beschreibung"
         rel:
-          - ["Chain-of-Thought", "Schrittweises Durchdenken erzwingen"]
+          - ["Few-Shot Prompting", "Stilkonsistenz durch Beispiele statt Beschreibungen"]
 
-      - q: "Was bedeutet Prompt Chaining?"
-        a: "Die Verkettung mehrerer Prompts zu einem Workflow -- z.B. erst Recherche, dann Zusammenfassung, dann Faktencheck, dann Textentwurf"
+      - q: "Wann ist Prompt Chaining sinnvoller als ein einzelner langer Prompt?"
+        a: "Bei mehrstufigen Aufgaben, wo jeder Schritt auf dem vorherigen aufbaut. Beispiel Investigativ-Recherche: Prompt 1 'Identifiziere die Kernaussagen in diesem Dokument', Prompt 2 'Pruefe diese Aussagen auf Widersprueche', Prompt 3 'Erstelle eine Liste offener Fragen fuer das Interview'. Jeder Schritt kann einzeln geprueft werden, bevor man weitermacht"
         rel:
-          - ["Prompt Chaining", "Verkettung mehrerer Prompts zu einem Workflow"]
+          - ["Prompt Chaining", "Mehrstufige Aufgaben in kontrollierbare Einzelschritte zerlegen"]
 
   - title: "Best Practices fuer den Redaktionsalltag"
     explanation: |
@@ -55,25 +53,25 @@ sections:
       **Iterativ arbeiten:**
       Prompts testen, Ergebnisse bewerten, Input verfeinern, Templates erstellen.
     examples:
-      - q: "Was ist ein haeufiger Fehler beim Prompting?"
-        a: "Zu vage Anweisungen ohne Kontext, Zielgruppe oder Formatvorgaben -- z.B. 'Schreib einen Artikel ueber Klimawandel' statt einer praezisen Aufgabenbeschreibung"
+      - q: "Eine Volontaerin tippt in ChatGPT: 'Fass mir den Koalitionsvertrag zusammen'. Was sollte sie stattdessen schreiben?"
+        a: "Besser: 'Erstelle eine strukturierte Zusammenfassung des Koalitionsvertrags mit Fokus auf die Bereiche Bildung und Digitalisierung. Format: 5 Kernpunkte pro Bereich, jeweils mit konkreten Massnahmen und genannten Summen. Markiere Stellen, bei denen du dir unsicher bist. Verwende nur Informationen aus dem beigefuegten Dokument, keine externen Quellen'"
         rel:
-          - ["Vage Prompts", "Haeufigster Fehler -- zu wenig Kontext und Vorgaben"]
+          - ["Spezifische Prompts", "Kontext, Format und Einschraenkungen definieren"]
 
-      - q: "Warum sollte man im Prompt eine Rolle definieren?"
-        a: "Weil die KI dann Tonalitaet, Fachsprache und Perspektive entsprechend anpasst -- z.B. 'Du bist ein erfahrener Wirtschaftsjournalist'"
+      - q: "Warum sollte man im Prompt die Einschraenkung 'Erfinde keine Zitate' setzen, obwohl das selbstverstaendlich sein sollte?"
+        a: "Weil LLMs genau das tun -- sie generieren plausibel klingende Zitate, die nie gefallen sind. CNET musste ueber die Haelfte seiner KI-Artikel korrigieren, teilweise wegen frei erfundener Finanzerklaerungen. Die explizite Einschraenkung 'Verwende nur vorhandene Zitate' und 'Kennzeichne unsichere Stellen' reduziert Halluzinationen messbar"
         rel:
-          - ["Role Prompting", "Der KI eine Rolle zuweisen fuer bessere Ergebnisse"]
+          - ["Halluzinationsvermeidung", "Explizite Einschraenkungen gegen erfundene Inhalte"]
 
-      - q: "Was sollte ein guter journalistischer Prompt enthalten?"
-        a: "Rolle, Kontext, Aufgabe, Zielgruppe, Format, Laenge und Einschraenkungen -- z.B. 'Verwende nur die folgenden Fakten'"
+      - q: "Eine Redaktion testet KI fuer Ueberschriften. Der erste Prompt liefert generische Ergebnisse. Wie arbeitet man iterativ weiter?"
+        a: "Runde 1: 'Schreibe 5 Ueberschriften fuer diesen Artikel'. Runde 2: 'Die Ueberschriften sind zu lang und zu vage. Maximal 60 Zeichen, aktive Verben, keine Fragen'. Runde 3: 'Variante 3 ist gut, aber zu reisserisch fuer unser Nachrichtenportal. Sachlicher formulieren, aber die Spannung beibehalten'. Jede Iteration praezisiert, was funktioniert und was nicht"
         rel:
-          - ["Prompt-Struktur", "Rolle + Kontext + Aufgabe + Format + Einschraenkungen"]
+          - ["Iteratives Prompting", "Schrittweise Verfeinerung durch Feedback-Schleifen"]
 
-      - q: "Warum ist iteratives Arbeiten beim Prompting wichtig?"
-        a: "Weil selten der erste Prompt das perfekte Ergebnis liefert -- durch Testen, Bewerten und Verfeinern verbessert man schrittweise die Qualitaet"
+      - q: "Wie beeinflusst die Angabe einer Rolle den KI-Output in der Praxis?"
+        a: "Vergleich: 'Fasse diesen Bericht zusammen' liefert eine neutrale Zusammenfassung. 'Du bist ein erfahrener Wirtschaftsjournalist. Fasse diesen Bericht zusammen und markiere, welche Zahlen fuer die Leser einer Regionalzeitung besonders relevant sind' liefert eine journalistisch gewichtete Version mit Fokus auf lokale Relevanz. Die Rolle steuert Perspektive und Fachtiefe"
         rel:
-          - ["Iteratives Prompting", "Schrittweise Verfeinerung der Prompts"]
+          - ["Role Prompting", "Perspektive und Fachtiefe durch Rollenzuweisung steuern"]
 
   - title: "Journalismus-spezifische Prompt-Templates"
     explanation: |
@@ -93,22 +91,22 @@ sections:
       "Basierend auf dem folgenden Bericht, erstelle eine Zusammenfassung mit den
       5 wichtigsten Punkten. Kennzeichne Stellen, die einer Verifizierung beduerfen."
     examples:
-      - q: "Warum sind wiederverwendbare Prompt-Templates sinnvoll?"
-        a: "Sie sparen Zeit bei wiederkehrenden Aufgaben, sichern eine gleichbleibende Qualitaet und koennen im Team geteilt werden"
+      - q: "Ein Journalist bekommt ein 50-seitiges Gutachten zur Luftqualitaet. Wie wuerde er das Zusammenfassungs-Template anwenden?"
+        a: "Konkret: 'Fasse das folgende Gutachten zusammen. Identifiziere die 5 wichtigsten Ergebnisse mit Seitenangabe. Hebe Grenzwertueberschreitungen hervor. Nenne die betroffenen Stadtteile. Markiere Stellen, die einer unabhaengigen Verifizierung beduerfen. Verwende nur Informationen aus dem Dokument.' Die Seitenangabe ist entscheidend -- sie ermoeglicht die Rueckverfolgung zum Original"
         rel:
-          - ["Prompt-Templates", "Wiederverwendbare Vorlagen fuer KI-Anweisungen"]
+          - ["Zusammenfassungs-Template", "Strukturierte Dokumentenanalyse mit Quellenrueckverfolgung"]
 
-      - q: "Wie formuliert man einen guten Faktencheck-Prompt?"
-        a: "Behauptungen auflisten lassen, fuer jede bekannte Fakten dafuer/dagegen nennen, Quellen zur Verifizierung vorschlagen und eine Konfidenz-Einschaetzung geben"
+      - q: "Warum sollte eine Redaktion eine gemeinsame Prompt-Bibliothek aufbauen statt dass jeder eigene Prompts schreibt?"
+        a: "Drei Gruende: Erstens, getestete Templates reduzieren Halluzinationsrisiken -- einmal optimiert, profitieren alle. Zweitens, einheitliche Qualitaet, weil alle denselben Pruefstandard nutzen. Drittens, neue Kolleg:innen oder Volontaer:innen koennen sofort produktiv arbeiten, statt durch Trial-and-Error zu lernen. Die dpa standardisiert KI-Nutzung aehnlich ueber ihr 'Wegweiser KI'-Programm"
         rel:
-          - ["Faktencheck-Prompt", "Template fuer KI-gestuetzte Faktenprüfung"]
+          - ["Prompt-Bibliothek", "Standardisierung und Wissenstransfer im Team"]
 
-      - q: "Welche Einschraenkung sollte man bei Textentwuerfen immer setzen?"
-        a: "'Keine direkten Zitate erfinden, nur vorhandene verwenden' und 'Kennzeichne Stellen, die einer unabhaengigen Verifizierung beduerfen'"
+      - q: "Das Faktencheck-Template fragt nach einer 'Konfidenz-Einschaetzung'. Kann man der KI-Selbsteinschaetzung trauen?"
+        a: "Nein -- die Konfidenz-Einschaetzung der KI ist kein zuverlaessiger Indikator. Ihr Wert liegt woanders: Sie zwingt die KI, zu differenzieren zwischen gut belegten Fakten und unsicheren Aussagen. Das hilft dem Journalisten zu priorisieren, welche Behauptungen zuerst manuell geprueft werden muessen. Die finale Bewertung bleibt immer beim Menschen"
         rel:
-          - ["Einschraenkungen", "Grenzen setzen verhindert Halluzinationen"]
+          - ["KI-Selbsteinschaetzung", "Nuetzlich zur Priorisierung, nicht als Wahrheitsgarantie"]
 
-      - q: "Wie kann man KI-Prompts im Team standardisieren?"
-        a: "Durch eine gemeinsame Prompt-Bibliothek mit getesteten Templates fuer verschiedene Aufgaben wie Recherche, Zusammenfassung, Uebersetzung und Faktencheck"
+      - q: "Wie wuerde ein Recherche-Template fuer einen Artikel ueber steigende Mieten in einer deutschen Grossstadt aussehen?"
+        a: "'Erstelle einen Rechercheplan zum Thema steigende Mieten in [Stadt]. Identifiziere: (1) Die drei wichtigsten Fragen, die der Artikel beantworten sollte, (2) relevante Expert:innen (Mieterverein, IW Koeln, staedtisches Wohnungsamt), (3) oeffentliche Datenquellen (Mietspiegel, Bundesbank-Daten, Zensus), (4) Perspektiven, die nicht fehlen duerfen (Mieter, Vermieter, Stadtplanung, Sozialverbaende).' Das Template verhindert blinde Flecken"
         rel:
-          - ["Prompt-Bibliothek", "Gemeinsame Sammlung getesteter Prompt-Templates"]
+          - ["Recherche-Template", "Systematische Planung mit diversen Perspektiven"]

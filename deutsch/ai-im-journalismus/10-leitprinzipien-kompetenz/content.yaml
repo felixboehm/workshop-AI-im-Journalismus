@@ -15,25 +15,25 @@ sections:
       6. **Kompetenzaufbau statt Abhaengigkeit** -- Redaktionen sollten KI verstehen, nicht nur bedienen
       7. **Ethik ist ein Prozess** -- Klare Regeln und ueberpruefbare Standards sind entscheidend
     examples:
-      - q: "Was bedeutet das Prinzip 'KI ergaenzt Urteilskraft, ersetzt sie nicht'?"
-        a: "Maschinen liefern Text und Vorarbeit, aber die redaktionelle Verantwortung und das journalistische Urteil bleiben beim Menschen"
+      - q: "Eine Breaking-News-Situation: Ein Flugzeugunglueck wird gemeldet, erste KI-generierte Zusammenfassungen liegen vor. Welche Prinzipien kollidieren hier?"
+        a: "Prinzip 3 (Verifikation) und Prinzip 5 (Geschwindigkeit) stehen unter Druck. Die Versuchung ist gross, die KI-Zusammenfassung schnell zu veroeffentlichen. Aber: 'Schnell falsch ist schlechter als langsam richtig.' Im Zweifel lieber eine kuerzere, verifizierte Meldung als eine ausfuehrliche mit KI-Halluzinationen. CNET und Gannett zeigen, was passiert, wenn Geschwindigkeit vor Qualitaet geht"
         rel:
-          - ["Menschliche Urteilskraft", "KI ergaenzt, ersetzt nicht"]
+          - ["Prinzipienkollision", "Geschwindigkeit vs. Verifikation bei Breaking News"]
 
-      - q: "Was bedeutet 'Geschwindigkeit ist kein Selbstzweck'?"
-        a: "Schnell falsch ist schlechter als langsam richtig -- KI darf nicht dazu fuehren, dass Qualitaet und Sorgfalt zugunsten von Schnelligkeit geopfert werden"
+      - q: "Ein Chefredakteur besteht darauf, dass KI-Nutzung nicht gekennzeichnet wird, weil 'der Leser das nicht versteht'. Wie argumentiert man dagegen?"
+        a: "Mit drei Fakten: 90% der Befragten fordern Kennzeichnung (Landesmedienanstalten-Studie). Ab August 2026 wird der EU AI Act Transparenz verlangen. Und die BBC, der Guardian und die CBC praktizieren bereits freiwillige Offenlegung -- ihre Leser verstehen es. Prinzip 2 (Transparenz schafft Vertrauen) ist kein theoretisches Ideal, sondern wird von Lesern aktiv eingefordert"
         rel:
-          - ["Qualitaet vor Geschwindigkeit", "Schnell falsch ist schlechter als langsam richtig"]
+          - ["Transparenz vs. Paternalismus", "Leser fordern Kennzeichnung, nicht Vereinfachung"]
 
-      - q: "Was meint 'Kompetenzaufbau statt Abhaengigkeit'?"
-        a: "Redaktionen sollten KI verstehen, nicht nur bedienen -- Ziel ist souveraener Umgang statt blinder Abhaengigkeit von KI-Anbietern"
+      - q: "Prinzip 6 fordert 'Kompetenzaufbau statt Abhaengigkeit'. Wie sieht Abhaengigkeit in der Praxis aus?"
+        a: "Wenn eine Redaktion nur noch mit ChatGPT recherchiert, ohne zu verstehen, wie das Modell funktioniert, woher seine Daten stammen und wo seine Grenzen liegen. Wenn OpenAI die API-Preise verdoppelt oder den Dienst aendert, steht die Redaktion hilflos da. Kompetenzaufbau bedeutet: Mehrere Tools beherrschen, die Funktionsweise verstehen, Alternativen kennen und notfalls auch ohne KI arbeiten koennen"
         rel:
-          - ["KI-Souveraenitaet", "Verstehen statt nur Bedienen"]
+          - ["KI-Abhaengigkeit", "Verstehen statt blindem Einsatz von KI-Tools"]
 
-      - q: "Warum ist Ethik ein Prozess und kein Zustand?"
-        a: "Weil sich KI-Technologie schnell entwickelt und ethische Standards kontinuierlich ueberprueft, angepasst und weiterentwickelt werden muessen"
+      - q: "Prinzip 7 sagt 'Ethik ist ein Prozess'. Warum reicht es nicht, einmal Richtlinien zu schreiben?"
+        a: "Weil sich die Technologie rasant entwickelt: Die Halluzinationsraten sinken, neue Deepfake-Methoden entstehen, der EU AI Act tritt schrittweise in Kraft, neue Urheberrechtsklagen schaffen Praezedenzfaelle. Richtlinien von 2024 koennen 2026 veraltet sein. Der Deutsche Presserat hat seine KI-Ergaenzung erst Maerz 2025 eingefuehrt -- das zeigt, dass selbst etablierte Institutionen ihre Standards laufend anpassen muessen"
         rel:
-          - ["Ethik als Prozess", "Kontinuierliche Weiterentwicklung ethischer Standards"]
+          - ["Ethik als Prozess", "Laufende Anpassung an technologische und rechtliche Entwicklungen"]
 
   - title: "Kompetenzaufbau und Weiterbildung"
     explanation: |
@@ -51,25 +51,25 @@ sections:
       Journalist:innen mit KI-Expertise verdienen durchschnittlich **12% mehr** als Kolleg:innen
       ohne diese Faehigkeiten, die Nachfrage stieg um **ueber 30%**.
     examples:
-      - q: "Was ist das JournalismAI Skills Lab?"
-        a: "Ein 12-woechiges, virtuelles und kostenloses Programm der POLIS/LSE fuer die praktische Implementierung von KI im Redaktionsalltag -- geplant sind 4.500 Journalist:innen aus 100 Laendern"
+      - q: "Eine Chefredakteurin hat Budget fuer genau ein Weiterbildungsprogramm. Welches waere fuer eine deutsche Redaktion am sinnvollsten?"
+        a: "Das dpa-Programm 'Wegweiser KI' -- es ist speziell fuer deutsche Redaktionen konzipiert, praxisorientiert und deckt den lokalen regulatorischen Kontext ab (Pressekodex, DSGVO, Landesmedienanstalten). Internationale Programme wie das JournalismAI Skills Lab sind ebenfalls wertvoll und kostenlos, aber sie berucksichtigen den spezifisch deutschen Regulierungsrahmen weniger"
         rel:
-          - ["JournalismAI Skills Lab", "Kostenloses KI-Training fuer Journalist:innen"]
+          - ["Weiterbildungswahl", "Deutsche Redaktionen brauchen lokalen Kontext"]
 
-      - q: "Welches KI-Weiterbildungsangebot gibt es speziell fuer deutsche Redaktionen?"
-        a: "Das dpa-Programm 'Wegweiser KI' -- ein praxisorientiertes Trainingsprogramm, das 2024-2025 deutsche Redaktionen bei der KI-Integration unterstuetzte"
+      - q: "Das JournalismAI Skills Lab plant, 4.500 Journalist:innen aus 100 Laendern zu schulen. Was unterscheidet solche Programme von einem YouTube-Tutorial?"
+        a: "Drei Dinge: Erstens, strukturiertes Curriculum ueber 12 Wochen statt fragmentiertes Wissen. Zweitens, direkter Austausch mit Journalist:innen aus anderen Redaktionen und Laendern -- internationale Perspektiven und Best Practices. Drittens, praktische Implementierungsprojekte in der eigenen Redaktion unter Anleitung. Ein YouTube-Tutorial vermittelt Werkzeugwissen, ein Programm vermittelt strategische KI-Kompetenz"
         rel:
-          - ["dpa Wegweiser KI", "Deutsches Trainingsprogramm fuer Redaktionen"]
+          - ["Strukturiertes Lernen", "Programme vs. informelle Weiterbildung"]
 
-      - q: "Wie wirkt sich KI-Kompetenz auf das Gehalt von Journalist:innen aus?"
-        a: "Journalist:innen mit KI-Expertise verdienen durchschnittlich 12% mehr -- die Nachfrage nach KI-Kenntnissen stieg um ueber 30%"
+      - q: "Journalist:innen mit KI-Expertise verdienen 12% mehr. Bedeutet das, dass KI-Wissen wichtiger wird als Fachwissen?"
+        a: "Nein -- es bedeutet, dass KI-Kompetenz eine Zusatzqualifikation ist, die auf solidem Fachwissen aufbaut. Ein Journalist, der KI-Tools beherrscht, aber keine Quellen pruefen oder ein Interview fuehren kann, ist wertlos. Die Gehaltspraemie belohnt die Kombination: journalistisches Handwerk plus KI-Kompetenz. CUNY und Knight Center betonen explizit, dass KI-Kurse Ergaenzung sind, nicht Ersatz fuer journalistische Grundausbildung"
         rel:
-          - ["KI-Gehaltspraemie", "12% mehr Verdienst mit KI-Expertise"]
+          - ["KI als Zusatzqualifikation", "Ergaenzung zum journalistischen Handwerk, nicht Ersatz"]
 
-      - q: "Welche KI-bezogenen Kurse bietet das Knight Center an?"
-        a: "Prompt Engineering 101 for Journalists und Google AI Tools for Journalists -- beide als Online-Kurse, letzterer 4 Wochen und kostenlos"
+      - q: "Der BJV bietet KI-Schulungen an. Aber aeltere Kolleg:innen sagen: 'Das brauche ich nicht mehr.' Wie geht man damit um?"
+        a: "Mit dem Argument der redaktionellen Verantwortung: Auch wer KI nicht selbst nutzt, muss KI-generierte Inhalte beurteilen koennen -- als Teamleiter:in, als Schlussredakteur:in oder als Mentor:in fuer Volontaer:innen. Der Pressekodex macht Redaktionen fuer KI-Inhalte verantwortlich. Wer KI nicht versteht, kann nicht verantwortungsvoll ueber ihren Einsatz entscheiden. Kompetenz heisst hier auch: informiert Nein sagen koennen"
         rel:
-          - ["Knight Center", "Online-KI-Kurse fuer Journalist:innen"]
+          - ["Generationenuebergreifend", "KI-Kompetenz als redaktionelle Pflicht fuer alle"]
 
   - title: "Fuenf Kernkompetenzen fuer die Zukunft"
     explanation: |
@@ -89,22 +89,22 @@ sections:
       geschuetzte Quellen, klare Prozesse, souveraener KI-Einsatz und langfristiges
       Vertrauen der Leser.
     examples:
-      - q: "Welche fuenf Kernkompetenzen brauchen Journalist:innen fuer die KI-Zukunft?"
-        a: "Datenkompetenz, technische Grundlagen, kritisches Denken, Prompt Engineering und ethische Kompetenz"
+      - q: "Ein Volontaer beginnt seine Ausbildung 2026. Welche dieser fuenf Kompetenzen sollte er zuerst aufbauen?"
+        a: "Kritisches Denken -- es ist die Grundlage fuer alles andere. Wer KI-Output nicht bewerten kann, wird durch Datenkompetenz und Prompt Engineering nicht sicherer, sondern schneller falsch. Kritisches Denken bedeutet: Jede KI-Aussage als Hypothese behandeln, Quellen verifizieren, Bias erkennen. Darauf aufbauend: Prompt Engineering (sofort praktisch nutzbar) und dann Datenkompetenz und ethische Kompetenz"
         rel:
-          - ["Zukunftskompetenzen", "Die fuenf Kernkompetenzen fuer KI-Journalismus"]
+          - ["Lernreihenfolge", "Kritisches Denken als Basis aller KI-Kompetenzen"]
 
-      - q: "Welche Faehigkeiten kann KI nicht ersetzen?"
-        a: "Menschliche Empathie, ethische Urteilsfaehigkeit, kreatives Storytelling, Beziehungsaufbau mit Quellen und Kontextualisierung komplexer Zusammenhaenge"
+      - q: "KI kann Daten analysieren, Muster erkennen und Texte generieren. Was bleiben dann die menschlichen Alleinstellungsmerkmale im Journalismus?"
+        a: "Fuenf Dinge, die KI nicht kann: 1) Empathie -- ein Interview mit einem Flutopfer fuehren. 2) Ethische Urteilsfaehigkeit -- entscheiden, ob eine Geschichte veroeffentlicht werden sollte. 3) Kreatives Storytelling -- eine 3.000-Woerter-Reportage mit der richtigen Dramaturgie. 4) Beziehungsaufbau -- eine vertrauliche Quelle ueber Jahre pflegen. 5) Kontextualisierung -- einordnen, was eine Zahl fuer eine Gemeinde bedeutet"
         rel:
-          - ["Menschliche Staerken", "Faehigkeiten, die KI nicht ersetzen kann"]
+          - ["Menschliche Alleinstellungsmerkmale", "Faehigkeiten, die KI nicht ersetzen kann"]
 
-      - q: "Warum ist Datenkompetenz fuer Journalist:innen wichtiger geworden?"
-        a: "Weil KI neue Moeglichkeiten der Datenanalyse bietet -- Journalist:innen muessen grosse Datensaetze interpretieren und KI-gestuetzte Analytik nutzen koennen"
+      - q: "Eine Redaktion produziert mit KI-Unterstuetzung 50% mehr Artikel als vorher. Ist das ein Erfolg?"
+        a: "Nur wenn die Qualitaet stimmt. Mehr Output ohne Qualitaetskontrolle ist ein Risiko, kein Erfolg. Das Ziel des Workshops ist explizit nicht 'mehr Output um jeden Preis', sondern gesicherte Qualitaet, geschuetzte Quellen und langfristiges Vertrauen. Gannett/USA Today produzierte mehr KI-Sportberichte -- mit dem Ergebnis 'grotesk verstuemmelter' Texte und Reputationsschaden. Quantitaet ohne Qualitaet zerstoert Vertrauen"
         rel:
-          - ["Datenkompetenz", "Data Literacy", "Interpretation grosser Datensaetze"]
+          - ["Qualitaet vor Quantitaet", "Mehr Output ist nur mit gesicherter Qualitaet ein Erfolg"]
 
-      - q: "Was ist das uebergeordnete Ziel des souveraenen KI-Einsatzes?"
-        a: "Gesicherte Qualitaet, geschuetzte Quellen, klare Prozesse, souveraener KI-Einsatz und langfristiges Vertrauen der Leser -- nicht mehr Output um jeden Preis"
+      - q: "Wie kann eine Redaktion feststellen, ob sie auf dem Weg zum 'souveraenen KI-Einsatz' ist oder in eine Abhaengigkeit rutscht?"
+        a: "Vier Prueffragen: 1) Koennten wir morgen ohne KI-Tools weiterarbeiten? Wenn nein: Abhaengigkeit. 2) Verstehen unsere Redakteur:innen, wie die Tools funktionieren, oder nutzen sie sie als Blackbox? 3) Haben wir Alternativen, wenn ein Anbieter sein Modell aendert oder die Preise erhoeht? 4) Bestimmen wir den KI-Einsatz, oder bestimmt der KI-Anbieter unsere Workflows? Souveraenitaet heisst: Wir entscheiden, nicht die Technologie"
         rel:
-          - ["Souveraener KI-Einsatz", "Qualitaet und Vertrauen statt Maximum-Output"]
+          - ["Souveraenitaets-Check", "Vier Fragen zur Pruefung der KI-Unabhaengigkeit"]

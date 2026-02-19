@@ -15,25 +15,25 @@ sections:
       Fuer Journalist:innen, die mit sensiblen Quelleninformationen arbeiten, koennen diese
       Risiken existenziell sein -- ein Datenleck kann Quellen gefaehrden.
     examples:
-      - q: "Warum sind Cloud-basierte KI-Tools riskant fuer den Quellenschutz?"
-        a: "Eingaben koennen gespeichert und fuer Modelltraining verwendet werden -- vertrauliche Quelleninformationen koennten so in kuenftige KI-Modelle einfliessen"
+      - q: "Eine Journalistin recherchiert zu organisierter Kriminalitaet und moechte KI zur Analyse von Gespraecsprotokollen nutzen. Was riskiert sie?"
+        a: "Im schlimmsten Fall: das Leben ihrer Quelle. Cloud-basierte KI-Tools speichern Eingaben und koennen sie fuer Modelltraining verwenden. Bei ChatGPT gab es bereits einen Vorfall, bei dem Gespraechstitel anderer Nutzer sichtbar waren. Wenn ein Gespraechsprotokoll mit Klarnamen in einem Cloud-Dienst landet, ist die Vertraulichkeit unwiderruflich gebrochen -- auch wenn das Datenleck nie oeffentlich wird"
         rel:
-          - ["Cloud-KI-Risiko", "Vertrauliche Daten koennen in Modelltraining einfliessen"]
+          - ["Quellengefaehrdung", "Cloud-KI-Tools und vertrauliche Recherche"]
 
-      - q: "Welchen Sicherheitsvorfall gab es bei ChatGPT?"
-        a: "Einigen Nutzern wurden die Gespraechstitel anderer Nutzer angezeigt -- fuer Journalist:innen mit sensiblen Quellen besonders problematisch"
+      - q: "OpenAI bietet 'Temporary Chat' und arbeitet an Verschluesselung. Reicht das fuer sensible journalistische Arbeit?"
+        a: "Nein. Temporary Chat speichert Gespraeche nicht im Verlauf, aber OpenAI behaelt die Daten bis zu 30 Tage. Gleichzeitig deutet OpenAI automatisierte Scanning-Systeme an, die Verschluesselung untergraben. Fuer wirklich sensible Recherchen gibt es nur eine sichere Loesung: Lokale KI-Modelle wie Ollama/Llama, bei denen die Daten den eigenen Rechner nie verlassen"
         rel:
-          - ["ChatGPT-Datenleck", "Gespraechstitel anderer Nutzer waren sichtbar"]
+          - ["Grenzen der Cloud-Sicherheit", "Auch verbesserte Datenschutzfunktionen reichen nicht immer"]
 
-      - q: "Was ist das Problem mit clientseitigem Scanning bei KI-Tools?"
-        a: "Es untergraebt die Verschluesselung und erhoeht das Angriffsrisiko -- auch wenn es offiziell der Sicherheit dienen soll"
+      - q: "Der Spiegel nutzt KI-Tools in der Produktion. Wie kann ein grosses Medienhaus KI einsetzen, ohne den Quellenschutz zu gefaehrden?"
+        a: "Durch klare Trennung: KI fuer oeffentlich zugaengliche Informationen (Uebersetzungen, Zusammenfassungen publizierter Berichte) ist unbedenklich. Fuer investigative Recherche mit vertraulichen Quellen: Lokale Modelle oder DSGVO-konforme Tools mit No-Training-Policy wie Trint. Der Spiegel hat KI-Richtlinien formuliert -- das zeigt, dass Nutzung und Schutz vereinbar sind, wenn die Regeln klar definiert sind"
         rel:
-          - ["Client-Side-Scanning", "Untergräbt Verschlüsselung trotz Sicherheitsversprechen"]
+          - ["KI mit Regeln", "Trennung von unbedenklicher und sensibler Nutzung"]
 
-      - q: "Warum reicht eine Datenschutzerklaerung allein nicht aus?"
-        a: "Studien zeigen erhebliche Luecken im Verstaendnis der Nutzer ueber die Datenpraktiken der KI-Anbieter -- Bedenken bestehen bei unautorisiertem Datenzugriff und langer Datenspeicherung"
+      - q: "Warum sind Datenschutzerklaerungen der KI-Anbieter kein ausreichender Schutz?"
+        a: "Studien zeigen erhebliche Luecken zwischen dem, was Nutzer glauben, und dem, was tatsaechlich mit ihren Daten passiert. Datenschutzerklaerungen sind lang, juristisch formuliert und aendern sich regelmaessig. Der ChatGPT-Vorfall mit sichtbaren Gespraechstiteln anderer Nutzer war kein Verstoss gegen die Datenschutzerklaerung -- solche Sicherheitsvorfaelle sind dort oft als Moeglichkeit erwaehnt. Fuer Journalist:innen gilt: Im Zweifel keine sensiblen Daten eingeben"
         rel:
-          - ["Datenschutz-Transparenz", "Luecken zwischen Versprechen und Praxis"]
+          - ["Datenschutz-Illusion", "Luecken zwischen Versprechen und Realitaet"]
 
   - title: "Praktische Schutzmassnahmen"
     explanation: |
@@ -47,26 +47,25 @@ sections:
 
       Das Konzept definiert: **Quellenschutz geht vor Effizienz.**
     examples:
-      - q: "Darf man vertrauliche Dokumente in ChatGPT hochladen?"
-        a: "Nein -- externe KI-Dienste koennen Daten speichern und zum Training verwenden. Vertrauliches Material gehoert nicht in Cloud-KI-Tools"
+      - q: "Ein Volontaer fragt: 'Kann ich nicht einfach die Namen meiner Quellen durch Pseudonyme ersetzen, bevor ich den Text in ChatGPT einfuege?'"
+        a: "Das reduziert das Risiko, eliminiert es aber nicht. KI-Modelle koennen aus Kontextinformationen (Ortsangaben, Zeitraeume, Berufsbezeichnungen, beschriebene Ereignisse) Rueckschluesse auf Personen ziehen -- besonders bei kleinen Gemeinden oder spezifischen Vorfaellen. Ausserdem: Wer garantiert, dass beim naechsten Mal das Pseudonymisieren nicht vergessen wird? Besser ist eine klare Regel: Sensibles Material gehoert nicht in Cloud-Dienste"
         rel:
-          - ["Vertraulichkeit", "Keine sensiblen Daten in externe KI-Tools"]
+          - ["Pseudonymisierung", "Nicht ausreichend fuer echten Quellenschutz"]
 
-      - q: "Was ist der Temporary Chat bei ChatGPT?"
-        a: "Ein Modus, der Gespraeche nicht im Verlauf speichert und nicht fuer Training nutzt -- Aufbewahrung maximal 30 Tage bei OpenAI"
+      - q: "Eine Redaktion will Ollama/Llama lokal nutzen. Was sind die praktischen Huerden?"
+        a: "Lokale Modelle brauchen leistungsstarke Hardware (GPU mit ausreichend RAM), technische Einrichtung und regelmaessige Updates. Die Qualitaet ist oft geringer als bei Cloud-Diensten wie ChatGPT oder Claude. Fuer die meisten Aufgaben (Uebersetzung oeffentlicher Texte, Zusammenfassungen) sind Cloud-Tools voellig ausreichend. Lokale Modelle lohnen sich nur fuer den spezifischen Anwendungsfall: sensible Recherche mit vertraulichem Material"
         rel:
-          - ["Temporary Chat", "Nicht-gespeicherter Modus bei ChatGPT"]
+          - ["Lokale KI-Modelle", "Hoeherer Aufwand, aber maximaler Datenschutz"]
 
-      - q: "Was sind lokale KI-Modelle und warum sind sie sicherer?"
-        a: "Modelle wie Ollama/Llama laufen auf dem eigenen Rechner -- Daten verlassen nie das Geraet, was den Quellenschutz deutlich verbessert"
+      - q: "Die AFP nutzt Trint mit EU-Datenspeicherung und No-Training-Policy. Warum ist das fuer europaeische Redaktionen wichtig?"
+        a: "DSGVO-Konformitaet bedeutet nicht nur Rechtsschutz, sondern auch Quellenschutz. Wenn Trint Daten in der EU speichert und nicht zum Training verwendet, bleiben Transkriptionen von Interviews, Pressekonferenzen und Hintergrundgespraechen unter europaeischem Datenschutzrecht. Bei US-basierten Diensten ohne solche Garantien koennte ein US-Gerichtsbeschluss Zugang zu den Daten erzwingen"
         rel:
-          - ["Lokale KI", "KI-Modelle auf dem eigenen Rechner"]
-          - ["Ollama", "Tool zum lokalen Ausfuehren von KI-Modellen"]
+          - ["DSGVO als Schutzschild", "Europaeische Datenspeicherung fuer den Quellenschutz"]
 
-      - q: "Was bedeutet die No-Training-Policy bei Trint?"
-        a: "Trint verwendet die hochgeladenen Audio- und Textdaten nicht zum Training seiner KI-Modelle -- ein entscheidender Vorteil fuer europaeische Redaktionen und den Quellenschutz"
+      - q: "Quellenschutz geht vor Effizienz -- aber was, wenn eine schnelle KI-Analyse eine Recherche um Wochen beschleunigen koennte?"
+        a: "Die Frage ist nicht ob KI genutzt wird, sondern wie. Oeffentlich zugaengliche Teile der Recherche koennen in Cloud-KI-Tools verarbeitet werden. Vertrauliche Kerndokumente werden lokal analysiert oder manuell bearbeitet. Die NYT zeigt den Weg: Sie nutzt KI intensiv fuer die Analyse grosser Datenmengen, aber nie fuer vertrauliche Quellen. Effizienz und Quellenschutz schliessen sich nicht aus -- sie erfordern einen differenzierten Workflow"
         rel:
-          - ["No-Training-Policy", "Anbieter nutzt Nutzerdaten nicht zum Modelltraining"]
+          - ["Differenzierter Workflow", "KI-Nutzung nach Sensibilitaetsstufe der Daten"]
 
   - title: "Vermeidung sensibler Dateneingaben"
     explanation: |
@@ -85,22 +84,22 @@ sections:
       - Allgemeine Recherchefragen ohne sensiblen Kontext
       - Uebersetzung von oeffentlichen Pressemitteilungen
     examples:
-      - q: "Welche Informationen duerfen nie in externe KI-Tools eingegeben werden?"
-        a: "Namen vertraulicher Quellen, unveroeffentiches Material, interne Dokumente, personenbezogene Daten und Material aus laufenden Gerichtsverfahren"
+      - q: "Ein Gerichtsreporter moechte eine Anklageschrift mit KI zusammenfassen lassen. Darf er das?"
+        a: "Kommt darauf an: Ist die Anklageschrift oeffentlich (z.B. in einer oeffentlichen Verhandlung verlesen)? Dann ja, mit einem vertrauenswuerdigen Tool. Ist sie vertraulich oder unter Geheimhaltung? Dann absolut nicht -- Material aus laufenden Gerichtsverfahren gehoert nicht in externe KI-Tools. Im Zweifel: die Rechtsabteilung fragen und das Dokument lieber manuell zusammenfassen"
         rel:
-          - ["Sensible Daten", "Informationen, die nie in KI-Tools gehoeren"]
+          - ["Gerichtsmaterial", "Vertraulichkeit bei juristischen Dokumenten pruefen"]
 
-      - q: "Welche Informationen koennen sicher in KI-Tools verarbeitet werden?"
-        a: "Oeffentlich zugaengliche Informationen, bereits veroeffentlichte Artikel, allgemeine Recherchefragen und oeffentliche Pressemitteilungen"
+      - q: "Eine Redakteurin uebersetzt eine oeffentliche Pressemitteilung der EU-Kommission mit DeepL. Dann moechte sie auch ein geleaktes internes EU-Papier uebersetzen. Wo liegt die Grenze?"
+        a: "Die Pressemitteilung ist oeffentlich -- DeepL ist unbedenklich. Das geleakte Papier ist unveroeffentiches Material, dessen Quelle geschuetzt werden muss. DeepL ist ein Cloud-Dienst; das Dokument wuerde auf externe Server uebertragen. Fuer das Leak: Entweder manuell uebersetzen oder ein lokales Uebersetzungsmodell nutzen. Die Grenze ist klar: oeffentlich ja, vertraulich nein"
         rel:
-          - ["Sichere Nutzung", "Unbedenkliche Daten fuer KI-Verarbeitung"]
+          - ["Grenzziehung", "Oeffentliches Material vs. vertrauliche Dokumente"]
 
-      - q: "Welches Leitprinzip gilt beim Spannungsfeld zwischen Effizienz und Quellenschutz?"
-        a: "Quellenschutz geht vor Effizienz -- sensible Informationen gehoeren nicht in externe Systeme, auch wenn KI die Arbeit beschleunigen wuerde"
+      - q: "Wie ueberzeugt man Redaktionsmitglieder, die Datenschutzregeln fuer KI-Tools als uebertrieben empfinden?"
+        a: "Mit konkreten Beispielen: Der ChatGPT-Vorfall, bei dem Gespraechstitel anderer Nutzer sichtbar waren. Der Fall Samsung, wo Mitarbeiter vertraulichen Code in ChatGPT einfuegten, der dann in andere Antworten einfloss. Fuer Journalisten: 'Stell dir vor, der Name deiner vertraulichen Quelle taucht in der ChatGPT-Antwort eines anderen Nutzers auf.' Das macht das Risiko greifbar"
         rel:
-          - ["Quellenschutz vor Effizienz", "Sicherheit hat Vorrang vor Geschwindigkeit"]
+          - ["Sensibilisierung", "Konkrete Beispiele statt abstrakter Datenschutzregeln"]
 
-      - q: "Wie sollte eine Redaktion die Regeln fuer KI-Dateneingabe umsetzen?"
-        a: "Durch klare interne Richtlinien mit konkreten Beispielen, Schulungen fuer alle Mitarbeitenden und regelmaessige Ueberpruefung der Einhaltung"
+      - q: "Eine Redaktion hat klare Regeln, aber einzelne Journalist:innen umgehen sie aus Bequemlichkeit. Wie setzt man die Einhaltung durch?"
+        a: "Nicht durch Ueberwachung, sondern durch drei Massnahmen: Erstens, bequeme sichere Alternativen bereitstellen (z.B. Ollama auf Redaktionsrechnern vorinstallieren). Zweitens, regelmaessige Schulungen mit realen Fallbeispielen. Drittens, KI-Nutzung in Audits einbeziehen -- nicht um zu bestrafen, sondern um Luecken zu erkennen. Die AP verhandelte 90-Tage-Vorankuendigungen bei neuen KI-Tools -- das gibt allen Zeit, sich vorzubereiten"
         rel:
-          - ["Interne KI-Richtlinien", "Konkrete Regeln fuer den Umgang mit Daten in KI-Tools"]
+          - ["Richtlinien durchsetzen", "Sichere Alternativen statt Verbote"]

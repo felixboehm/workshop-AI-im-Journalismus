@@ -16,25 +16,25 @@ sections:
       - Wie bleiben journalistische Standards gewahrt?
       - Wie verhindert man schleichende Qualitaetsverluste?
     examples:
-      - q: "Was ist das Ziel eines strukturierten KI-Einsatzes im Journalismus?"
-        a: "Journalismus nicht automatisieren, sondern ihn mit klaren Regeln, Sicherheitsmechanismen und Qualitaetskontrollen zukunftsfaehig machen"
+      - q: "Eine Lokalredaktion moechte KI einfuehren, hat aber Angst vor Qualitaetsverlust. Was zeigen die Erfahrungen anderer?"
+        a: "CNET veroeffentlichte 77 KI-Artikel ohne klare Regeln -- ueber die Haelfte musste korrigiert werden. Die dpa dagegen startete mit einem KI-Board, Pilotprojekten und klaren Richtlinien. Der Unterschied: nicht ob KI, sondern wie strukturiert man sie einfuehrt"
         rel:
-          - ["KI-Workflow-Design", "Strukturierter Einsatz von KI in Redaktionen"]
+          - ["KI-Strategie", "Strukturierte Einfuehrung statt unkontrollierter Nutzung"]
 
-      - q: "Was sind die beiden Seiten von KI im Journalismus?"
-        a: "Richtig eingesetzt spart sie Zeit und eroeffnet neue Moeglichkeiten -- unkontrolliert eingesetzt gefaehrdet sie Qualitaet, Glaubwuerdigkeit und Quellenschutz"
-        rel:
-          - ["Chancen und Risiken", "KI als zweischneidiges Schwert im Journalismus"]
-
-      - q: "Warum muessen Redaktionen jetzt beim Thema KI handeln?"
-        a: "Weil 2025/2026 der Uebergang von der Experimentierphase zur systematischen Integration stattfindet -- wer jetzt keine Strukturen schafft, riskiert Qualitaetsverluste"
+      - q: "Ein Chefredakteur argumentiert, KI sei nur ein Hype und man koenne abwarten. Was spricht dagegen?"
+        a: "81,7% der Journalist:innen nutzen bereits KI-Tools, 49,4% taeglich. 2025/2026 findet der Uebergang von der Experimentierphase zur systematischen Integration statt. Wer jetzt keine Strukturen schafft, riskiert, dass Mitarbeitende KI ohne Regeln nutzen -- nur 13% der Redaktionen haben bisher formale Richtlinien"
         rel:
           - ["Operationalisierung", "Von Experimenten zu systematischer KI-Integration"]
 
-      - q: "Welches Grundproblem haben viele Redaktionen beim KI-Einsatz?"
-        a: "Nur 13% haben formale KI-Richtlinien -- der Einsatz bleibt oft den einzelnen Journalist:innen ueberlassen, was zu Inkonsistenzen fuehrt"
+      - q: "Inwiefern unterscheidet sich die KI-Debatte im Journalismus von der in anderen Branchen?"
+        a: "Im Journalismus geht es nicht nur um Effizienz, sondern um demokratische Grundwerte: Glaubwuerdigkeit, Quellenschutz und Wahrheitspflicht. Ein falscher KI-generierter Finanzartikel bei CNET ist ein Reputationsschaden -- ein falscher Bericht ueber eine Person kann deren Leben zerstoeren"
         rel:
-          - ["KI-Richtlinien", "Formale Regeln fuer den KI-Einsatz in Redaktionen"]
+          - ["Journalistische Verantwortung", "KI im Spannungsfeld von Effizienz und Ethik"]
+
+      - q: "Eine freie Journalistin fragt: Macht KI mich ueberfluessig?"
+        a: "Nein -- KI verschiebt die Rolle hin zu Analyse, Verifikation und Einordnung. Faehigkeiten wie kritisches Denken, Empathie und Quellenarbeit kann KI nicht ersetzen. Journalist:innen mit KI-Expertise verdienen sogar 12% mehr, die Nachfrage stieg um ueber 30%"
+        rel:
+          - ["Berufsbild im Wandel", "Neue Kompetenzen statt Ersetzung"]
 
   - title: "Zahlen und Fakten zur KI-Nutzung"
     explanation: |
@@ -50,25 +50,25 @@ sections:
       Das Reuters Institute prognostiziert fuer 2026 den zunehmenden Einsatz von **agentischer KI**
       fuer End-to-End-Automatisierung komplexer Workflows.
     examples:
-      - q: "Wie viel Prozent der Journalist:innen nutzen KI-Tools?"
-        a: "81,7% nutzen KI-Tools, davon 49,4% taeglich"
+      - q: "Warum nutzen deutsche Journalist:innen KI vor allem fuer Uebersetzungen und Transkriptionen (70%) und weniger fuer Texterstellung?"
+        a: "Weil Transkription und Uebersetzung Routineaufgaben sind, bei denen Fehler leicht erkennbar und korrigierbar sind. Bei der Texterstellung sind Halluzinationen und Bias-Risiken hoeher und schwerer zu kontrollieren -- deshalb beginnen die meisten Redaktionen mit risikoarmen Anwendungen"
         rel:
-          - ["KI-Adoption", "Verbreitung von KI-Tools im Journalismus"]
+          - ["Risikoarmer Einstieg", "Routineaufgaben als Startpunkt der KI-Integration"]
 
-      - q: "Wofuer nutzen deutsche Journalist:innen KI am haeufigsten?"
-        a: "Fuer Uebersetzungen und Transkriptionen (70%)"
+      - q: "97% halten Backend-Automatisierung fuer wichtig, aber nur 13% haben formale Richtlinien. Wie erklaert sich diese Luecke?"
+        a: "Viele Redaktionen befinden sich noch in der Experimentierphase: Einzelne Journalist:innen probieren Tools aus, ohne dass es redaktionsweite Regeln gibt. Der Wechsel von individueller Nutzung zu organisatorischer Integration erfordert interdisziplinaere Zusammenarbeit zwischen Redaktion, IT, Recht und HR"
         rel:
-          - ["Transkription", "Haeufigster KI-Anwendungsfall im deutschen Journalismus"]
+          - ["Governance-Luecke", "Diskrepanz zwischen KI-Nutzung und formalen Strukturen"]
 
-      - q: "Was ist agentische KI?"
-        a: "KI-Systeme, die selbststaendig komplexe Workflows ausfuehren koennen -- ein Trend, den das Reuters Institute fuer 2026 prognostiziert"
+      - q: "Was bedeutet der Trend zur agentischen KI konkret fuer eine Nachrichtenredaktion?"
+        a: "Agentische KI koennte zum Beispiel eigenstaendig Kommunaldokumente durchsuchen, relevante Aenderungen identifizieren, Hintergrundinformationen zusammenstellen und einen Entwurf vorbereiten -- wie es das norwegische Tool Djinn bereits fuer Kommunaldokumente tut. Der Mensch prueft und entscheidet am Ende"
         rel:
-          - ["Agentische KI", "Agentic AI", "End-to-End-Automatisierung durch KI"]
+          - ["Agentische KI", "End-to-End-Automatisierung komplexer Workflows"]
 
-      - q: "Wie viel Prozent der Nachrichtenorganisationen halten Backend-Automatisierung fuer wichtig?"
-        a: "97% laut Reuters Institute"
+      - q: "Eine kleine Regionalzeitung hat kaum Budget. Lohnt sich KI trotzdem?"
+        a: "Gerade fuer kleine Redaktionen kann KI entscheidend sein: Freie Journalist:innen steigern ihre Produktivitaet um bis zu 40%. Kostenlose Tools wie Google Pinpoint, OpenAI Whisper und DeepL ermöglichen den Einstieg ohne grosse Investition. RADAR in Grossbritannien zeigt, wie automatisierte Lokalnachrichten ueber 1.000 Regionaltitel versorgen"
         rel:
-          - ["Backend-Automatisierung", "Automatisierung hinter den Kulissen der Redaktion"]
+          - ["KI fuer kleine Redaktionen", "Kostenfreie Tools und Produktivitaetssteigerung"]
 
   - title: "Vorreiter und Beispiele"
     explanation: |
@@ -83,23 +83,22 @@ sections:
       In Deutschland experimentieren Spiegel, FAZ und Zeit in einem Google-Pilotprogramm
       mit KI-gestuetzter Reichweitenoptimierung.
     examples:
-      - q: "Welche Nachrichtenagentur war Vorreiter bei automatisierten Texten?"
-        a: "Die Associated Press (AP) -- sie nutzt seit 2014 automatisierte Quartalsbericht-Texte mit Wordsmith"
+      - q: "Die AP verbietet KI fuer Content-Erstellung, die BBC erlaubt KI-generierte Sport-Updates. Wer hat Recht?"
+        a: "Beide Ansaetze sind konsistent, weil sie unterschiedliche Risikoprofile bedienen. Die AP liefert als Nachrichtenagentur Rohmaterial -- Fehler wuerden sich millionenfach verbreiten. Die BBC nutzt KI fuer strukturierte Sportdaten (Tore, Spielstaende), wo die Fehlerquote gering ist und menschliche Pruefung vor Publikation erfolgt"
         rel:
-          - ["Associated Press", "AP", "Pionier der automatisierten Berichterstattung"]
-          - ["Wordsmith", "Software fuer automatisierte Texterstellung"]
+          - ["Risikoprofile", "Unterschiedliche KI-Strategien je nach Kontext"]
 
-      - q: "Wie nutzt die New York Times KI?"
-        a: "Nie zum Schreiben von Artikeln, aber zur Analyse grosser Datenmengen -- z.B. stundenlanger Interviews und hunderter Zoom-Calls fuer Investigativ-Recherchen"
+      - q: "Die NYT nutzt KI zur Analyse von hunderten Zoom-Calls und stundenlangen Interviews, schreibt aber keinen einzigen Satz damit. Warum dieser strikte Schnitt?"
+        a: "Die NYT trennt klar zwischen Analyse und Autorenschaft. KI kann Muster in grossen Datenmengen finden, die Menschen uebersehen wuerden -- etwa bei Investigativ-Recherchen zur 'Manosphere'. Aber die Formulierung, die Gewichtung und die ethische Einordnung bleiben journalistische Kernkompetenzen, die Vertrauen beim Leser aufbauen"
         rel:
-          - ["New York Times", "NYT", "KI als Analyse-Werkzeug, nicht als Autor"]
+          - ["Analyse vs. Autorenschaft", "NYT-Modell der strikten Aufgabentrennung"]
 
-      - q: "Was ist der dpa-News Hub?"
-        a: "Ein KI-Rechercheassistent, der ausschliesslich auf verifizierte dpa-Informationen zugreift und Zusammenfassungen mit Quellenangaben liefert"
+      - q: "RADAR produziert 8.000 lokalisierte Geschichten -- ist das noch Journalismus oder Massenproduktion?"
+        a: "RADAR ist ein Mensch-Maschine-Modell: Journalisten schreiben jeden Satz als Template, die Software lokalisiert mit oeffentlichen Daten (z.B. Kriminalitaetsstatistiken pro Kommune). Ohne RADAR wuerden viele dieser Lokalgeschichten nie geschrieben, weil Regionalredaktionen die Kapazitaet dafuer nicht haben"
         rel:
-          - ["dpa-News Hub", "KI-Rechercheassistent der Deutschen Presse-Agentur"]
+          - ["RADAR-Modell", "Skalierung lokaler Berichterstattung durch KI"]
 
-      - q: "Was ist RADAR und wie funktioniert es?"
-        a: "Eine automatisierte Nachrichtenagentur von PA Media (UK), die ca. 8.000 lokalisierte Geschichten aus oeffentlichen Daten produziert -- Menschen schreiben die Saetze, Software lokalisiert"
+      - q: "Die dpa hat ein eigenes KI-Team und einen News Hub mit KI-Rechercheassistent. Was unterscheidet das von der Nutzung von ChatGPT?"
+        a: "Der dpa-News Hub greift ausschliesslich auf verifizierte dpa-Quellen zu und belegt jede Antwort mit Originalquellen. ChatGPT hingegen generiert Antworten aus Trainingsdaten ohne Quellengarantie. Der Unterschied ist entscheidend: Die dpa kontrolliert die Datenbasis, waehrend bei ChatGPT die Herkunft jeder Aussage unklar bleibt"
         rel:
-          - ["RADAR", "Reporters and Data and Robots", "Automatisierte Lokalnachrichten"]
+          - ["Kontrollierte Datenbasis", "Verifizierte Quellen vs. allgemeines Sprachmodell"]

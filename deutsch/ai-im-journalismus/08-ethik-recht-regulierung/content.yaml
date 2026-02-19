@@ -19,25 +19,25 @@ sections:
       Kritik: Reporter ohne Grenzen (RSF) warnt, dass das Geschaeftsmodell unabhaengiger
       Medien durch Urheberrechtsverletzungen weiter gefaehrdet wird.
     examples:
-      - q: "Was ist der EU AI Act?"
-        a: "Die KI-Verordnung der EU (in Kraft seit August 2024) -- das weltweit erste umfassende KI-Gesetz mit Transparenz- und Kennzeichnungspflichten"
+      - q: "Ab August 2026 gelten Transparenzpflichten fuer KI-generierte Inhalte. Was muss eine Nachrichtenredaktion konkret aendern?"
+        a: "Wer KI-Systeme nutzt, die Texte zu Themen von oeffentlichem Interesse generieren oder manipulieren, muss offenlegen, dass der Inhalt KI-gestuetzt erstellt wurde. Konkret: Redaktionen brauchen Kennzeichnungssysteme fuer KI-generierte Artikel, Zusammenfassungen und Bildunterschriften. Der Code of Practice fordert maschinenlesbare, erkennbare und interoperable Formate. Wer jetzt mit der Dokumentation beginnt, hat ab 2026 weniger Anpassungsbedarf"
         rel:
-          - ["EU AI Act", "Europaeische KI-Verordnung, Regulation 2024/1689"]
+          - ["Transparenzpflicht 2026", "Konkrete Anforderungen des EU AI Act an Redaktionen"]
 
-      - q: "Muessen KI-generierte journalistische Texte nach dem EU AI Act gekennzeichnet werden?"
-        a: "Ja -- ab August 2026 muessen KI-generierte Texte zu Themen von oeffentlichem Interesse offengelegt werden (Artikel 50)"
+      - q: "Medien sind nicht als Hochrisiko-Bereich eingestuft. Bedeutet das, dass der AI Act fuer Journalismus kaum relevant ist?"
+        a: "Nein -- die Nichteinstufung als Hochrisiko bedeutet nur, dass die strengsten Auflagen (technische Dokumentation, Konformitaetsbewertung) nicht gelten. Aber Artikel 50 betrifft Redaktionen direkt: Kennzeichnungspflichten fuer KI-generierte Inhalte und Deepfakes. Und die Offenlegung von Trainingsdaten koennte Redaktionen helfen, Urheberrechtsverletzungen zu verfolgen. Der AI Act ist indirekt sehr relevant"
         rel:
-          - ["Artikel 50", "Kennzeichnungspflicht fuer KI-generierte Inhalte"]
+          - ["Risikoklassifikation", "Kein Hochrisiko, aber trotzdem Pflichten fuer Medien"]
 
-      - q: "Ist Journalismus als Hochrisiko-Bereich eingestuft?"
-        a: "Nein -- Medien sind derzeit nicht als Hochrisiko-Bereich klassifiziert, die strengsten Regulierungen gelten daher nicht direkt"
+      - q: "Reporter ohne Grenzen kritisiert den AI Act. Worin genau liegt die Gefaehrdung unabhaengiger Medien?"
+        a: "RSF sieht zwei Probleme: Erstens, die Ausnahme 'unless relevant copyright exceptions apply' koennte KI-Unternehmen erlauben, journalistische Inhalte ohne Verguetung zu nutzen. Zweitens, die European Federation of Journalists kritisiert, dass im Drafting-Prozess KI-Anbieter bevorzugt eingeladen werden, waehrend Medienvertreter spaeter dazukommen. Das Ergebnis koente zugunsten der Tech-Konzerne ausfallen"
         rel:
-          - ["Risikoklassifikation", "Medien sind kein Hochrisiko-Bereich im AI Act"]
+          - ["RSF-Kritik", "Ungleiche Machtverhaeltnisse im Regulierungsprozess"]
 
-      - q: "Was kritisiert Reporter ohne Grenzen (RSF) am EU AI Act?"
-        a: "RSF warnt, dass das ohnehin fragile Geschaeftsmodell unabhaengiger Medien durch Urheberrechtsverletzungen und den Einsatz generativer KI weiter gefaehrdet wird"
+      - q: "Kuenstlerische und satirische Inhalte unterliegen reduzierten Transparenzpflichten. Koennte das als Schlupfloch missbraucht werden?"
+        a: "Theoretisch ja -- ein Medium koennte KI-generierte Inhalte als 'kreativ' oder 'satirisch' deklarieren, um Kennzeichnungspflichten zu umgehen. Aber der Code of Practice zielt auf eine 'Fuer-Menschen-identifizierbare' Kennzeichnung bei Themen von oeffentlichem Interesse. Nachrichteninhalte fallen klar unter die Pflicht. Die genaue Abgrenzung wird sich in der Praxis und Rechtsprechung klaeren muessen"
         rel:
-          - ["RSF-Kritik", "Gefaehrdung unabhaengiger Medien durch KI"]
+          - ["Ausnahmen und Schlupfloecher", "Abgrenzung zwischen Kunst und Nachrichteninhalten"]
 
   - title: "Deutscher Pressekodex und Regulierung"
     explanation: |
@@ -57,25 +57,25 @@ sections:
       **Digitale Medien-Staatsvertrag (Entwurf Juni 2025):**
       - Setzt Vorgaben aus vier EU-Regelwerken um
     examples:
-      - q: "Muessen KI-generierte Texte nach dem Pressekodex gekennzeichnet werden?"
-        a: "Nein -- der Deutsche Presserat haelt eine zusaetzliche Kennzeichnungspflicht fuer KI-Texte derzeit nicht fuer erforderlich, aber KI-generierte Bilder muessen als Symbolbilder gekennzeichnet werden"
+      - q: "Der Presserat fordert keine Kennzeichnung fuer KI-Texte, aber 90% der Bevoelkerung wollen eine. Wie geht eine Redaktion mit diesem Widerspruch um?"
+        a: "Pragmatisch: Der Presserat definiert das ethische Minimum, nicht das Maximum. Wenn 90% der Leser Kennzeichnung fordern, ist freiwillige Transparenz im Eigeninteresse der Redaktion -- sie staerkt das Vertrauen. Die BBC und der Guardian praktizieren das bereits: Klare Offenlegung von KI-Einsatz, obwohl nicht ueberall gesetzlich vorgeschrieben. Ab August 2026 kommt mit dem EU AI Act ohnehin eine Pflicht fuer bestimmte Inhalte"
         rel:
-          - ["Pressekodex-KI", "Keine Textpflicht, aber Bildkennzeichnung"]
+          - ["Ueber das Minimum hinaus", "Freiwillige Transparenz als Vertrauensinvestition"]
 
-      - q: "Was besagt die Praeambel-Ergaenzung des Pressekodex?"
-        a: "Redaktionen tragen die presseethische Verantwortung fuer alle Beitraege -- unabhaengig von der Art der Erstellung, einschliesslich KI-generierter Inhalte"
+      - q: "Warum unterscheidet der Presserat zwischen KI-Texten (keine Kennzeichnung noetig) und KI-Bildern (Kennzeichnung als Symbolbild Pflicht)?"
+        a: "Weil KI-Bilder den Eindruck erwecken koennen, reale Ereignisse abzubilden -- eine direkte Taeuschung des Lesers. KI-Texte hingegen werden (so die Argumentation) ohnehin redaktionell verantwortet und geprueft. Die Unterscheidung ist umstritten: Wenn ein KI-generierter Text falsche Fakten enthaelt, schadet er ebenfalls. Die Landesmedienanstalten gehen weiter und fordern umfassendere Kennzeichnungspflichten"
         rel:
-          - ["Presseethische Verantwortung", "Gilt auch fuer KI-generierte Inhalte"]
+          - ["Text vs. Bild", "Unterschiedliche Kennzeichnungspflichten und ihre Logik"]
 
-      - q: "Wer ist in Deutschland fuer die KI-Aufsicht in Medien zustaendig?"
-        a: "Die Landesmedienanstalten -- sie sind zustaendig fuer die Aufsicht ueber KI-Anwendungen in Rundfunk und Telemedien, nicht die Bundesnetzagentur"
+      - q: "Die Landesmedienanstalten sind fuer KI-Aufsicht in Medien zustaendig, nicht die Bundesnetzagentur. Warum ist diese Zustaendigkeit wichtig?"
+        a: "Weil die Landesmedienanstalten Medienkompetenz haben -- sie verstehen journalistische Workflows und redaktionelle Verantwortung. Die Bundesnetzagentur hat technische, aber keine medienrechtliche Expertise. Die Zuordnung stellt sicher, dass Aufsicht nicht rein technisch betrieben wird, sondern die Besonderheiten des Journalismus beruecksichtigt: Pressefreiheit, Quellenschutz, redaktionelle Unabhaengigkeit"
         rel:
-          - ["Landesmedienanstalten", "Aufsicht ueber KI in Medien"]
+          - ["Medienaufsicht", "Fachkompetenz bei der Regulierung von KI in Medien"]
 
-      - q: "Wie viel Prozent der Deutschen fordern eine Kennzeichnungspflicht fuer KI-Inhalte?"
-        a: "90% der Befragten fordern verbindliche Kennzeichnungspflichten laut einer Studie der Landesmedienanstalten"
+      - q: "Der Digitale Medien-Staatsvertrag soll 2025 Vorgaben aus vier EU-Regelwerken umsetzen. Was aendert sich fuer Online-Redaktionen?"
+        a: "Betreiber von KI-Systemen muessen Transparenz ueber Deepfakes aus Bild-, Ton- oder Videoinhalten herstellen. Die Landesmedienanstalten erhalten Aufsichtsbefugnis ueber die Einhaltung der KI-Verordnung in Rundfunk und Telemedien. Fuer Online-Redaktionen bedeutet das: systematische Dokumentation des KI-Einsatzes, Kennzeichnung von KI-generierten Medien und Compliance-Prozesse werden zur Pflicht"
         rel:
-          - ["Oeffentliche Erwartung", "90% fordern KI-Kennzeichnungspflicht"]
+          - ["Digitale Medien-Staatsvertrag", "Neue Pflichten fuer Online-Redaktionen"]
 
   - title: "Urheberrecht und Klagen"
     explanation: |
@@ -89,23 +89,22 @@ sections:
 
       Rein KI-generierte Werke geniessen in den meisten Laendern **keinen Urheberrechtsschutz**.
     examples:
-      - q: "Was ist der zentrale Streitpunkt bei NYT vs. OpenAI?"
-        a: "Ob das Training von KI-Modellen mit NYT-Artikeln Fair Use ist (OpenAIs Argument) oder systematischer Diebstahl (NYTs Position) -- der Fall laeuft weiter"
+      - q: "Die NYT klagt gegen OpenAI, aber Der Spiegel nimmt am Perplexity Revenue-Sharing teil. Sind das nicht widerspruchliche Strategien?"
+        a: "Nein -- es sind zwei verschiedene Antworten auf dasselbe Problem. Die NYT setzt auf juristische Durchsetzung des Urheberrechts und moechte einen Praezedenzfall schaffen. Der Spiegel waehlt den pragmatischen Weg: Lieber Einnahmen aus dem Revenue-Sharing als gar keine Kompensation. Beide Strategien koennen parallel existieren -- die NYT-Klage koennte die Verhandlungsposition aller Verlage staerken"
         rel:
-          - ["NYT vs. OpenAI", "Zentrale Urheberrechtsklage im KI-Bereich"]
-          - ["Fair Use", "US-amerikanische Ausnahme vom Urheberrecht"]
+          - ["Verlagsstrategien", "Klage vs. Revenue-Sharing als parallele Ansaetze"]
 
-      - q: "Haben KI-generierte Texte Urheberrechtsschutz?"
-        a: "Nein -- nach aktuellem Stand geniessen rein KI-generierte Werke in den meisten Laendern keinen Urheberrechtsschutz"
+      - q: "OpenAI argumentiert mit 'Fair Use' beim Training mit NYT-Artikeln. Was wuerde es fuer den Journalismus bedeuten, wenn das Gericht zustimmt?"
+        a: "Ein Fair-Use-Urteil wuerde bedeuten, dass KI-Unternehmen journalistische Inhalte kostenlos fuer Training nutzen duerfen. Das untergaebt das Geschaeftsmodell der Verlage fundamental: Warum fuer Journalismus bezahlen, wenn KI die Inhalte kostenlos zusammenfassen darf? Im Maerz 2025 wies ein Richter OpenAIs Antrag auf Klageabweisung zurueck -- der Fall geht weiter, und im Juni 2025 wurde OpenAI zur Aufbewahrung aller Output-Logdaten verpflichtet"
         rel:
-          - ["KI-Urheberrecht", "Rein KI-generierte Werke sind nicht geschuetzt"]
+          - ["Fair-Use-Debatte", "Existenzielle Frage fuer das Geschaeftsmodell Journalismus"]
 
-      - q: "Was ist das Perplexity Revenue-Sharing-Modell?"
-        a: "Als Reaktion auf Plagiatsvorwuerfe teilt Perplexity nun Einnahmen mit Verlagen -- u.a. nehmen Der Spiegel, Fortune, Time und The Texas Tribune teil"
+      - q: "Advance vs. Cohere war die erste Entscheidung, die Output-Kopie-Klagen bei Nachrichtenzusammenfassungen zuliess. Warum ist das ein Wendepunkt?"
+        a: "Bisher argumentierten KI-Unternehmen, dass ihre Zusammenfassungen 'transformativ' seien und kein Urheberrecht verletzen. Das Gericht liess aber die Klage zu, weil Coheres KI wortwoertliche Kopien und substituierende Zusammenfassungen lieferte -- also Zusammenfassungen, die den Originalartikel ersetzen koennen. Das oeffnet die Tuer fuer Klagen gegen jede KI, die journalistische Inhalte so zusammenfasst, dass Leser den Originalartikel nicht mehr lesen muessen"
         rel:
-          - ["Revenue-Sharing", "Einnahmenteilung zwischen KI-Anbieter und Verlagen"]
+          - ["Output-Kopie", "Zusammenfassungen als potenzielle Urheberrechtsverletzung"]
 
-      - q: "Wie hat sich die Zahl der Urheberrechtsklagen gegen KI-Unternehmen entwickelt?"
-        a: "Sie hat sich 2025 mehr als verdoppelt: von rund 30 Ende 2024 auf ueber 70"
+      - q: "Rein KI-generierte Texte haben keinen Urheberrechtsschutz. Was bedeutet das fuer eine Redaktion, die KI-gestuetzt arbeitet?"
+        a: "Wenn ein Artikel vollstaendig von KI geschrieben wird, kann ihn jeder frei kopieren -- die Redaktion hat kein Urheberrecht daran. Sobald ein Journalist den Text wesentlich bearbeitet, entsteht ein menschliches Werk mit Schutz. Das ist ein weiterer Grund, warum KI-Output immer redaktionell bearbeitet werden sollte: nicht nur fuer die Qualitaet, sondern auch fuer den Rechtsschutz des eigenen Journalismus"
         rel:
-          - ["Klagewelle", "Mehr als Verdopplung der KI-Urheberrechtsklagen 2025"]
+          - ["Urheberrecht bei KI-Texten", "Menschliche Bearbeitung als Voraussetzung fuer Rechtsschutz"]

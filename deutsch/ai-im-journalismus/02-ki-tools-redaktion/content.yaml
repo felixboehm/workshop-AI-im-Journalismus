@@ -15,25 +15,27 @@ sections:
       OpenAI hat 2025 die "OpenAI Academy for News Organizations" gegruendet -- ein Programm mit
       finanziellen Zuschlaegen, technischem Support und Zugang zu den neuesten Modellen.
     examples:
-      - q: "Was ist ein Large Language Model (LLM)?"
-        a: "Ein KI-Modell, das auf riesigen Textmengen trainiert wurde und Sprache verstehen und erzeugen kann -- Beispiele sind ChatGPT, Claude und Gemini"
+      - q: "Eine Reporterin muss 200 Seiten Gerichtsakten bis morgen frueh auswerten. Welches LLM wuerde sich eignen und warum?"
+        a: "Claude von Anthropic waere hier die beste Wahl -- es bietet besonders lange Kontextfenster und kann umfangreiche Dokumente in einem Durchgang analysieren. Wichtig: Die Ergebnisse muessen trotzdem gegen die Originalakten geprueft werden, da auch Claude halluzinieren kann"
         rel:
-          - ["LLM", "Large Language Model", "Grosses Sprachmodell"]
+          - ["Claude", "Lange Kontextfenster fuer Dokumentenanalyse"]
+          - ["Dokumentenanalyse", "KI-gestuetzte Auswertung grosser Textmengen"]
 
-      - q: "Welches KI-Tool eignet sich besonders fuer die Analyse langer Dokumente?"
-        a: "Claude von Anthropic -- es bietet besonders lange Kontextfenster und eignet sich gut fuer umfangreiche Dokumentenanalyse"
+      - q: "Ein Faktencheck-Team sucht ein Tool, das Quellen direkt mitliefert. Warum reicht ChatGPT dafuer nicht?"
+        a: "ChatGPT generiert Antworten aus Trainingsdaten und verlinkt standardmaessig keine Quellen -- es kann Quellen sogar erfinden. Perplexity AI dagegen recherchiert in Echtzeit im Web und liefert zu jeder Aussage verifiable Quellenangaben. Fuer Faktenchecks ist die Rueckverfolgbarkeit zur Originalquelle entscheidend"
         rel:
-          - ["Claude", "Anthropic", "Lange Kontextfenster fuer Dokumentenanalyse"]
+          - ["Perplexity AI", "Echtzeit-Webrecherche mit Quellenangaben"]
+          - ["Quellenverifizierung", "Rueckverfolgbarkeit als Qualitaetskriterium"]
 
-      - q: "Was unterscheidet Perplexity AI von ChatGPT?"
-        a: "Perplexity liefert Antworten mit Quellenangaben und bietet einen Deep-Research-Modus fuer verifizierbares Recherchieren -- ChatGPT verlinkt standardmaessig keine Quellen"
+      - q: "Die OpenAI Academy bietet Redaktionen finanzielle Zuschlaege und technischen Support. Sollte eine Redaktion dieses Angebot annehmen?"
+        a: "Das Angebot kann nuetzlich sein, aber Redaktionen sollten die Abhaengigkeit von einem einzigen Anbieter kritisch pruefen. Die NYT verklagt OpenAI gleichzeitig wegen Urheberrechtsverletzung. Eine strategische KI-Integration nutzt verschiedene Tools je nach Aufgabe, statt sich an ein Oekosystem zu binden"
         rel:
-          - ["Perplexity AI", "KI-Suchmaschine mit Quellenangaben"]
+          - ["Anbieter-Abhaengigkeit", "Diversifikation statt Bindung an einen KI-Anbieter"]
 
-      - q: "Was ist die OpenAI Academy for News Organizations?"
-        a: "Ein 2025 gegruendetes Programm von OpenAI mit finanziellen Zuschlaegen, technischem Support und Zugang zu neuesten Modellen fuer Redaktionen"
+      - q: "Fuer welche journalistische Aufgabe waere Google Gemini besser geeignet als ein reines Textmodell?"
+        a: "Fuer multimodale Aufgaben wie die Analyse eines Fotos von einer Demonstration (Schaetzung der Teilnehmerzahl, Identifikation von Bannern) oder die Auswertung von Infografiken in fremdsprachigen Dokumenten. Geminis Staerke liegt in der Kombination von Bild-, Text- und Sprachverstaendnis innerhalb des Google-Oekosystems"
         rel:
-          - ["OpenAI Academy", "Unterstuetzungsprogramm fuer Nachrichtenredaktionen"]
+          - ["Multimodale KI", "Verarbeitung verschiedener Medientypen"]
 
   - title: "Transkription und Uebersetzung"
     explanation: |
@@ -47,26 +49,26 @@ sections:
       **Wichtig:** Trint bietet eine "No-Training"-Policy und die Wahl zwischen EU- und
       US-Datenspeicherung -- ein entscheidender Vorteil fuer den Quellenschutz.
     examples:
-      - q: "Wie viel Prozent der Redaktionen nutzen automatisierte Transkription?"
-        a: "79% der Redaktionen nutzen automatisierte Transkription fuer Interviews"
+      - q: "Die AFP nutzte Trint bei der COP28 in Dubai fuer Live-Transkriptionen. Warum nicht einfach Otter.ai, das ebenfalls automatisch transkribiert?"
+        a: "Trint bietet eine No-Training-Policy und EU-Datenspeicherung -- die Inhalte politischer Statements fliessen nicht ins Modelltraining ein. Otter.ai hat keine vergleichbare Garantie -- der Guardian hat Otter.ai deshalb sogar explizit verboten. Bei oeffentlichen politischen Reden mag das Risiko gering sein, aber eine Redaktion braucht einheitliche Standards"
         rel:
-          - ["Automatisierte Transkription", "Haeufigster KI-Einsatz in Redaktionen"]
+          - ["Datenschutz bei Transkription", "No-Training-Policy als Differenzierungsmerkmal"]
 
-      - q: "Warum hat der Guardian die Nutzung von Otter.ai untersagt?"
-        a: "Wegen Datenschutzbedenken -- Otter.ai speichert Daten und es ist unklar, ob sie fuer Modelltraining verwendet werden"
+      - q: "Ein investigativer Reporter moechte ein vertrauliches Interview mit einem Whistleblower transkribieren. Welches Tool kommt in Frage?"
+        a: "Keines der Cloud-basierten Tools -- weder Trint noch Otter.ai. Fuer hochsensible Inhalte sollte OpenAI Whisper lokal installiert werden (Open-Source, laeuft auf dem eigenen Rechner). Die Daten verlassen nie das Geraet. Der Quellenschutz geht hier vor Bequemlichkeit"
         rel:
-          - ["Datenschutzbedenken", "Risiko bei Cloud-basierten Transkriptionstools"]
+          - ["Lokale Transkription", "Whisper lokal fuer sensible Inhalte"]
+          - ["Quellenschutz", "Vertrauliche Daten nie in Cloud-Dienste"]
 
-      - q: "Was macht Trint fuer europaeische Redaktionen besonders geeignet?"
-        a: "Die No-Training-Policy und die Wahl zwischen EU- und US-Datenspeicherung -- damit ist es DSGVO-konform und schuetzt den Quellenschutz"
+      - q: "Eine deutsche Redaktion erhaelt ein franzoesischsprachiges Leak-Dokument. Wie kann KI bei der Auswertung helfen, ohne den Inhalt zu gefaehrden?"
+        a: "Schritt 1: DeepL fuer eine erste Uebersetzung oeffentlich zugaenglicher Teile. Schritt 2: Fuer sensible Passagen ein lokales Modell (z.B. Ollama mit einem Uebersetzungsmodell) nutzen. Wichtig: Nie das gesamte Dokument in einen Cloud-Dienst hochladen, sondern nur einzelne, nicht-identifizierbare Passagen"
         rel:
-          - ["Trint", "DSGVO-konforme Transkription mit No-Training-Policy"]
-          - ["DSGVO", "Datenschutz-Grundverordnung der EU"]
+          - ["Gestufte Sicherheit", "Verschiedene Tools je nach Sensibilitaet des Materials"]
 
-      - q: "Was ist OpenAI Whisper?"
-        a: "Ein Open-Source-Spracherkennungsmodell mit 680.000 Stunden Trainingsdaten -- es bildet die Basis fuer viele andere Transkriptionstools"
+      - q: "Whisper ist Open Source und kostenlos. Warum zahlen Redaktionen trotzdem fuer Trint?"
+        a: "Whisper ist die Basis-Technologie, Trint baut darauf auf und bietet Mehrwert fuer den Redaktionsalltag: Integration in Produktionssysteme, 50+ Sprachen, Sprecheridentifikation, Suchfunktion in Transkripten und DSGVO-konforme Infrastruktur. Fuer eine einzelne Transkription reicht Whisper -- fuer den taeglichen Redaktionsbetrieb braucht man Workflow-Integration"
         rel:
-          - ["Whisper", "Open-Source-Spracherkennung von OpenAI"]
+          - ["Open Source vs. Enterprise", "Basistechnologie vs. redaktioneller Workflow"]
 
   - title: "Spezial-Tools fuer den Journalismus"
     explanation: |
@@ -79,25 +81,25 @@ sections:
       - **Dataminr**: Echtzeit-Erkennung von Events und Breaking News vor Viralitaet
       - **Rolli Information Tracer**: Verfolgt die Verbreitung von Informationen ueber verschiedene Plattformen
     examples:
-      - q: "Was ist Google Pinpoint und was kann es?"
-        a: "Ein kostenloses Dokumentenanalyse-Tool fuer Journalist:innen -- es erkennt automatisch Personen, Organisationen und Orte in bis zu 200.000 Dokumenten und transkribiert Audio/Video"
+      - q: "Maria Ressa verarbeitete 13.000 CIA-Dokumente in 30 Minuten mit Google Pinpoint. Wie geht das konkret?"
+        a: "Pinpoint erkennt automatisch Personen, Organisationen und Orte in Dokumenten und macht sie durchsuchbar. Statt 13.000 Dokumente einzeln zu lesen, kann man gezielt nach Namen, Verbindungen und Mustern suchen. Der Boston Globe nutzte Pinpoint aehnlich fuer seine Pulitzer-Preis-gekroente Recherche 2021 -- das Tool ist kostenlos fuer Journalist:innen"
         rel:
-          - ["Google Pinpoint", "Kostenloses Dokumentenanalyse-Tool"]
+          - ["Google Pinpoint", "Dokumentenanalyse fuer investigative Recherche"]
 
-      - q: "Welche investigative Recherche wurde mit Google Pinpoint unterstuetzt?"
-        a: "Die Pulitzer-Preis-gekroente Recherche des Boston Globe (2021). Maria Ressa verarbeitete 13.000 CIA-Dokumente in 30 Minuten"
+      - q: "Eine Lokalreporterin in Niedersachsen kann nicht alle Gemeinderatssitzungen besuchen. Gibt es dafuer KI-Loesungen?"
+        a: "Ja -- Tools wie LocalLens transkribieren und fassen lokale Regierungssitzungen zusammen. Das norwegische Djinn durchsucht tausende Kommunaldokumente und identifiziert Schluesselinformationen. In Deutschland koennte eine Kombination aus Whisper-Transkription und LLM-Zusammenfassung einen aehnlichen Workflow ermoeglichen"
         rel:
-          - ["Pulitzer-Preis", "Ausgezeichnete Recherche mit KI-Unterstuetzung"]
+          - ["Lokaljournalismus", "KI-Unterstuetzung bei der Kommunalberichterstattung"]
 
-      - q: "Was macht Dataminr fuer Nachrichtenredaktionen wertvoll?"
-        a: "Es erkennt Events und Trends in Echtzeit und entdeckt Breaking News, bevor sie viral gehen"
+      - q: "Ein Redakteur bemerkt einen Tweet, der viral geht und eine politische Behauptung enthaelt. Wie kann er schnell pruefen, woher die Behauptung stammt?"
+        a: "Der Rolli Information Tracer verfolgt die Verbreitung von Informationen ueber verschiedene Plattformen und identifiziert den Ursprung von Behauptungen. Dataminr haette den Tweet moeglicherweise schon vor der Viralitaet erkannt. Beide Tools zusammen ermöglichen: Frueherkennung, Quellenrueckverfolgung und Analyse, wie sich der Inhalt beim Teilen veraendert hat"
         rel:
-          - ["Dataminr", "Echtzeit-Erkennung von Events und Trends"]
+          - ["Information Tracking", "Verfolgung von Informationsverbreitung"]
 
-      - q: "Was ist der Rolli Information Tracer?"
-        a: "Ein Tool, das die Verbreitung von Informationen ueber verschiedene Plattformen verfolgt, Urspruenge von Behauptungen identifiziert und zeigt, wie sich Inhalte beim Teilen veraendern"
+      - q: "Warum entwickeln Nachrichtenorganisationen eigene KI-Tools wie den dpa-News Hub statt einfach ChatGPT zu nutzen?"
+        a: "Weil allgemeine LLMs keine Quellengarantie bieten und halluzinieren koennen. Der dpa-News Hub greift ausschliesslich auf verifizierte dpa-Quellen zu -- jede Antwort ist belegbar. Fuer eine Nachrichtenagentur, deren Geschaeftsmodell auf Vertrauenswuerdigkeit basiert, ist die Kontrolle ueber die Datenbasis keine Option, sondern Voraussetzung"
         rel:
-          - ["Information Tracer", "Verfolgt Informationsverbreitung ueber Plattformen"]
+          - ["Eigene KI-Systeme", "Kontrollierte Datenbasis fuer vertrauenswuerdige Ergebnisse"]
 
   - title: "Fact-Checking-Tools"
     explanation: |
@@ -110,17 +112,22 @@ sections:
       **Wichtig:** Diese Tools unterstuetzen den Faktencheck -- die finale Bewertung bleibt
       immer beim Menschen.
     examples:
-      - q: "Was ist Full Fact AI und wie verbreitet ist es?"
-        a: "Ein Tool, das Audio/Video transkribiert und in Echtzeit Falschinformationen erkennt -- es wird von ueber 45 Organisationen in 30 Laendern eingesetzt"
+      - q: "Waehrend einer Bundestagsdebatte fallen dutzende Behauptungen. Wie kann ein Faktencheck-Team in Echtzeit priorisieren?"
+        a: "Full Fact AI transkribiert die Debatte live und flaggt automatisch potenziell falsche Behauptungen. ClaimBuster ergaenzt, indem es 'check-worthy claims' identifiziert -- also Aussagen, die faktisch ueberpruefbar sind (im Gegensatz zu Meinungen). Das Team kann sich auf die relevantesten Behauptungen konzentrieren statt alles manuell zu filtern"
         rel:
-          - ["Full Fact AI", "KI-gestuetztes Echtzeit-Fact-Checking"]
+          - ["Echtzeit-Faktencheck", "KI-gestuetzte Priorisierung bei Live-Events"]
 
-      - q: "Was ist ClaimBuster?"
-        a: "Ein am Duke Reporter's Lab entwickeltes Tool, das automatisch ueberpruefelswerte Behauptungen in politischen Reden und Debatten identifiziert"
+      - q: "Full Fact AI wird von 45+ Organisationen in 30 Laendern eingesetzt. Warum vertrauen so viele darauf, obwohl KI selbst fehleranfaellig ist?"
+        a: "Weil Full Fact AI nicht selbst Fakten prueft, sondern Hinweise liefert: Es erkennt Behauptungen, die moeglicherweise falsch sind, und markiert sie fuer menschliche Faktenpruefer:innen. Das Tool ersetzt nicht den Faktencheck, sondern macht ihn skalierbarer -- wie ein Vorfilter, der die Nadel im Heuhaufen eingrenzt"
         rel:
-          - ["ClaimBuster", "Automatische Erkennung ueberpruefbarer Behauptungen"]
+          - ["KI als Vorfilter", "Skalierung durch maschinelle Vorselektion"]
 
-      - q: "Koennen KI-Tools den Faktencheck komplett uebernehmen?"
-        a: "Nein -- KI-Tools koennen Hinweise geben und Behauptungen identifizieren, aber die finale Bewertung muss immer ein Journalist treffen (Human-in-the-Loop)"
+      - q: "Ein Politiker behauptet in einem Interview, die Kriminalitaet sei um 30% gestiegen. Wie wuerde ein KI-gestuetzter Faktencheck-Workflow aussehen?"
+        a: "ClaimBuster identifiziert die Behauptung als 'check-worthy'. Dann recherchiert der Journalist die Originaldaten (z.B. PKS des BKA). Perplexity kann als Recherche-Unterstuetzung mit Quellenangaben dienen. Die finale Bewertung -- ob die Zahl stimmt, welcher Zeitraum gemeint ist, ob sie im Kontext irrefuehrend ist -- bleibt beim Menschen"
         rel:
-          - ["Human-in-the-Loop", "Mensch trifft finale Entscheidung beim Faktencheck"]
+          - ["Faktencheck-Workflow", "Mehrstufiger Prozess von der Erkennung zur Bewertung"]
+
+      - q: "Kann man sich auf KI-Fact-Checking verlassen, wenn KI-Chatbots selbst Halluzinationsraten von bis zu 79% haben?"
+        a: "Nein -- deshalb sind Fact-Checking-Tools anders aufgebaut als Chatbots. ClaimBuster identifiziert nur, welche Behauptungen pruefenswert sind, es bewertet sie nicht selbst. Full Fact gleicht Aussagen mit Datenbanken ab. Das Prinzip ist: KI filtert und priorisiert, der Mensch verifiziert. Ein Chatbot, der frei halluziniert, ist kein Fact-Checking-Tool"
+        rel:
+          - ["Architektur-Unterschied", "Fact-Checking-Tools vs. allgemeine Chatbots"]

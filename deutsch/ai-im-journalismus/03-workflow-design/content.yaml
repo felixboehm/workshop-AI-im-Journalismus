@@ -25,27 +25,25 @@ sections:
       - Festlegung von Offenlegungspflichten und Autorenschaftsregeln
       - Regelmaessige Evaluation und Anpassung der Richtlinien
     examples:
-      - q: "Was sollte der erste Schritt bei der KI-Integration in einer Redaktion sein?"
-        a: "Die Einrichtung eines KI-Boards mit Expert:innen aus IT, Recht, HR und verschiedenen Redaktionsabteilungen fuer eine Bestandsaufnahme"
+      - q: "Ein Verlagsleiter will sofort KI in der gesamten Redaktion einfuehren, um Kosten zu sparen. Warum ist das riskant?"
+        a: "Ohne Bestandsaufnahme weiss niemand, wo KI sinnvoll ist und wo sie schadet. Die dpa hat zuerst ein KI-Board mit IT, Recht, HR und Redaktion eingerichtet, dann mit dem Story-Radar als Pilotprojekt begonnen. CNET dagegen fuehrte KI ohne Strukturen ein -- ueber die Haelfte der 77 KI-Artikel musste korrigiert werden"
         rel:
-          - ["KI-Board", "Interdisziplinaeres Team fuer die KI-Integration"]
-          - ["Bestandsaufnahme", "Erster Schritt der KI-Integration"]
+          - ["Schrittweise Integration", "Pilotprojekte vor flaechendeckendem Einsatz"]
 
-      - q: "Warum sollte man mit Pilotprojekten beginnen?"
-        a: "Pilotprojekte sind risikoarm, schaffen Vertrauen im Team und liefern praktische Erfahrungen, bevor man KI breit einfuehrt"
+      - q: "Eine Redaktion hat ein Pilotprojekt fuer KI-Transkription erfolgreich abgeschlossen. Was waere ein sinnvoller naechster Schritt?"
+        a: "Metadaten-Tagging oder SEO-Optimierung -- beides sind strukturierte Aufgaben mit geringem Risiko und messbarem Ergebnis. Gleichzeitig sollte die Redaktion ihre Erfahrungen dokumentieren und beginnen, formale Richtlinien zu entwerfen. Der Sprung von Transkription direkt zu KI-generierter Berichterstattung waere zu gross"
         rel:
-          - ["Pilotprojekt", "Risikoarmer Einstieg in die KI-Nutzung"]
-          - ["Sandbox-Umgebung", "Geschuetzter Bereich zum Testen von KI-Tools"]
+          - ["Skalierung", "Vom Pilotprojekt zur systematischen Ausweitung"]
 
-      - q: "Was versteht man unter einer Sandbox-Umgebung fuer KI-Tests?"
-        a: "Ein geschuetzter Bereich, in dem KI-Tools getestet werden koennen, ohne dass echte Redaktionsprozesse oder Daten betroffen sind"
+      - q: "Warum braucht ein KI-Board Vertreter aus HR und Recht, nicht nur aus IT und Redaktion?"
+        a: "HR muss Schulungsbedarf identifizieren und Mitarbeitende mitnehmen -- KI-Einfuehrung ohne Akzeptanz scheitert. Recht muss DSGVO-Konformitaet, Urheberrecht und die Haftung bei KI-Fehlern pruefen. Die AP hat z.B. vertragliche 90-Tage-Vorankuendigungen vor der Einfuehrung neuer KI-Technologien vereinbart -- ein Ergebnis gewerkschaftlicher Verhandlungen"
         rel:
-          - ["Sandbox", "Geschuetzter Testbereich fuer KI-Experimente"]
+          - ["Interdisziplinaeres KI-Board", "Alle Perspektiven bei der KI-Integration"]
 
-      - q: "Warum haben nur 13% der Redaktionen formale KI-Richtlinien?"
-        a: "Weil die Technologie sich schnell entwickelt und viele Redaktionen noch in der Experimentierphase sind -- formale Governance wird aber dringend gebraucht"
+      - q: "Nur 13% der Redaktionen haben formale KI-Richtlinien. Was passiert in den anderen 87%?"
+        a: "Dort nutzen Journalist:innen KI nach eigenem Ermessen: Die eine laedt vertrauliche Dokumente in ChatGPT, der andere nutzt KI nie. Diese Inkonsistenz ist gefaehrlich, weil Qualitaets- und Datenschutzstandards nicht gewahrt werden. Die BBC-Richtlinien zeigen den Weg: Jeder KI-Einsatz muss durch die Aufgabe gerechtfertigt und von einer verantwortlichen Person beaufsichtigt sein"
         rel:
-          - ["KI-Governance", "Formale Regeln und Strukturen fuer den KI-Einsatz"]
+          - ["Governance-Luecke", "Risiko durch fehlende formale KI-Richtlinien"]
 
   - title: "Einsatzpunkte fuer KI in der Redaktion"
     explanation: |
@@ -60,26 +58,25 @@ sections:
 
       Die dpa nutzt z.B. das "Story-Radar", das soziale Netzwerke nach relevanten Themen durchsucht.
     examples:
-      - q: "Fuer welche Routineaufgaben eignet sich KI im Redaktionsalltag?"
-        a: "Transkription, Uebersetzung, Zusammenfassungen, Metadaten-Tagging, Verschlagwortung und datenbasierte Textentwuerfe"
+      - q: "Ein Sportredakteur muss am Wochenende 30 Kreisliga-Spiele abdecken. Kann KI helfen?"
+        a: "Ja -- datenbasierte Spielberichte aus strukturierten Daten (Ergebnisse, Torschuetzen, Tabelle) sind ein idealer KI-Einsatz. RADAR in Grossbritannien produziert so 8.000 lokalisierte Geschichten. Wichtig: Die KI erstellt Entwuerfe, ein Redakteur prueft und ergaenzt Kontext, den nur ein Mensch kennt (z.B. die Bedeutung des Derbys fuer den Ort)"
         rel:
-          - ["Routineaufgaben", "Repetitive Aufgaben, die KI beschleunigen kann"]
-          - ["Metadaten-Tagging", "Automatische Verschlagwortung von Artikeln"]
+          - ["Automatisierte Sportberichte", "KI fuer repetitive, datenbasierte Formate"]
 
-      - q: "Was ist das dpa Story-Radar?"
-        a: "Ein KI-Tool, das soziale Netzwerke nach relevanten Themen durchsucht und Reporter:innen auf interessante Geschichten aufmerksam macht"
+      - q: "Das dpa Story-Radar durchsucht soziale Netzwerke nach Themen. Wie unterscheidet sich das von einem Google Alert?"
+        a: "Google Alerts reagieren auf Stichwoerter, das Story-Radar erkennt Trends und Muster in sozialen Medien, bevor sie Schlagzeilen werden. Es macht Reporter:innen auf Geschichten aufmerksam, die sie sonst uebersehen wuerden -- aehnlich wie Dataminr, das Breaking News vor der Viralitaet erkennt. Der Unterschied ist proaktive Themenfindung statt reaktives Monitoring"
         rel:
-          - ["Story-Radar", "KI-gestuetzte Themensuche der dpa"]
+          - ["Proaktive Themenfindung", "KI erkennt Geschichten bevor sie Schlagzeilen werden"]
 
-      - q: "Wie kann KI beim Community-Management helfen?"
-        a: "KI erkennt relevante Leserkommentare und leitet sie automatisch ueber Teams oder Slack an die zustaendige Redaktion weiter"
+      - q: "Eine Redaktion erhaelt taeglich hunderte Leserkommentare. Wie kann KI hier sinnvoll unterstuetzen, ohne die Moderation zu automatisieren?"
+        a: "KI kann relevante Kommentare identifizieren und ueber Slack oder Teams an die zustaendige Redaktion weiterleiten -- z.B. wenn ein Leser eine Korrektur vorschlaegt oder eine wertvolle Perspektive einbringt. Die Entscheidung, ob und wie reagiert wird, bleibt beim Menschen. Das spart Zeit beim Filtern, ohne die redaktionelle Hoheit aufzugeben"
         rel:
-          - ["Community-Management", "KI-gestuetzte Analyse von Leserkommentaren"]
+          - ["Community-Management", "KI als Filter fuer relevante Leser-Interaktion"]
 
-      - q: "Fuer welche Art von Texten eignet sich automatisierte Berichterstattung?"
-        a: "Fuer datenbasierte, repetitive Formate wie Sport-, Boersen- und Wetterberichte, die auf strukturierten Daten basieren"
+      - q: "Welche Aufgaben sollte man bewusst nicht an KI delegieren, auch wenn es technisch moeglich waere?"
+        a: "Meinungsbildende Kommentare, Leitartikel, Nachrufe, Opfer-Interviews und alles, was menschliche Empathie erfordert. Auch die finale Wortwahl in sensiblen Berichten (Gerichtsverfahren, Persoenlichkeitsrechte) sollte nie von KI stammen. Die NYT formuliert es klar: KI kann unterstuetzen, aber die Arbeit wird immer von Journalisten geleitet"
         rel:
-          - ["Automatisierte Berichterstattung", "Texterstellung aus strukturierten Daten"]
+          - ["Grenzen der Automatisierung", "Aufgaben, die menschliche Urteilskraft erfordern"]
 
   - title: "Uebergaben zwischen Mensch und KI"
     explanation: |
@@ -93,22 +90,22 @@ sections:
       MinnPost behandelt KI-generiertes Material wie eine Quelle, die menschliche Bearbeitung
       und Faktencheck erfordert.
     examples:
-      - q: "Was bedeutet das Vier-Augen-Prinzip bei KI-generierten Inhalten?"
-        a: "KI-generierte Inhalte werden wie Agenturmeldungen behandelt -- mindestens eine zweite Person prueft den Inhalt vor Veroeffentlichung"
+      - q: "Ein Redakteur erhaelt einen KI-generierten Textentwurf und aendert nur zwei Tippfehler. Reicht das als Pruefung?"
+        a: "Nein -- eine echte redaktionelle Pruefung umfasst Faktencheck gegen Originalquellen, Bias-Pruefung, Quellenverifikation und Tonalitaetskontrolle. MinnPost behandelt KI-Output wie eine Quelle: Alles muss verifiziert werden. Zwei Tippfehler zu korrigieren waere wie eine Agenturmeldung ungelesen zu uebernehmen"
         rel:
-          - ["Vier-Augen-Prinzip", "Zweite menschliche Pruefung bei KI-Output"]
+          - ["Redaktionelle Pruefung", "Mehr als Korrekturlesen bei KI-Output"]
 
-      - q: "Wie behandelt MinnPost KI-generiertes Material?"
-        a: "Wie eine Quelle, die menschliche Bearbeitung und Faktencheck erfordert -- KI-Output ist Rohmaterial, kein fertiger Artikel"
+      - q: "Warum vergleichen Redaktionen KI-Output mit Agenturmeldungen und nicht mit dem Text eines Kollegen?"
+        a: "Weil eine Agenturmeldung von einer externen Quelle kommt und immer gegengeprueft wird -- genau wie KI-Output. Ein Kollege kennt die redaktionellen Standards und traegt persoenliche Verantwortung. KI kennt weder die Redaktionsrichtlinien noch die lokalen Gegebenheiten und halluziniert moeglicherweise. Das Vier-Augen-Prinzip stellt sicher, dass mindestens ein Mensch die volle Verantwortung uebernimmt"
         rel:
-          - ["KI als Quelle", "KI-Output als Rohmaterial behandeln"]
+          - ["Vier-Augen-Prinzip", "KI-Output als externe Quelle mit Pruefpflicht"]
 
-      - q: "Warum ist die Dokumentation des KI-Einsatzes wichtig?"
-        a: "Sie schafft Transparenz im Redaktionsprozess, ermoeglicht Nachvollziehbarkeit und ist die Grundlage fuer spaetere Audits und Qualitaetskontrollen"
+      - q: "Ein Online-Redakteur soll dokumentieren, wo KI eingesetzt wurde, empfindet das aber als buerokratisch. Warum ist es trotzdem wichtig?"
+        a: "Dokumentation ermoeglicht drei Dinge: Erstens, bei Fehlern kann die Ursache schnell identifiziert werden (lag es am Prompt, am Tool, an fehlender Pruefung?). Zweitens, die Redaktion kann ueber Zeit lernen, welche KI-Einsaetze funktionieren. Drittens, ab August 2026 fordert der EU AI Act Transparenz ueber KI-Nutzung bei Themen von oeffentlichem Interesse"
         rel:
-          - ["KI-Dokumentation", "Festhalten, wo und wie KI eingesetzt wurde"]
+          - ["KI-Dokumentation", "Nachvollziehbarkeit fuer Qualitaet, Lernen und Compliance"]
 
-      - q: "Was ist der Kerngedanke von KI-Workflow-Design?"
-        a: "KI als Werkzeug -- nicht als Ersatz fuer journalistisches Urteil. Klare Regeln definieren, wo KI helfen darf und wo der Mensch entscheidet"
+      - q: "Die BBC verlangt, dass jeder KI-Einsatz durch die jeweilige Aufgabe gerechtfertigt sein muss. Wie saehe das im Alltag aus?"
+        a: "Beispiel: KI fuer die Transkription eines 90-minuetigen Interviews -- gerechtfertigt, weil es eine Routineaufgabe beschleunigt. KI fuer die Zusammenfassung eines Gerichtsurteils -- gerechtfertigt, wenn die Zusammenfassung anschliessend juristisch geprueft wird. KI fuer den Nachruf auf eine bekannte Persoenlichkeit -- nicht gerechtfertigt, weil hier Empathie, Kontext und Tonalitaet menschliche Kernkompetenzen sind"
         rel:
-          - ["KI als Werkzeug", "Grundprinzip des KI-Workflow-Designs"]
+          - ["Begruendungspflicht", "BBC-Modell der aufgabenbezogenen KI-Rechtfertigung"]
